@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "installed_dependencies_and_stage_bytes": 326459429,
+  "actual_vercel_bundle_verified": false,
+  "runtime_import_and_onnx_inference": true,
+  "unauthenticated_health_and_ask_status": 401,
+  "texts": 32,
+  "embedding_batch_size": 8,
+  "max_tokens": 256,
+  "dimensions": 384,
+  "first_batch_ms": 1345.904132000001,
+  "peak_working_set_bytes": 387682304,
+  "torch_loaded": false,
+  "platform": "linux",
+  "scope": "Isolated minimal runtime; hosted database/LLM requests were not made.",
+  "ci_run": "https://github.com/Ruganji-Prince/FINRAG/actions/runs/44140786720",
+  "source_commit": "43d173d08ee3786fa804345b87823d9ada572bdd"
+}
