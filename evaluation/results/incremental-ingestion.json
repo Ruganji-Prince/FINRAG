@@ -1,0 +1,90 @@
+{
+  "checked_at": "2026-11-16T21:42:06.116645+00:00",
+  "before": {
+    "documents": 15,
+    "chunks": 499
+  },
+  "after": {
+    "documents": 15,
+    "chunks": 499
+  },
+  "outcomes": [
+    {
+      "title": "GDP National Accounts 2025",
+      "status": "duplicate",
+      "document_id": 1
+    },
+    {
+      "title": "GDP National Accounts Q2 2026",
+      "status": "duplicate",
+      "document_id": 2
+    },
+    {
+      "title": "Consumer Price Index (CPI) - October 2026",
+      "status": "duplicate",
+      "document_id": 3
+    },
+    {
+      "title": "Consumer Price Index (CPI) - September 2026",
+      "status": "duplicate",
+      "document_id": 4
+    },
+    {
+      "title": "Consumer Price Index (CPI) - August 2026",
+      "status": "duplicate",
+      "document_id": 5
+    },
+    {
+      "title": "Consumer Price Index (CPI) - July 2026",
+      "status": "duplicate",
+      "document_id": 6
+    },
+    {
+      "title": "Consumer Price Index (CPI) - June 2026",
+      "status": "duplicate",
+      "document_id": 7
+    },
+    {
+      "title": "Consumer Price Index (CPI) - May 2026",
+      "status": "duplicate",
+      "document_id": 8
+    },
+    {
+      "title": "Consumer Price Index (CPI) - April 2026",
+      "status": "duplicate",
+      "document_id": 9
+    },
+    {
+      "title": "Consumer Price Index (CPI) - March 2026",
+      "status": "duplicate",
+      "document_id": 10
+    },
+    {
+      "title": "Consumer Price Index (CPI) - February 2026",
+      "status": "duplicate",
+      "document_id": 11
+    },
+    {
+      "title": "Consumer Price Index (CPI) - January 2026",
+      "status": "duplicate",
+      "document_id": 12
+    },
+    {
+      "title": "GDP National Accounts, 2024",
+      "status": "duplicate",
+      "document_id": 13
+    },
+    {
+      "title": "GDP National Accounts, 2023",
+      "status": "duplicate",
+      "document_id": 14
+    },
+    {
+      "title": "GDP National Accounts (Q1, 2026)",
+      "status": "duplicate",
+      "document_id": 15
+    }
+  ],
+  "no_duplicate_documents": true,
+  "all_sources_unchanged": true
+}

@@ -1,0 +1,159 @@
+{
+  "checked_at": "2026-11-17T07:36:13.322164+00:00",
+  "documents": 30,
+  "passages": 839,
+  "original_pdf_hashes_and_page_counts_verified": true,
+  "all_sources_unchanged": true,
+  "outcomes": [
+    {
+      "status": "duplicate",
+      "document_id": 1,
+      "cache_restored": false
+    },
+    {
+      "status": "duplicate",
+      "document_id": 2,
+      "cache_restored": false
+    },
+    {
+      "status": "duplicate",
+      "document_id": 3,
+      "cache_restored": false
+    },
+    {
+      "status": "duplicate",
+      "document_id": 4,
+      "cache_restored": false
+    },
+    {
+      "status": "duplicate",
+      "document_id": 5,
+      "cache_restored": false
+    },
+    {
+      "status": "duplicate",
+      "document_id": 6,
+      "cache_restored": false
+    },
+    {
+      "status": "duplicate",
+      "document_id": 7,
+      "cache_restored": false
+    },
+    {
+      "status": "duplicate",
+      "document_id": 8,
+      "cache_restored": false
+    },
+    {
+      "status": "duplicate",
+      "document_id": 9,
+      "cache_restored": false
+    },
+    {
+      "status": "duplicate",
+      "document_id": 10,
+      "cache_restored": false
+    },
+    {
+      "status": "duplicate",
+      "document_id": 11,
+      "cache_restored": false
+    },
+    {
+      "status": "duplicate",
+      "document_id": 12,
+      "cache_restored": false
+    },
+    {
+      "status": "duplicate",
+      "document_id": 13,
+      "cache_restored": false
+    },
+    {
+      "status": "duplicate",
+      "document_id": 14,
+      "cache_restored": false
+    },
+    {
+      "status": "duplicate",
+      "document_id": 15,
+      "cache_restored": false
+    },
+    {
+      "status": "duplicate",
+      "document_id": 16,
+      "cache_restored": false
+    },
+    {
+      "status": "duplicate",
+      "document_id": 17,
+      "cache_restored": false
+    },
+    {
+      "status": "duplicate",
+      "document_id": 18,
+      "cache_restored": false
+    },
+    {
+      "status": "duplicate",
+      "document_id": 19,
+      "cache_restored": false
+    },
+    {
+      "status": "duplicate",
+      "document_id": 20,
+      "cache_restored": false
+    },
+    {
+      "status": "duplicate",
+      "document_id": 21,
+      "cache_restored": false
+    },
+    {
+      "status": "duplicate",
+      "document_id": 22,
+      "cache_restored": false
+    },
+    {
+      "status": "duplicate",
+      "document_id": 23,
+      "cache_restored": false
+    },
+    {
+      "status": "duplicate",
+      "document_id": 24,
+      "cache_restored": false
+    },
+    {
+      "status": "duplicate",
+      "document_id": 25,
+      "cache_restored": false
+    },
+    {
+      "status": "duplicate",
+      "document_id": 26,
+      "cache_restored": false
+    },
+    {
+      "status": "duplicate",
+      "document_id": 27,
+      "cache_restored": false
+    },
+    {
+      "status": "duplicate",
+      "document_id": 28,
+      "cache_restored": false
+    },
+    {
+      "status": "duplicate",
+      "document_id": 29,
+      "cache_restored": false
+    },
+    {
+      "status": "duplicate",
+      "document_id": 30,
+      "cache_restored": false
+    }
+  ]
+}

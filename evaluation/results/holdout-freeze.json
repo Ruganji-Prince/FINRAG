@@ -1,0 +1,15 @@
+{
+  "frozen_at": "2026-11-17T07:30:50.065118+00:00",
+  "policy": "No answer, retrieval or prompt tuning against this holdout. Agent-authored and source-verified, not independent human-reviewed. New periods and measures; templated CPI cases remain related to development tasks.",
+  "files": {
+    "backend/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "backend/config.py": "8936e3a7acdc19d0c66c50b2b66a44058fc121304aabd359e42ae1e00d9a1350",
+    "backend/database.py": "a8990bd9ac89689dc032eb87bc61e354ef7696cbab5a95a33051a27b678daa8e",
+    "backend/embeddings.py": "1061c14252c47488ba016304fb3c4f084eec0cb4121a2793b50bad8410a1b9b5",
+    "backend/main.py": "3dc25a2f4b2d2b3a1f6824a352bd64c154372bffc95bf2392840fe33ace2a981",
+    "backend/migrate.py": "df37f2917f043fd571f87b5abcce92dd2055aa95777f023eae83491046d5a948",
+    "backend/providers.py": "9ee01eb3e9b071e634793560a08cb8176fc8d9371144c6f46caa69be5bc840bd",
+    "backend/rag.py": "542fd99ce7b1fa7b2bc3264936fdeddad3ed9afd2b5c6121866d0f9f62abd23e",
+    "backend/schemas.py": "a33936bf1922c8f82c5760a0e63e0d4afd73d4a530e5558f3e5b4164a87ec98a"
+  }
+}

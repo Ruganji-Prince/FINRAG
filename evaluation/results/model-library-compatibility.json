@@ -1,0 +1,29 @@
+{
+  "status": "passed",
+  "model": "sentence-transformers/all-MiniLM-L6-v2@1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+  "samples": [
+    {
+      "chunk_id": 1,
+      "stored_vs_recomputed_cosine": 0.9999999999999999
+    },
+    {
+      "chunk_id": 79,
+      "stored_vs_recomputed_cosine": 0.9999999999999614
+    },
+    {
+      "chunk_id": 500,
+      "stored_vs_recomputed_cosine": 0.9999999999999998
+    },
+    {
+      "chunk_id": 824,
+      "stored_vs_recomputed_cosine": 0.9999999999999998
+    }
+  ],
+  "versions": {
+    "torch": "2.9.1+cpu",
+    "transformers": "5.23.0",
+    "sentence-transformers": "6.3.0",
+    "huggingface-hub": "2.4.0"
+  },
+  "scope": "Sampled compatibility after library upgrade, not a full numerical equivalence proof."
+}

@@ -1,0 +1,450 @@
+[
+  {
+    "id": "holdout-02",
+    "question": "In November 2025, what annual increase did the urban consumer price index register?",
+    "anchors": [
+      "7.2 percent"
+    ],
+    "anchors_in_index": [
+      true
+    ],
+    "anchors_in_ungated_top5": [
+      true
+    ],
+    "anchors_in_gated_top5": [
+      true
+    ],
+    "anchors_in_context": [
+      false
+    ],
+    "gated_titles": [
+      "Consumer Price Index (CPI) - November 2025",
+      "Consumer Price Index (CPI) - June 2025",
+      "Consumer Price Index (CPI) - March 2025",
+      "Consumer Price Index (CPI) - April 2025",
+      "Consumer Price Index (CPI) - October 2025"
+    ],
+    "context": [],
+    "previous_answer": "No retrieved evidence matches the requested indicator scope and reporting frequency.",
+    "root_cause": "scope/frequency context pruning"
+  },
+  {
+    "id": "holdout-04",
+    "question": "In September 2025, what annual increase did the urban consumer price index register?",
+    "anchors": [
+      "7.3 percent"
+    ],
+    "anchors_in_index": [
+      true
+    ],
+    "anchors_in_ungated_top5": [
+      true
+    ],
+    "anchors_in_gated_top5": [
+      true
+    ],
+    "anchors_in_context": [
+      false
+    ],
+    "gated_titles": [
+      "Consumer Price Index (CPI) - September 2025",
+      "Consumer Price Index (CPI) - June 2025",
+      "Consumer Price Index (CPI) - October 2025",
+      "Consumer Price Index (CPI) - March 2025",
+      "Consumer Price Index (CPI) - April 2025"
+    ],
+    "context": [],
+    "previous_answer": "No retrieved evidence matches the requested indicator scope and reporting frequency.",
+    "root_cause": "scope/frequency context pruning"
+  },
+  {
+    "id": "holdout-06",
+    "question": "In July 2025, what annual increase did the urban consumer price index register?",
+    "anchors": [
+      "7.3 percent"
+    ],
+    "anchors_in_index": [
+      true
+    ],
+    "anchors_in_ungated_top5": [
+      true
+    ],
+    "anchors_in_gated_top5": [
+      true
+    ],
+    "anchors_in_context": [
+      false
+    ],
+    "gated_titles": [
+      "Consumer Price Index (CPI) - June 2025",
+      "Consumer Price Index (CPI) - March 2025",
+      "Consumer Price Index (CPI) - April 2025",
+      "Consumer Price Index (CPI) - July 2025",
+      "Consumer Price Index (CPI) - November 2025"
+    ],
+    "context": [],
+    "previous_answer": "No retrieved evidence matches the requested indicator scope and reporting frequency.",
+    "root_cause": "scope/frequency context pruning"
+  },
+  {
+    "id": "holdout-08",
+    "question": "In May 2025, what annual increase did the urban consumer price index register?",
+    "anchors": [
+      "6.9 percent"
+    ],
+    "anchors_in_index": [
+      true
+    ],
+    "anchors_in_ungated_top5": [
+      true
+    ],
+    "anchors_in_gated_top5": [
+      true
+    ],
+    "anchors_in_context": [
+      false
+    ],
+    "gated_titles": [
+      "Consumer Price Index (CPI) - May 2025",
+      "Consumer Price Index (CPI) - June 2025",
+      "Consumer Price Index (CPI) - March 2025",
+      "Consumer Price Index (CPI) - April 2025",
+      "Consumer Price Index (CPI) - November 2025"
+    ],
+    "context": [],
+    "previous_answer": "No retrieved evidence matches the requested indicator scope and reporting frequency.",
+    "root_cause": "scope/frequency context pruning"
+  },
+  {
+    "id": "holdout-10",
+    "question": "In March 2025, what annual increase did the urban consumer price index register?",
+    "anchors": [
+      "6.5 percent"
+    ],
+    "anchors_in_index": [
+      true
+    ],
+    "anchors_in_ungated_top5": [
+      true
+    ],
+    "anchors_in_gated_top5": [
+      true
+    ],
+    "anchors_in_context": [
+      false
+    ],
+    "gated_titles": [
+      "Consumer Price Index (CPI) - March 2025",
+      "Consumer Price Index (CPI) - June 2025",
+      "Consumer Price Index (CPI) - April 2025",
+      "Consumer Price Index (CPI) - November 2025",
+      "Consumer Price Index (CPI) - May 2025"
+    ],
+    "context": [],
+    "previous_answer": "No retrieved evidence matches the requested indicator scope and reporting frequency.",
+    "root_cause": "scope/frequency context pruning"
+  },
+  {
+    "id": "holdout-12",
+    "question": "In January 2025, what annual increase did the urban consumer price index register?",
+    "anchors": [
+      "7.4 percent"
+    ],
+    "anchors_in_index": [
+      true
+    ],
+    "anchors_in_ungated_top5": [
+      false
+    ],
+    "anchors_in_gated_top5": [
+      false
+    ],
+    "anchors_in_context": [
+      false
+    ],
+    "gated_titles": [
+      "Consumer Price Index (CPI) - March 2025",
+      "Consumer Price Index (CPI) - April 2025",
+      "Consumer Price Index (CPI) - June 2025",
+      "Consumer Price Index (CPI) - November 2025",
+      "Consumer Price Index (CPI) - May 2025"
+    ],
+    "context": [],
+    "previous_answer": "No retrieved evidence matches the requested indicator scope and reporting frequency.",
+    "root_cause": "candidate-ranking/period-selection"
+  },
+  {
+    "id": "holdout-13",
+    "question": "What annual change did the urban energy index show in December 2025?",
+    "anchors": [
+      "energy index increased by 14 percent"
+    ],
+    "anchors_in_index": [
+      true
+    ],
+    "anchors_in_ungated_top5": [
+      true
+    ],
+    "anchors_in_gated_top5": [
+      true
+    ],
+    "anchors_in_context": [
+      false
+    ],
+    "gated_titles": [
+      "Consumer Price Index (CPI) - December 2025",
+      "Consumer Price Index (CPI) - December 2025",
+      "Consumer Price Index (CPI) - December 2025",
+      "Consumer Price Index (CPI) - December 2025",
+      "Consumer Price Index (CPI) - December 2025"
+    ],
+    "context": [
+      "Urban Index Urban CPI increased by 8 percent on annual basis (December 2025 compared to December 2024) and it was stable on monthly basis (December 2025 compared to November 2025).",
+      "Annual percentage change Urban CPI Core Index BNR medium term target Jan-14 May-14 Sep-14 Jan-15 May-15 Sep-15 Jan-16 May-16 Sep-16 Jan-17 May-17 Sep-17 Jan-18 May-18 Sep-18 Jan-19 May-19 Sep-19 Jan-20 May-20 Sep-20 Jan-21 May-21 Sep-21 Jan-22 May-22 Sep-22 Jan-23 May-23 Sep-23 Jan-24 May-24 Sep-24 Jan-25 May-25 Sep-25 24% 22% 20% 18% 16% 14% 12% 10% 18% 6% 4% 2% 0% -2%"
+    ],
+    "previous_answer": "\"Annual percentage change Urban CPI Core Index BNR medium term target Jan-14 May-14 Sep-14 Jan-15 May-15 Sep-15 Jan-16 May-16 Sep-16 Jan-17 May-17 Sep-17 Jan-18 May-18 Sep-18 Jan-19 May-19 Sep-19 Jan-20 May-20 Sep-20 Jan-21 May-21 Sep-21 Jan-22 May-22 Sep-22 Jan-23 May-23 Sep-23 Jan-24 May-24 Sep-24 Jan-25 May-25 Sep-25 24% 22% 20% 18% 16% 14% 12% 10% 18% 6% 4% 2% 0% -2%\" [507]",
+    "root_cause": "scope/frequency context pruning"
+  },
+  {
+    "id": "holdout-15",
+    "question": "What was the annual urban core index increase in October 2025?",
+    "anchors": [
+      "increased by 9 percent"
+    ],
+    "anchors_in_index": [
+      true
+    ],
+    "anchors_in_ungated_top5": [
+      true
+    ],
+    "anchors_in_gated_top5": [
+      true
+    ],
+    "anchors_in_context": [
+      false
+    ],
+    "gated_titles": [
+      "Consumer Price Index (CPI) - October 2025",
+      "Consumer Price Index (CPI) - October 2025",
+      "Consumer Price Index (CPI) - October 2025",
+      "Consumer Price Index (CPI) - October 2025",
+      "Consumer Price Index (CPI) - October 2025"
+    ],
+    "context": [
+      "Urban Index Urban CPI increased by 7.1 percent on annual basis (October 2025 compared to October 2024) and it increased by 1.3 percent on monthly basis (October 2025 compared to September 2025)."
+    ],
+    "previous_answer": "\"Urban Index Urban CPI increased by 7.1 percent on annual basis (October 2025 compared to October 2024) and it increased by 1.3 percent on monthly basis (October 2025 compared to September 2025).\" [543]",
+    "root_cause": "scope/frequency context pruning"
+  },
+  {
+    "id": "holdout-16",
+    "question": "What was the annual fresh products index increase in September 2025?",
+    "anchors": [
+      "fresh products index increased by 3.3 percent"
+    ],
+    "anchors_in_index": [
+      true
+    ],
+    "anchors_in_ungated_top5": [
+      true
+    ],
+    "anchors_in_gated_top5": [
+      true
+    ],
+    "anchors_in_context": [
+      true
+    ],
+    "gated_titles": [
+      "Consumer Price Index (CPI) - September 2025",
+      "Consumer Price Index (CPI) - September 2025",
+      "Consumer Price Index (CPI) - September 2025",
+      "Consumer Price Index (CPI) - September 2025",
+      "Consumer Price Index (CPI) - September 2025"
+    ],
+    "context": [
+      "On annual basis, the local goods index increased by 6.5 percent, the imported goods index increased by 9.5 percent, the fresh products index increased by 3.3 percent, the energy index increased by 4.5 percent and the core index or the general index excluding fresh products and energy increased by 8.9 percent.",
+      "Urban Index Urban CPI increased by 7.3 percent on annual basis (September 2025 compared to September 2024) and it increased by 1.4 percent on monthly basis (September 2025 to August 2025).",
+      "The annual average inflation rate between September 2025 and September 2024 is 6.5 percent.",
+      "The annual average inflation rate between September 2025 and September 2024 was 6.5 percent."
+    ],
+    "previous_answer": "\"The annual average inflation rate between September 2025 and September 2024 is 6.5 percent.\" [568]",
+    "root_cause": "LLM selection"
+  },
+  {
+    "id": "holdout-17",
+    "question": "What was the annual change in the urban energy index in May 2025?",
+    "anchors": [
+      "energy index decreased by 0.8 percent"
+    ],
+    "anchors_in_index": [
+      true
+    ],
+    "anchors_in_ungated_top5": [
+      true
+    ],
+    "anchors_in_gated_top5": [
+      true
+    ],
+    "anchors_in_context": [
+      false
+    ],
+    "gated_titles": [
+      "Consumer Price Index (CPI) - May 2025",
+      "Consumer Price Index (CPI) - May 2025",
+      "Consumer Price Index (CPI) - May 2025",
+      "Consumer Price Index (CPI) - May 2025",
+      "Consumer Price Index (CPI) - May 2025"
+    ],
+    "context": [
+      "Urban Index Urban CPI increased by 6.9 percent on annual basis (May 2025 compared to May 2024) and it increased by 0.6 percent on monthly basis (May 2025 to April 2025)."
+    ],
+    "previous_answer": "\"Urban Index Urban CPI increased by 6.9 percent on annual basis (May 2025 compared to May 2024) and it increased by 0.6 percent on monthly basis (May 2025 to April 2025).\" [643]",
+    "root_cause": "scope/frequency context pruning"
+  },
+  {
+    "id": "holdout-18",
+    "question": "What was the annual core index increase in January 2025?",
+    "anchors": [
+      "increased by 6.2 percent"
+    ],
+    "anchors_in_index": [
+      true
+    ],
+    "anchors_in_ungated_top5": [
+      true
+    ],
+    "anchors_in_gated_top5": [
+      true
+    ],
+    "anchors_in_context": [
+      true
+    ],
+    "gated_titles": [
+      "Consumer Price Index (CPI) - January 2025",
+      "Consumer Price Index (CPI) - January 2025",
+      "Consumer Price Index (CPI) - January 2025",
+      "Consumer Price Index (CPI) - January 2025",
+      "Consumer Price Index (CPI) - January 2025"
+    ],
+    "context": [
+      "Urban Index Urban CPI increased by 7.4 percent on annual basis (January 2025 compared to January 2024) and it increased by 0.5 percent on monthly basis (January 2025 to December 2024).",
+      "The annual average inflation rate between January 2025 and January 2024 is 5 percent.",
+      "The annual average inflation rate between January 2025 and January 2024 was 5 percent.",
+      "On annual basis, the local goods index increased by 7.7 percent, the imported goods index increased by 6.8 percent, the fresh products index increased by 13.7 percent, the energy index increased by 1.1 percent and the core index or the general index excluding fresh products and energy increased by 6.2 percent."
+    ],
+    "previous_answer": "\"The annual average inflation rate between January 2025 and January 2024 was 5 percent.\" [723]",
+    "root_cause": "LLM selection"
+  },
+  {
+    "id": "holdout-22",
+    "question": "Which month did the September 2026 PPI report identify as the start of updated sample, weights and methodology?",
+    "anchors": [
+      "november 2025"
+    ],
+    "anchors_in_index": [
+      true
+    ],
+    "anchors_in_ungated_top5": [
+      true
+    ],
+    "anchors_in_gated_top5": [
+      true
+    ],
+    "anchors_in_context": [
+      true
+    ],
+    "gated_titles": [
+      "Producer Price Index (PPI) - September 2026",
+      "Producer Price Index (PPI) - September 2026",
+      "Producer Price Index (PPI) - September 2026",
+      "Producer Price Index (PPI) - September 2026",
+      "Producer Price Index (PPI) - September 2026"
+    ],
+    "context": [
+      "Please note that the sample, weights, and methodology used to compile the PPI were updated starting with the November 2025 index.",
+      "4 Description Weights on August 2026 on September 2025 General index 1000 2.9 21.5 Mining and quarrying 52 -1.5 56.9 Manufacturing 872 3.3 21.2 Electricity, gas, steam and air conditioning supply 54 0.0 0.0 Water supply; sewerage, waste management and remediation activities 22 0.0 0.0 Source: NISR In September 2026, the general PPI increased by 21.5 percent when compared to the same",
+      "2026 on September 2025 General index 1000 3.2 22.2 Manufacturing 916 3.5 24.4 Electricity, gas, steam and air conditioning supply 60 0.0 0.0 Water supply; sewerage, waste management and remediation activities 24 0.0 0.0 Source:NISR In September 2026, the local PPI increased by 22.2 percent when compared to the same month of 2025.",
+      "4 Description Weights on August 2026 on September 2025 General Index 1000 0.3 17.3 Mining and quarrying 506 -1.5 56.9 Manufacturing 494 2.1 -14.1 Source:NISR In September 2026, the export PPI increased by 17.3 percent when compared to the same month of 2025."
+    ],
+    "previous_answer": "\"4 Description Weights on August 2026 on September 2025 General index 1000 2.9 21.5 Mining and quarrying 52 -1.5 56.9 Manufacturing 872 3.3 21.2 Electricity, gas, steam and air conditioning supply 54 0.0 0.0 Water supply; sewerage, waste management and remediation activities 22 0.0 0.0 Source: NISR In September 2026, the general PPI increased by 21.5 percent when compared to the same\" [829]",
+    "root_cause": "LLM selection"
+  },
+  {
+    "id": "holdout-23",
+    "question": "Compare urban CPI annual increases in January 2025 and December 2025.",
+    "anchors": [
+      "7.4 percent",
+      "8 percent"
+    ],
+    "anchors_in_index": [
+      true,
+      true
+    ],
+    "anchors_in_ungated_top5": [
+      true,
+      true
+    ],
+    "anchors_in_gated_top5": [
+      true,
+      true
+    ],
+    "anchors_in_context": [
+      true,
+      true
+    ],
+    "gated_titles": [
+      "Consumer Price Index (CPI) - January 2025",
+      "Consumer Price Index (CPI) - December 2025",
+      "Consumer Price Index (CPI) - December 2025",
+      "Consumer Price Index (CPI) - December 2025",
+      "Consumer Price Index (CPI) - January 2025"
+    ],
+    "context": [
+      "Urban Index Urban CPI increased by 7.4 percent on annual basis (January 2025 compared to January 2024) and it increased by 0.5 percent on monthly basis (January 2025 to December 2024).",
+      "Urban Index Urban CPI increased by 8 percent on annual basis (December 2025 compared to December 2024) and it was stable on monthly basis (December 2025 compared to November 2025).",
+      "TABLE 1: Consumer Price Index, Urban and Rural percentage change on the same period 12 months earlier: 2024 2025 Dec.",
+      "TABLE 1: Consumer Price Index, Urban and Rural percentage change on the same period 12 months earlier: 2024 2025 Jan."
+    ],
+    "previous_answer": "\"TABLE 1: Consumer Price Index, Urban and Rural percentage change on the same period 12 months earlier: 2024 2025 Dec.\" [501]\n\n\"TABLE 1: Consumer Price Index, Urban and Rural percentage change on the same period 12 months earlier: 2024 2025 Jan.\" [723]",
+    "root_cause": "LLM selection"
+  },
+  {
+    "id": "holdout-24",
+    "question": "Compare urban CPI annual increases in May 2025 and June 2025.",
+    "anchors": [
+      "6.9 percent",
+      "7 percent"
+    ],
+    "anchors_in_index": [
+      true,
+      true
+    ],
+    "anchors_in_ungated_top5": [
+      true,
+      true
+    ],
+    "anchors_in_gated_top5": [
+      true,
+      true
+    ],
+    "anchors_in_context": [
+      true,
+      true
+    ],
+    "gated_titles": [
+      "Consumer Price Index (CPI) - June 2025",
+      "Consumer Price Index (CPI) - May 2025",
+      "Consumer Price Index (CPI) - June 2025",
+      "Consumer Price Index (CPI) - May 2025",
+      "Consumer Price Index (CPI) - May 2025"
+    ],
+    "context": [
+      "Urban Index Urban CPI increased by 7 percent on annual basis (June 2025 compared to June 2024) and it decreased by 0.2 percent on monthly basis (June 2025 to May 2025).",
+      "Urban Index Urban CPI increased by 6.9 percent on annual basis (May 2025 compared to May 2024) and it increased by 0.6 percent on monthly basis (May 2025 to April 2025).",
+      "TABLE 1: Consumer Price Index, Urban and Rural percentage change on the same period 12 months earlier: 2024 2025 May.",
+      "TABLE 1: Consumer Price Index, Urban and Rural percentage change on the same period 12 months earlier: 2024 2025 Jun."
+    ],
+    "previous_answer": "\"TABLE 1: Consumer Price Index, Urban and Rural percentage change on the same period 12 months earlier: 2024 2025 Jun.\" [623]\n\n\"TABLE 1: Consumer Price Index, Urban and Rural percentage change on the same period 12 months earlier: 2024 2025 May.\" [643]",
+    "root_cause": "LLM selection"
+  }
+]

@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "database": "postgresql",
+  "provider": "local",
+  "embedding_backend": "sentence-transformers",
+  "generated_answer_verified": true,
+  "checks": [
+    "live backend",
+    "home metrics",
+    "chat real API evidence and links",
+    "library",
+    "quality",
+    "evaluation",
+    "two-document comparison",
+    "mobile viewport"
+  ]
+}

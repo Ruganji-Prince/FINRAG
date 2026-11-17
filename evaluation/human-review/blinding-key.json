@@ -1,0 +1,122 @@
+[
+  {
+    "review_id": "R001",
+    "case_id": "holdout-04"
+  },
+  {
+    "review_id": "R002",
+    "case_id": "holdout-18"
+  },
+  {
+    "review_id": "R003",
+    "case_id": "holdout-06"
+  },
+  {
+    "review_id": "R004",
+    "case_id": "holdout-16"
+  },
+  {
+    "review_id": "R005",
+    "case_id": "holdout-20"
+  },
+  {
+    "review_id": "R006",
+    "case_id": "holdout-24"
+  },
+  {
+    "review_id": "R007",
+    "case_id": "holdout-13"
+  },
+  {
+    "review_id": "R008",
+    "case_id": "holdout-03"
+  },
+  {
+    "review_id": "R009",
+    "case_id": "holdout-14"
+  },
+  {
+    "review_id": "R010",
+    "case_id": "holdout-22"
+  },
+  {
+    "review_id": "R011",
+    "case_id": "holdout-09"
+  },
+  {
+    "review_id": "R012",
+    "case_id": "holdout-19"
+  },
+  {
+    "review_id": "R013",
+    "case_id": "holdout-17"
+  },
+  {
+    "review_id": "R014",
+    "case_id": "holdout-27"
+  },
+  {
+    "review_id": "R015",
+    "case_id": "holdout-29"
+  },
+  {
+    "review_id": "R016",
+    "case_id": "holdout-23"
+  },
+  {
+    "review_id": "R017",
+    "case_id": "holdout-21"
+  },
+  {
+    "review_id": "R018",
+    "case_id": "holdout-30"
+  },
+  {
+    "review_id": "R019",
+    "case_id": "holdout-02"
+  },
+  {
+    "review_id": "R020",
+    "case_id": "holdout-15"
+  },
+  {
+    "review_id": "R021",
+    "case_id": "holdout-12"
+  },
+  {
+    "review_id": "R022",
+    "case_id": "holdout-25"
+  },
+  {
+    "review_id": "R023",
+    "case_id": "holdout-10"
+  },
+  {
+    "review_id": "R024",
+    "case_id": "holdout-11"
+  },
+  {
+    "review_id": "R025",
+    "case_id": "holdout-26"
+  },
+  {
+    "review_id": "R026",
+    "case_id": "holdout-07"
+  },
+  {
+    "review_id": "R027",
+    "case_id": "holdout-08"
+  },
+  {
+    "review_id": "R028",
+    "case_id": "holdout-01"
+  },
+  {
+    "review_id": "R029",
+    "case_id": "holdout-05"
+  },
+  {
+    "review_id": "R030",
+    "case_id": "holdout-28"
+  }
+]

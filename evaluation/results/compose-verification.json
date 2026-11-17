@@ -1,0 +1,9 @@
+{
+  "compose_schema_validation": "passed",
+  "image": "pgvector/pgvector:0.8.6-pg16",
+  "registry_manifest_status": 200,
+  "registry_digest": "sha256:ccc6e83d6e35e931dc7c5def2022729d5a6c370318d099181995567ff1fb4d6b",
+  "docker_runtime_execution": "not run: Docker and WSL unavailable",
+  "compose_sha256": "bbf6e74b96eb8fd90835e7dc8b7101db3499647c7b1890147ee89ea41547daf1",
+  "app_profile": "schema validated; runtime not run because Docker unavailable"
+}

@@ -1,0 +1,70 @@
+name: FinRAG checks
+on: [push, pull_request, workflow_dispatch]
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    services:
+      postgres:
+        image: pgvector/pgvector:0.8.6-pg16
+        env:
+          POSTGRES_DB: finrag_test
+          POSTGRES_USER: finrag
+          POSTGRES_PASSWORD: ci-only-password
+        ports: ["5432:5432"]
+        options: >-
+          --health-cmd "pg_isready -U finrag -d finrag_test"
+          --health-interval 5s --health-timeout 5s --health-retries 12
+    env:
+      FINRAG_TEST_PG_URL: postgresql://finrag:ci-only-password@localhost:5432/finrag_test
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.14'
+          cache: pip
+      - run: pip install -r requirements.txt -r requirements-dev.txt
+      - run: python -m ruff check .
+      - run: python -m pip check
+      - run: python scripts/prepare_release.py
+      - run: python -m pytest -q --junitxml=evaluation/results/tests.xml
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: test-results
+          path: evaluation/results/tests.xml
+
+  semantic-integration:
+    if: github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    services:
+      postgres:
+        image: pgvector/pgvector:0.8.6-pg16
+        env:
+          POSTGRES_DB: finrag_test
+          POSTGRES_USER: finrag
+          POSTGRES_PASSWORD: ci-only-password
+        ports: ["5432:5432"]
+        options: >-
+          --health-cmd "pg_isready -U finrag -d finrag_test"
+          --health-interval 5s --health-timeout 5s --health-retries 12
+    env:
+      FINRAG_TEST_PG_URL: postgresql://finrag:ci-only-password@localhost:5432/finrag_test
+      FINRAG_RUN_MODELS: '1'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.14'
+          cache: pip
+      - uses: actions/cache@v4
+        with:
+          path: .models
+          key: minilm-1110a243fdf4706b3f48f1d95db1a4f5529b4d41
+      - run: pip install -r requirements-embeddings.txt
+      - run: python -m pytest -q --junitxml=evaluation/results/semantic-tests.xml
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: semantic-test-results
+          path: evaluation/results/semantic-tests.xml

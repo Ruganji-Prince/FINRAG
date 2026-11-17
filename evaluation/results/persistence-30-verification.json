@@ -1,0 +1,15 @@
+{
+  "checked_at": "2026-11-17T07:53:19.043651+00:00",
+  "native_restart": "passed",
+  "logical_fingerprint_before": "39ce49bc8ae119853160e786934da46a9b272ef475a075dce8e4471c55e6c5e7",
+  "logical_fingerprint_after": "39ce49bc8ae119853160e786934da46a9b272ef475a075dce8e4471c55e6c5e7",
+  "documents_after_restart": 30,
+  "passages_after_restart": 839,
+  "governance_checksums_valid": true,
+  "reader_role": "finrag_reader",
+  "reader_superuser": false,
+  "reader_createdb": false,
+  "reader_createrole": false,
+  "reader_write_denied_after_readonly_flag_disabled": true,
+  "docker_runtime": "unavailable"
+}

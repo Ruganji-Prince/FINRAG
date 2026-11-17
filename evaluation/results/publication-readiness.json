@@ -1,0 +1,11 @@
+{
+  "status": "prepared_not_published",
+  "authenticated_github_login": "Ruganji-Prince",
+  "target_repository_name": "FinRAG-Rwanda-Financial-Intelligence",
+  "target_lookup_http_status": 404,
+  "connector_create_repository_capability": false,
+  "git_history_present_in_supplied_workspace": false,
+  "public_url": null,
+  "required_action": "Create an empty authorized repository under the connected account or configure authenticated Git tooling. The allowlisted ZIP is prepared locally.",
+  "source_code_license": "Owner has not selected a source-code license; dataset rights are separate."
+}

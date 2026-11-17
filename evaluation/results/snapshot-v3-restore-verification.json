@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "isolation": "unique schema in dedicated finrag_test database",
+  "documents": 30,
+  "passages": 839,
+  "retrieval_modes": {
+    "keyword": 5,
+    "vector": 5,
+    "hybrid": 5
+  },
+  "raw_pdf_paths_omitted": true,
+  "notes": "Original PDF refresh is separately verified; no production schema mutated."
+}

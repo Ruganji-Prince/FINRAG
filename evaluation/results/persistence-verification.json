@@ -1,0 +1,11 @@
+{
+  "native_restart": "passed",
+  "documents_after_restart": 15,
+  "passages_after_restart": 499,
+  "reader_role": "finrag_reader",
+  "reader_superuser": false,
+  "reader_createdb": false,
+  "reader_createrole": false,
+  "reader_write_denied": "passed",
+  "docker_runtime": "unavailable; native PostgreSQL verified instead"
+}

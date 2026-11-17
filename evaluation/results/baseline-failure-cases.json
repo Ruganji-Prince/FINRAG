@@ -1,0 +1,284 @@
+{
+  "run_status": "completed",
+  "model": "Qwen/Qwen2.5-1.5B-Instruct",
+  "baseline_metrics": {
+    "citation_quote_integrity": 1,
+    "extractive_claim_support": 1,
+    "unsupported_abstention_rate": 1,
+    "positive_question_abstention_rate": 0.07142857142857142,
+    "mean_expected_anchor_coverage": 0.6071428571428571,
+    "mean_latency_ms": 26621.811875,
+    "mean_client_round_trip_ms": 27358.02625,
+    "prompt_tokens": 10874,
+    "completion_tokens": 1774,
+    "estimated_api_cost_usd": 0.0,
+    "human_verified_accuracy": null,
+    "semantic_entailment_judge": null
+  },
+  "cases": [
+    {
+      "id": "nisr-03",
+      "category": "factual",
+      "question": "What does the report say about service sector contribution to GDP?",
+      "mode": "llm",
+      "abstained": false,
+      "answer": "\"The annual growth rates by sectors were as follow: \u2013 Agriculture increased by 7%. \u2013 Industry increased by 11%. \u2013 Services increased by 9%.\" [3]",
+      "claims": [
+        {
+          "chunk_id": 3,
+          "quote": "The annual growth rates by sectors were as follow: \u2013 Agriculture increased by 7%. \u2013 Industry increased by 11%. \u2013 Services increased by 9%."
+        }
+      ],
+      "page_recall_at_5": 1.0,
+      "reciprocal_rank": 1.0,
+      "citation_quote_integrity": true,
+      "expected_anchor_coverage": 0.0,
+      "latency_ms": 37982.98,
+      "client_round_trip_ms": 38798.08,
+      "usage": {
+        "prompt_tokens": 496,
+        "completion_tokens": 71
+      },
+      "estimated_api_cost_usd": 0.0
+    },
+    {
+      "id": "nisr-04",
+      "category": "factual",
+      "question": "What does the report say about industry sector contribution to GDP?",
+      "mode": "llm",
+      "abstained": false,
+      "answer": "\"The annual growth rates by sectors were as follow: \u2013 Agriculture increased by 7%. \u2013 Industry increased by 11%. \u2013 Services increased by 9%.\" [3]",
+      "claims": [
+        {
+          "chunk_id": 3,
+          "quote": "The annual growth rates by sectors were as follow: \u2013 Agriculture increased by 7%. \u2013 Industry increased by 11%. \u2013 Services increased by 9%."
+        }
+      ],
+      "page_recall_at_5": 1.0,
+      "reciprocal_rank": 1.0,
+      "citation_quote_integrity": true,
+      "expected_anchor_coverage": 0.0,
+      "latency_ms": 27304.69,
+      "client_round_trip_ms": 27739.57,
+      "usage": {
+        "prompt_tokens": 535,
+        "completion_tokens": 71
+      },
+      "estimated_api_cost_usd": 0.0
+    },
+    {
+      "id": "nisr-05",
+      "category": "factual",
+      "question": "What does the report say about agriculture sector contribution to GDP?",
+      "mode": "llm",
+      "abstained": false,
+      "answer": "\"2.1 Agriculture The overall performance of agriculture sector was 7%.\" [3]",
+      "claims": [
+        {
+          "chunk_id": 3,
+          "quote": "2.1 Agriculture The overall performance of agriculture sector was 7%."
+        }
+      ],
+      "page_recall_at_5": 1.0,
+      "reciprocal_rank": 1.0,
+      "citation_quote_integrity": true,
+      "expected_anchor_coverage": 0.0,
+      "latency_ms": 29072.58,
+      "client_round_trip_ms": 29886.79,
+      "usage": {
+        "prompt_tokens": 495,
+        "completion_tokens": 38
+      },
+      "estimated_api_cost_usd": 0.0
+    },
+    {
+      "id": "nisr-06",
+      "category": "factual",
+      "question": "What does the report say about net direct taxes contribution?",
+      "mode": "retrieval_only",
+      "abstained": true,
+      "answer": "Insufficient evidence in the indexed corpus. Try a specific report and period.",
+      "claims": [],
+      "page_recall_at_5": 0.0,
+      "reciprocal_rank": 0,
+      "citation_quote_integrity": null,
+      "expected_anchor_coverage": 0.0,
+      "latency_ms": 98.74,
+      "client_round_trip_ms": 891.7,
+      "usage": null,
+      "estimated_api_cost_usd": null
+    },
+    {
+      "id": "nisr-07",
+      "category": "factual",
+      "question": "What does the report say about first quarter GDP growth?",
+      "mode": "llm",
+      "abstained": false,
+      "answer": "\"Growth rate by kind of activity In 2025, GDP grew by 9.4%.\" [3]",
+      "claims": [
+        {
+          "chunk_id": 3,
+          "quote": "Growth rate by kind of activity In 2025, GDP grew by 9.4%."
+        }
+      ],
+      "page_recall_at_5": 1.0,
+      "reciprocal_rank": 1.0,
+      "citation_quote_integrity": true,
+      "expected_anchor_coverage": 0.0,
+      "latency_ms": 35572.3,
+      "client_round_trip_ms": 36424.59,
+      "usage": {
+        "prompt_tokens": 554,
+        "completion_tokens": 46
+      },
+      "estimated_api_cost_usd": 0.0
+    },
+    {
+      "id": "nisr-08",
+      "category": "factual",
+      "question": "What does the report say about second quarter GDP growth?",
+      "mode": "llm",
+      "abstained": false,
+      "answer": "\"Growth rate by kind of activity In 2025, GDP grew by 9.4%.\" [3]",
+      "claims": [
+        {
+          "chunk_id": 3,
+          "quote": "Growth rate by kind of activity In 2025, GDP grew by 9.4%."
+        }
+      ],
+      "page_recall_at_5": 1.0,
+      "reciprocal_rank": 1.0,
+      "citation_quote_integrity": true,
+      "expected_anchor_coverage": 0.0,
+      "latency_ms": 35354.69,
+      "client_round_trip_ms": 36159.3,
+      "usage": {
+        "prompt_tokens": 554,
+        "completion_tokens": 46
+      },
+      "estimated_api_cost_usd": 0.0
+    },
+    {
+      "id": "nisr-09",
+      "category": "factual",
+      "question": "What does the report say about third quarter GDP growth?",
+      "mode": "llm",
+      "abstained": false,
+      "answer": "\"Growth rate by kind of activity In 2025, GDP grew by 9.4%.\" [3]",
+      "claims": [
+        {
+          "chunk_id": 3,
+          "quote": "Growth rate by kind of activity In 2025, GDP grew by 9.4%."
+        }
+      ],
+      "page_recall_at_5": 1.0,
+      "reciprocal_rank": 1.0,
+      "citation_quote_integrity": true,
+      "expected_anchor_coverage": 0.0,
+      "latency_ms": 37098.74,
+      "client_round_trip_ms": 37837.06,
+      "usage": {
+        "prompt_tokens": 554,
+        "completion_tokens": 46
+      },
+      "estimated_api_cost_usd": 0.0
+    },
+    {
+      "id": "nisr-10",
+      "category": "factual",
+      "question": "What does the report say about fourth quarter GDP growth?",
+      "mode": "llm",
+      "abstained": false,
+      "answer": "\"Growth rate by kind of activity In 2025, GDP grew by 9.4%.\" [3]",
+      "claims": [
+        {
+          "chunk_id": 3,
+          "quote": "Growth rate by kind of activity In 2025, GDP grew by 9.4%."
+        }
+      ],
+      "page_recall_at_5": 1.0,
+      "reciprocal_rank": 1.0,
+      "citation_quote_integrity": true,
+      "expected_anchor_coverage": 0.0,
+      "latency_ms": 36843.57,
+      "client_round_trip_ms": 37694.42,
+      "usage": {
+        "prompt_tokens": 554,
+        "completion_tokens": 46
+      },
+      "estimated_api_cost_usd": 0.0
+    },
+    {
+      "id": "nisr-15",
+      "category": "factual",
+      "question": "What does the report say about export crops production?",
+      "mode": "llm",
+      "abstained": false,
+      "answer": "\"The export crops production increased\" [3]",
+      "claims": [
+        {
+          "chunk_id": 3,
+          "quote": "The export crops production increased"
+        }
+      ],
+      "page_recall_at_5": 1.0,
+      "reciprocal_rank": 1.0,
+      "citation_quote_integrity": true,
+      "expected_anchor_coverage": 0.0,
+      "latency_ms": 25910.34,
+      "client_round_trip_ms": 26597.09,
+      "usage": {
+        "prompt_tokens": 454,
+        "completion_tokens": 29
+      },
+      "estimated_api_cost_usd": 0.0
+    },
+    {
+      "id": "nisr-16",
+      "category": "factual",
+      "question": "What does the report say about coffee and tea production?",
+      "mode": "retrieval_only",
+      "abstained": true,
+      "answer": "Insufficient evidence in the indexed corpus. Try a specific report and period.",
+      "claims": [],
+      "page_recall_at_5": 0.0,
+      "reciprocal_rank": 0,
+      "citation_quote_integrity": null,
+      "expected_anchor_coverage": 0.0,
+      "latency_ms": 73.0,
+      "client_round_trip_ms": 696.49,
+      "usage": null,
+      "estimated_api_cost_usd": null
+    },
+    {
+      "id": "revision-cross",
+      "category": "revision_conflict",
+      "question": "Compare the reported 2024 GDP estimates in the 2024 and 2025 GDP reports. Do they report the same value?",
+      "mode": "llm",
+      "abstained": false,
+      "answer": "\"GDP Per Capita In 2025, GDP per head in current US Dollars was estimated at 1,156 from 1,091 in 2024.\" [7]\n\n\"GDP Per Capita In 2024, GDP per Head in current US Dollars was estimated at 1,029 from 1,054 in 2023.\" [292]",
+      "claims": [
+        {
+          "chunk_id": 7,
+          "quote": "GDP Per Capita In 2025, GDP per head in current US Dollars was estimated at 1,156 from 1,091 in 2024."
+        },
+        {
+          "chunk_id": 292,
+          "quote": "GDP Per Capita In 2024, GDP per Head in current US Dollars was estimated at 1,029 from 1,054 in 2023."
+        }
+      ],
+      "page_recall_at_5": 1.0,
+      "reciprocal_rank": 0.25,
+      "citation_quote_integrity": true,
+      "expected_anchor_coverage": 0.0,
+      "latency_ms": 33439.51,
+      "client_round_trip_ms": 33870.75,
+      "usage": {
+        "prompt_tokens": 607,
+        "completion_tokens": 120
+      },
+      "estimated_api_cost_usd": 0.0
+    }
+  ],
+  "interpretation": "Observed failures on the development benchmark before measure and quarter guards. Not a held-out test."
+}

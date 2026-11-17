@@ -1,0 +1,558 @@
+{
+  "status": "completed",
+  "run_at": "2026-11-17T08:40:07.739759+00:00",
+  "context_policy_sha256": "983290cd8ae48b10a8c937ffead7aeae1a97c63a09a96d6883b3513441549678",
+  "backend_source_sha256": {
+    "backend\\__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "backend\\config.py": "8936e3a7acdc19d0c66c50b2b66a44058fc121304aabd359e42ae1e00d9a1350",
+    "backend\\database.py": "a8990bd9ac89689dc032eb87bc61e354ef7696cbab5a95a33051a27b678daa8e",
+    "backend\\embeddings.py": "1061c14252c47488ba016304fb3c4f084eec0cb4121a2793b50bad8410a1b9b5",
+    "backend\\evidence.py": "f8549d6fccb14930f876e23dcc072cb8756edf99e8dbabe14d5030aadf060906",
+    "backend\\main.py": "3dc25a2f4b2d2b3a1f6824a352bd64c154372bffc95bf2392840fe33ace2a981",
+    "backend\\migrate.py": "df37f2917f043fd571f87b5abcce92dd2055aa95777f023eae83491046d5a948",
+    "backend\\providers.py": "9ee01eb3e9b071e634793560a08cb8176fc8d9371144c6f46caa69be5bc840bd",
+    "backend\\rag.py": "30067ac5a5204a9e1c7ac716554da18c7198e9042a585ec3a82b2734104f7568",
+    "backend\\schemas.py": "a33936bf1922c8f82c5760a0e63e0d4afd73d4a530e5558f3e5b4164a87ec98a"
+  },
+  "model_revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+  "provider": "local",
+  "execution_transport": "in-process",
+  "model": "Qwen/Qwen2.5-1.5B-Instruct",
+  "local_quantization": "float32",
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2@1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+  "database": "postgresql",
+  "n": 16,
+  "planned": 16,
+  "dataset_sha256": "df90c8a323a30ceb8b48ccd42eb52918ef87971f8d7590ceb122edb0f9eb4531",
+  "corpus": [
+    {
+      "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-11/CONSUMER%20PRICE%20INDEX%20%28CPI%29%20-%20%20OCTOBER%202026.pdf",
+      "sha256": "24a0eb8faca4cc5f8cf047831dddbc3074705cf1f587945c0b58f6b427d5f735"
+    },
+    {
+      "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-11/IIP%20FOR%20September%20%2C%20%202026.pdf",
+      "sha256": "8492f5741060c055f357843e7f7023c894881762a348a69234914b0f55665817"
+    },
+    {
+      "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-10/English_PPI_September%202026.pdf",
+      "sha256": "78329bb17776a70f9a223dde8781100e03eb43e8e426d6ca7d5723e5c9ab4a6e"
+    },
+    {
+      "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-10/SEPTEMBER%202026%20CPI%20Report%20English.pdf",
+      "sha256": "7d0c0c09c52c03728b6ac354654eed4e4cc402b0ede3e70e2e1fa09d699e7c50"
+    },
+    {
+      "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-09/GDP-National%20Accounts%28Fiscal%20Year%202025_26%29.pdf",
+      "sha256": "01139b2e1d5068424f936b7674c898bb276d7fd6074fd79a5967fceae5a26144"
+    },
+    {
+      "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-09/CONSUMER%20PRICE%20INDEX%20%20%28CPI%29%20AUGUST%202026.pdf",
+      "sha256": "4ba5193b1ef224143a2caa8370ca5ca197b1bfbb4cb04526e6d6a726fe4d6117"
+    },
+    {
+      "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-09/GDP%20Q2%202026.pdf",
+      "sha256": "a36241bb6a167d4a67c88efefa05ac6aceb4f74622ecc2838f35b0c9be93d6ad"
+    },
+    {
+      "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-08/CONSUMER%20PRICE%20INDEX%20JULY%20%28CPI%29%202026%20Report%20.pdf",
+      "sha256": "04b54916d9aef7d49850fd5a5c40d7a1c73b75df29e3152fa0104e32cfad0a83"
+    },
+    {
+      "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-07/JUNE%202026%20CPI%20Report%20English.pdf",
+      "sha256": "e0a0a4fb3a96ec0957de7b82cd065fb40c8679f73f51adc92e6e409a625b4456"
+    },
+    {
+      "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-06/GDP%20Q1%202026%20with%20tables.pdf",
+      "sha256": "43c5a0bd59b0ac4c731597105997e79b81fd9094ccadf7448261afcb9379a366"
+    },
+    {
+      "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-06/CONSUMER%20PRICE%20INDEX%20%28CPI%29%2C%20MAY%202026.pdf",
+      "sha256": "ca6ee9ceb8509e85dca28a9ac1851b89faa5267212e69377463f7b91de6fdbc2"
+    },
+    {
+      "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-05/CONSUMER%20PRICE%20INDEX%20%28CPI%29%20APRIL%202026.pdf",
+      "sha256": "b9cea2739a6a5aa55e8fa696199afa1f5a2b3956d3afeb431c185a56dc92a4ef"
+    },
+    {
+      "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-04/CPI%20Report%20English%20March%202026.pdf",
+      "sha256": "4aae1762a183c0f077b92d403fe6111d469f71b707121e8f675b161b731cb446"
+    },
+    {
+      "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/CPI_Report_English_Feb_2026.pdf",
+      "sha256": "dc96c9b300fc3859f3f90e5ac972c7826fcecfca4629f8e5982190e02303b3ab"
+    },
+    {
+      "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+      "sha256": "b9d1be933f8db09af76d829ee6b3b4f509ff8324794337fdab17b0a977f55446"
+    },
+    {
+      "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-02/CPI-Report-English.pdf",
+      "sha256": "a767578c025cc88e155b5aa32812da4b81cd5be0f03090048fdc1cf4b6555ff1"
+    },
+    {
+      "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-01/CPI%20Report%20English_December%202025.pdf",
+      "sha256": "07b7f9878f30fcee6eae8826b4ad6eac5c005b3b15fcf29b9acf3ab431b03d38"
+    },
+    {
+      "source_url": "https://statistics.gov.rw/sites/default/files/documents/2025-12/CPI%20Publication%20_English_November_2025.pdf",
+      "sha256": "28501274c8c5944008a14b023abe8ce82fb8e207cca1aa264444206083ecf4cf"
+    },
+    {
+      "source_url": "https://statistics.gov.rw/sites/default/files/documents/2025-11/CPI%20Publication%20_English_october_2025.pdf",
+      "sha256": "6ff7ad5af5cb2ecadada8a953cba2722742640b14999492c5a3d0258697f7d07"
+    },
+    {
+      "source_url": "https://statistics.gov.rw/sites/default/files/documents/2025-10/CPI%20Publication%20_English_September_2025.pdf",
+      "sha256": "bcbb6ea172dcc689b7a830abb293d51908543242e30d88d09e98710f1db73c96"
+    },
+    {
+      "source_url": "https://statistics.gov.rw/sites/default/files/documents/2025-09/CPI%20Publication%20_English_August_2025.pdf",
+      "sha256": "64d2357481fb0ede9771e864d4d7dd4182fc78f9044c053746f6d97fec4cca7a"
+    },
+    {
+      "source_url": "https://statistics.gov.rw/sites/default/files/documents/2025-08/CPI%20Publication%20_English_July_2025.pdf",
+      "sha256": "7f9928d6fbbd2c11436ef455319a38bd21ee3e25b70be0752d00ecec540b5017"
+    },
+    {
+      "source_url": "https://statistics.gov.rw/sites/default/files/documents/2025-07/CPI%20Publication%20_English_June_2025.pdf",
+      "sha256": "0e075936eb5d98fca322282ffbdf605233bfc28094cfd099321faad9d2323903"
+    },
+    {
+      "source_url": "https://statistics.gov.rw/sites/default/files/documents/2025-06/CPI%20Publication%20_English_May_2025_2.pdf",
+      "sha256": "dcabeec65913a6b5a553364f4a92b55db0d1e77d680486f686166fd0ce62699f"
+    },
+    {
+      "source_url": "https://statistics.gov.rw/sites/default/files/documents/2025-05/CPI%20Publication%20_English_April_2025.pdf",
+      "sha256": "8b7d72dcdf856a312cdcf2b14f273ed2487d2d61bfe04ae0ec758df1202b4cb8"
+    },
+    {
+      "source_url": "https://statistics.gov.rw/sites/default/files/documents/2025-04/CPI%20Publication%20_English_March%202025.pdf",
+      "sha256": "1ac84c708a23c000ebf360cb61da688ded99422f0846163fbd1bd55e61051bd8"
+    },
+    {
+      "source_url": "https://statistics.gov.rw/sites/default/files/documents/2025-03/GDP%20National%20Accounts%202024%20Annual.pdf",
+      "sha256": "fe76a62230d2e0db629fddea4dae2841c5b231f35ade82a302b1f0567023bd5c"
+    },
+    {
+      "source_url": "https://statistics.gov.rw/sites/default/files/documents/2025-03/CPI%20Publication%20_English_February%202025.pdf",
+      "sha256": "7a3b89185f859fe4201c27a8c33d41e575952f6ac6d44fb439e321cb8f73d02a"
+    },
+    {
+      "source_url": "https://statistics.gov.rw/sites/default/files/documents/2025-02/CPI%20Publication%20_English_January%202025.pdf",
+      "sha256": "37dfc95288c34723d26df5b0ae65e9374d46f15d162359b348e613409bb50817"
+    },
+    {
+      "source_url": "https://statistics.gov.rw/sites/default/files/documents/2024-09/GDP%20National%20Accounts%202023%20annual%20fnl.pdf",
+      "sha256": "f2d3c5b7d928c0187e0596686448e5cc1d570daac5503ab81439d533ab7f386b"
+    }
+  ],
+  "methodology": "Real provider inference. Quote/citation correctness and extractive faithfulness are exact-source checks, not independently human-scored semantic relevance. Anchor coverage is a heuristic diagnostic; it does not prove answer correctness. Small local LLM uses evidence-constrained decoding. No free-form unsupported model prose is published.",
+  "metrics": {
+    "page_recall_at_5": 1.0,
+    "mrr_at_5": 0.875,
+    "citation_quote_integrity": 1,
+    "extractive_claim_support": 1,
+    "unsupported_abstention_rate": 1,
+    "positive_question_abstention_rate": 0,
+    "mean_expected_anchor_coverage": 0.7857142857142857,
+    "mean_latency_ms": 21572.67125,
+    "mean_client_round_trip_ms": 21705.16875,
+    "prompt_tokens": 4791,
+    "completion_tokens": 1115,
+    "estimated_api_cost_usd": 0.0,
+    "human_verified_accuracy": null,
+    "semantic_entailment_judge": null
+  },
+  "outcomes": [
+    {
+      "id": "nisr-01",
+      "category": "factual",
+      "question": "What does the report say about GDP at current market prices in 2025?",
+      "mode": "llm",
+      "abstained": false,
+      "answer": "\"Gross Domestic Product and its structure In 2025, GDP at current market prices was estimated at Frw 23,387 billion, up from Frw 19,918 billion in 2024.\" [3]",
+      "claims": [
+        {
+          "chunk_id": 3,
+          "quote": "Gross Domestic Product and its structure In 2025, GDP at current market prices was estimated at Frw 23,387 billion, up from Frw 19,918 billion in 2024."
+        }
+      ],
+      "page_recall_at_5": 1.0,
+      "reciprocal_rank": 0.5,
+      "citation_quote_integrity": true,
+      "expected_anchor_coverage": 1.0,
+      "latency_ms": 40874.14,
+      "client_round_trip_ms": 41032.88,
+      "usage": {
+        "prompt_tokens": 243,
+        "completion_tokens": 75
+      },
+      "estimated_api_cost_usd": 0.0
+    },
+    {
+      "id": "nisr-02",
+      "category": "factual",
+      "question": "What does the report say about GDP growth rate in 2025?",
+      "mode": "llm",
+      "abstained": false,
+      "answer": "\"Growth rate by kind of activity In 2025, GDP grew by 9.4%.\" [3]",
+      "claims": [
+        {
+          "chunk_id": 3,
+          "quote": "Growth rate by kind of activity In 2025, GDP grew by 9.4%."
+        }
+      ],
+      "page_recall_at_5": 1.0,
+      "reciprocal_rank": 1.0,
+      "citation_quote_integrity": true,
+      "expected_anchor_coverage": 1.0,
+      "latency_ms": 19586.46,
+      "client_round_trip_ms": 19708.82,
+      "usage": {
+        "prompt_tokens": 531,
+        "completion_tokens": 46
+      },
+      "estimated_api_cost_usd": 0.0
+    },
+    {
+      "id": "nisr-07",
+      "category": "factual",
+      "question": "What does the report say about first quarter GDP growth?",
+      "mode": "llm",
+      "abstained": false,
+      "answer": "\"This is a result of a continuous growth through the year where GDP grew by 6.5% in the first quarter, 7.8% in the second quarter, 11.8% in the third quarter and 11.2% in the fourth quarter.\" [3]",
+      "claims": [
+        {
+          "chunk_id": 3,
+          "quote": "This is a result of a continuous growth through the year where GDP grew by 6.5% in the first quarter, 7.8% in the second quarter, 11.8% in the third quarter and 11.2% in the fourth quarter."
+        }
+      ],
+      "page_recall_at_5": 1.0,
+      "reciprocal_rank": 1.0,
+      "citation_quote_integrity": true,
+      "expected_anchor_coverage": 1.0,
+      "latency_ms": 20844.62,
+      "client_round_trip_ms": 20979.29,
+      "usage": {
+        "prompt_tokens": 241,
+        "completion_tokens": 80
+      },
+      "estimated_api_cost_usd": 0.0
+    },
+    {
+      "id": "nisr-14",
+      "category": "factual",
+      "question": "What does the report say about food crops production?",
+      "mode": "llm",
+      "abstained": false,
+      "answer": "\"Within agriculture, food crops production increased by 3%.\" [3]",
+      "claims": [
+        {
+          "chunk_id": 3,
+          "quote": "Within agriculture, food crops production increased by 3%."
+        }
+      ],
+      "page_recall_at_5": 1.0,
+      "reciprocal_rank": 1.0,
+      "citation_quote_integrity": true,
+      "expected_anchor_coverage": 1.0,
+      "latency_ms": 15189.15,
+      "client_round_trip_ms": 15322.16,
+      "usage": {
+        "prompt_tokens": 496,
+        "completion_tokens": 35
+      },
+      "estimated_api_cost_usd": 0.0
+    },
+    {
+      "id": "nisr-31",
+      "category": "factual",
+      "question": "What does the report say about GDP per head in current US Dollars?",
+      "mode": "llm",
+      "abstained": false,
+      "answer": "\"GDP Per Capita In 2025, GDP per head in current US Dollars was estimated at 1,156 from 1,091 in 2024.\" [7]",
+      "claims": [
+        {
+          "chunk_id": 7,
+          "quote": "GDP Per Capita In 2025, GDP per head in current US Dollars was estimated at 1,156 from 1,091 in 2024."
+        }
+      ],
+      "page_recall_at_5": 1.0,
+      "reciprocal_rank": 1.0,
+      "citation_quote_integrity": true,
+      "expected_anchor_coverage": 1.0,
+      "latency_ms": 23296.99,
+      "client_round_trip_ms": 23443.86,
+      "usage": {
+        "prompt_tokens": 514,
+        "completion_tokens": 65
+      },
+      "estimated_api_cost_usd": 0.0
+    },
+    {
+      "id": "unsupported-33",
+      "category": "unsupported",
+      "question": "What is the latest BNR policy rate?",
+      "mode": "retrieval_only",
+      "abstained": true,
+      "answer": "This static corpus cannot verify current or latest financial conditions. Specify a historical report or period.",
+      "claims": [],
+      "page_recall_at_5": null,
+      "reciprocal_rank": null,
+      "citation_quote_integrity": null,
+      "expected_anchor_coverage": null,
+      "latency_ms": 0.06,
+      "client_round_trip_ms": 63.54,
+      "usage": null,
+      "estimated_api_cost_usd": null
+    },
+    {
+      "id": "unsupported-36",
+      "category": "unsupported",
+      "question": "What is the quantum spaceship propulsion yield?",
+      "mode": "retrieval_only",
+      "abstained": true,
+      "answer": "Insufficient evidence in the indexed corpus. Try a specific report and period.",
+      "claims": [],
+      "page_recall_at_5": null,
+      "reciprocal_rank": null,
+      "citation_quote_integrity": null,
+      "expected_anchor_coverage": null,
+      "latency_ms": 126.83,
+      "client_round_trip_ms": 184.23,
+      "usage": null,
+      "estimated_api_cost_usd": null
+    },
+    {
+      "id": "cpi-41",
+      "category": "financial_factual",
+      "question": "What was the urban CPI annual increase in October 2026?",
+      "mode": "llm",
+      "abstained": false,
+      "answer": "\"Urban Index Urban CPI increased by 19.5 percent on annual basis (October 2026 compared to October 2025) and it increased by 3.3 percent on monthly basis (October 2026 compared to September 2026).\" [79]",
+      "claims": [
+        {
+          "chunk_id": 79,
+          "quote": "Urban Index Urban CPI increased by 19.5 percent on annual basis (October 2026 compared to October 2025) and it increased by 3.3 percent on monthly basis (October 2026 compared to September 2026)."
+        }
+      ],
+      "page_recall_at_5": 1.0,
+      "reciprocal_rank": 1.0,
+      "citation_quote_integrity": true,
+      "expected_anchor_coverage": 1.0,
+      "latency_ms": 21614.26,
+      "client_round_trip_ms": 21745.75,
+      "usage": {
+        "prompt_tokens": 254,
+        "completion_tokens": 84
+      },
+      "estimated_api_cost_usd": 0.0
+    },
+    {
+      "id": "cpi-42",
+      "category": "financial_factual",
+      "question": "What was the rural CPI annual increase in October 2026?",
+      "mode": "llm",
+      "abstained": false,
+      "answer": "\"Rural Index Rural CPI increased by 31.3 percent on annual basis and it increased by 8.6 percent on monthly basis.\" [79]",
+      "claims": [
+        {
+          "chunk_id": 79,
+          "quote": "Rural Index Rural CPI increased by 31.3 percent on annual basis and it increased by 8.6 percent on monthly basis."
+        }
+      ],
+      "page_recall_at_5": 1.0,
+      "reciprocal_rank": 1.0,
+      "citation_quote_integrity": true,
+      "expected_anchor_coverage": 1.0,
+      "latency_ms": 14871.38,
+      "client_round_trip_ms": 15015.44,
+      "usage": {
+        "prompt_tokens": 224,
+        "completion_tokens": 53
+      },
+      "estimated_api_cost_usd": 0.0
+    },
+    {
+      "id": "cpi-44",
+      "category": "financial_factual",
+      "question": "What was the monthly urban CPI change in October 2026?",
+      "mode": "llm",
+      "abstained": false,
+      "answer": "\"Urban Index Urban CPI increased by 19.5 percent on annual basis (October 2026 compared to October 2025) and it increased by 3.3 percent on monthly basis (October 2026 compared to September 2026).\" [79]",
+      "claims": [
+        {
+          "chunk_id": 79,
+          "quote": "Urban Index Urban CPI increased by 19.5 percent on annual basis (October 2026 compared to October 2025) and it increased by 3.3 percent on monthly basis (October 2026 compared to September 2026)."
+        }
+      ],
+      "page_recall_at_5": 1.0,
+      "reciprocal_rank": 1.0,
+      "citation_quote_integrity": true,
+      "expected_anchor_coverage": 1.0,
+      "latency_ms": 26959.88,
+      "client_round_trip_ms": 27119.05,
+      "usage": {
+        "prompt_tokens": 254,
+        "completion_tokens": 84
+      },
+      "estimated_api_cost_usd": 0.0
+    },
+    {
+      "id": "cpi-47",
+      "category": "financial_factual",
+      "question": "What was the urban CPI annual increase in August 2026?",
+      "mode": "llm",
+      "abstained": false,
+      "answer": "\"Urban Index Urban CPI increased by 15.7 percent on annual basis (August 2026 compared to August 2025) and it increased by 1.8 percent on monthly basis (August 2026 compared to July 2026).\" [121]",
+      "claims": [
+        {
+          "chunk_id": 121,
+          "quote": "Urban Index Urban CPI increased by 15.7 percent on annual basis (August 2026 compared to August 2025) and it increased by 1.8 percent on monthly basis (August 2026 compared to July 2026)."
+        }
+      ],
+      "page_recall_at_5": 1.0,
+      "reciprocal_rank": 0.5,
+      "citation_quote_integrity": true,
+      "expected_anchor_coverage": 1.0,
+      "latency_ms": 24784.46,
+      "client_round_trip_ms": 24911.17,
+      "usage": {
+        "prompt_tokens": 256,
+        "completion_tokens": 85
+      },
+      "estimated_api_cost_usd": 0.0
+    },
+    {
+      "id": "cross-49",
+      "category": "cross_report_comparison",
+      "question": "Compare urban CPI annual increase in September 2026 and October 2026.",
+      "mode": "llm",
+      "abstained": false,
+      "answer": "\"Urban Index Urban CPI increased by 19.5 percent on annual basis (October 2026 compared to October 2025) and it increased by 3.3 percent on monthly basis (October 2026 compared to September 2026).\" [79]\n\n\"Urban Index Urban CPI increased by 17.2 percent on annual basis (September 2026 compared to September 2025) and it increased by 2.7 percent on monthly basis (September 2026 compared to August 2026).\" [100]",
+      "claims": [
+        {
+          "chunk_id": 79,
+          "quote": "Urban Index Urban CPI increased by 19.5 percent on annual basis (October 2026 compared to October 2025) and it increased by 3.3 percent on monthly basis (October 2026 compared to September 2026)."
+        },
+        {
+          "chunk_id": 100,
+          "quote": "Urban Index Urban CPI increased by 17.2 percent on annual basis (September 2026 compared to September 2025) and it increased by 2.7 percent on monthly basis (September 2026 compared to August 2026)."
+        }
+      ],
+      "page_recall_at_5": 1.0,
+      "reciprocal_rank": 1.0,
+      "citation_quote_integrity": true,
+      "expected_anchor_coverage": 1.0,
+      "latency_ms": 39742.27,
+      "client_round_trip_ms": 39950.95,
+      "usage": {
+        "prompt_tokens": 395,
+        "completion_tokens": 157
+      },
+      "estimated_api_cost_usd": 0.0
+    },
+    {
+      "id": "dev-energy",
+      "category": "financial_factual",
+      "question": "What was the annual change in the urban energy index in October 2026?",
+      "mode": "llm",
+      "abstained": false,
+      "answer": "\"Urban Index Urban CPI increased by 19.5 percent on annual basis (October 2026 compared to October 2025) and it increased by 3.3 percent on monthly basis (October 2026 compared to September 2026).\" [79]",
+      "claims": [
+        {
+          "chunk_id": 79,
+          "quote": "Urban Index Urban CPI increased by 19.5 percent on annual basis (October 2026 compared to October 2025) and it increased by 3.3 percent on monthly basis (October 2026 compared to September 2026)."
+        }
+      ],
+      "page_recall_at_5": 1.0,
+      "reciprocal_rank": 1.0,
+      "citation_quote_integrity": true,
+      "expected_anchor_coverage": 0.0,
+      "latency_ms": 21704.85,
+      "client_round_trip_ms": 21824.04,
+      "usage": {
+        "prompt_tokens": 257,
+        "completion_tokens": 84
+      },
+      "estimated_api_cost_usd": 0.0
+    },
+    {
+      "id": "dev-imported",
+      "category": "financial_factual",
+      "question": "What was the annual change in the urban imported goods index in October 2026?",
+      "mode": "llm",
+      "abstained": false,
+      "answer": "\"Urban Index Urban CPI increased by 19.5 percent on annual basis (October 2026 compared to October 2025) and it increased by 3.3 percent on monthly basis (October 2026 compared to September 2026).\" [79]",
+      "claims": [
+        {
+          "chunk_id": 79,
+          "quote": "Urban Index Urban CPI increased by 19.5 percent on annual basis (October 2026 compared to October 2025) and it increased by 3.3 percent on monthly basis (October 2026 compared to September 2026)."
+        }
+      ],
+      "page_recall_at_5": 1.0,
+      "reciprocal_rank": 1.0,
+      "citation_quote_integrity": true,
+      "expected_anchor_coverage": 0.0,
+      "latency_ms": 21997.75,
+      "client_round_trip_ms": 22122.01,
+      "usage": {
+        "prompt_tokens": 258,
+        "completion_tokens": 84
+      },
+      "estimated_api_cost_usd": 0.0
+    },
+    {
+      "id": "dev-fresh",
+      "category": "financial_factual",
+      "question": "What was the annual change in the urban fresh products index in October 2026?",
+      "mode": "llm",
+      "abstained": false,
+      "answer": "\"Urban Index Urban CPI increased by 19.5 percent on annual basis (October 2026 compared to October 2025) and it increased by 3.3 percent on monthly basis (October 2026 compared to September 2026).\" [79]",
+      "claims": [
+        {
+          "chunk_id": 79,
+          "quote": "Urban Index Urban CPI increased by 19.5 percent on annual basis (October 2026 compared to October 2025) and it increased by 3.3 percent on monthly basis (October 2026 compared to September 2026)."
+        }
+      ],
+      "page_recall_at_5": 1.0,
+      "reciprocal_rank": 1.0,
+      "citation_quote_integrity": true,
+      "expected_anchor_coverage": 0.0,
+      "latency_ms": 22352.11,
+      "client_round_trip_ms": 22495.32,
+      "usage": {
+        "prompt_tokens": 258,
+        "completion_tokens": 84
+      },
+      "estimated_api_cost_usd": 0.0
+    },
+    {
+      "id": "dev-core",
+      "category": "financial_factual",
+      "question": "What was the annual core index increase in October 2026?",
+      "mode": "llm",
+      "abstained": false,
+      "answer": "\"On annual basis, the local goods index increased by 22.8 percent, the imported goods index increased by 9.5 percent, the fresh products index increased by 39.9 percent, the energy index increased by 36.3 percent and the core index or the general index excluding fresh products and energy increased by 11.5 percent.\" [85]",
+      "claims": [
+        {
+          "chunk_id": 85,
+          "quote": "On annual basis, the local goods index increased by 22.8 percent, the imported goods index increased by 9.5 percent, the fresh products index increased by 39.9 percent, the energy index increased by 36.3 percent and the core index or the general index excluding fresh products and energy increased by 11.5 percent."
+        }
+      ],
+      "page_recall_at_5": 1.0,
+      "reciprocal_rank": 0.25,
+      "citation_quote_integrity": true,
+      "expected_anchor_coverage": 1.0,
+      "latency_ms": 31217.53,
+      "client_round_trip_ms": 31364.19,
+      "usage": {
+        "prompt_tokens": 610,
+        "completion_tokens": 99
+      },
+      "estimated_api_cost_usd": 0.0
+    }
+  ],
+  "implementation": "original 839-chunk-era ranking/context, original chunks only",
+  "baseline_source_sha256": "542fd99ce7b1fa7b2bc3264936fdeddad3ed9afd2b5c6121866d0f9f62abd23e"
+}

@@ -1,0 +1,583 @@
+{
+  "checked_at": "2026-11-16T21:17:22.024245+00:00",
+  "n_questions": 52,
+  "verification": "Automated original-PDF hash/page/anchor verification; independent human relevance adjudication not performed.",
+  "checks": [
+    {
+      "case_id": "nisr-01",
+      "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+      "pages": [
+        3
+      ],
+      "pdf_sha256": "b9d1be933f8db09af76d829ee6b3b4f509ff8324794337fdab17b0a977f55446",
+      "anchors": [
+        "23,387"
+      ],
+      "status": "matched_original_pdf"
+    },
+    {
+      "case_id": "nisr-02",
+      "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+      "pages": [
+        3
+      ],
+      "pdf_sha256": "b9d1be933f8db09af76d829ee6b3b4f509ff8324794337fdab17b0a977f55446",
+      "anchors": [
+        "9.4%"
+      ],
+      "status": "matched_original_pdf"
+    },
+    {
+      "case_id": "nisr-03",
+      "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+      "pages": [
+        3
+      ],
+      "pdf_sha256": "b9d1be933f8db09af76d829ee6b3b4f509ff8324794337fdab17b0a977f55446",
+      "anchors": [
+        "52%"
+      ],
+      "status": "matched_original_pdf"
+    },
+    {
+      "case_id": "nisr-04",
+      "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+      "pages": [
+        3
+      ],
+      "pdf_sha256": "b9d1be933f8db09af76d829ee6b3b4f509ff8324794337fdab17b0a977f55446",
+      "anchors": [
+        "22%"
+      ],
+      "status": "matched_original_pdf"
+    },
+    {
+      "case_id": "nisr-05",
+      "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+      "pages": [
+        3
+      ],
+      "pdf_sha256": "b9d1be933f8db09af76d829ee6b3b4f509ff8324794337fdab17b0a977f55446",
+      "anchors": [
+        "20%"
+      ],
+      "status": "matched_original_pdf"
+    },
+    {
+      "case_id": "nisr-06",
+      "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+      "pages": [
+        3
+      ],
+      "pdf_sha256": "b9d1be933f8db09af76d829ee6b3b4f509ff8324794337fdab17b0a977f55446",
+      "anchors": [
+        "5%"
+      ],
+      "status": "matched_original_pdf"
+    },
+    {
+      "case_id": "nisr-07",
+      "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+      "pages": [
+        3
+      ],
+      "pdf_sha256": "b9d1be933f8db09af76d829ee6b3b4f509ff8324794337fdab17b0a977f55446",
+      "anchors": [
+        "6.5%"
+      ],
+      "status": "matched_original_pdf"
+    },
+    {
+      "case_id": "nisr-08",
+      "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+      "pages": [
+        3
+      ],
+      "pdf_sha256": "b9d1be933f8db09af76d829ee6b3b4f509ff8324794337fdab17b0a977f55446",
+      "anchors": [
+        "7.8%"
+      ],
+      "status": "matched_original_pdf"
+    },
+    {
+      "case_id": "nisr-09",
+      "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+      "pages": [
+        3
+      ],
+      "pdf_sha256": "b9d1be933f8db09af76d829ee6b3b4f509ff8324794337fdab17b0a977f55446",
+      "anchors": [
+        "11.8%"
+      ],
+      "status": "matched_original_pdf"
+    },
+    {
+      "case_id": "nisr-10",
+      "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+      "pages": [
+        3
+      ],
+      "pdf_sha256": "b9d1be933f8db09af76d829ee6b3b4f509ff8324794337fdab17b0a977f55446",
+      "anchors": [
+        "11.2%"
+      ],
+      "status": "matched_original_pdf"
+    },
+    {
+      "case_id": "nisr-11",
+      "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+      "pages": [
+        3
+      ],
+      "pdf_sha256": "b9d1be933f8db09af76d829ee6b3b4f509ff8324794337fdab17b0a977f55446",
+      "anchors": [
+        "7%"
+      ],
+      "status": "matched_original_pdf"
+    },
+    {
+      "case_id": "nisr-12",
+      "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+      "pages": [
+        3
+      ],
+      "pdf_sha256": "b9d1be933f8db09af76d829ee6b3b4f509ff8324794337fdab17b0a977f55446",
+      "anchors": [
+        "11%"
+      ],
+      "status": "matched_original_pdf"
+    },
+    {
+      "case_id": "nisr-13",
+      "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+      "pages": [
+        3
+      ],
+      "pdf_sha256": "b9d1be933f8db09af76d829ee6b3b4f509ff8324794337fdab17b0a977f55446",
+      "anchors": [
+        "9%"
+      ],
+      "status": "matched_original_pdf"
+    },
+    {
+      "case_id": "nisr-14",
+      "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+      "pages": [
+        3
+      ],
+      "pdf_sha256": "b9d1be933f8db09af76d829ee6b3b4f509ff8324794337fdab17b0a977f55446",
+      "anchors": [
+        "3%"
+      ],
+      "status": "matched_original_pdf"
+    },
+    {
+      "case_id": "nisr-15",
+      "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+      "pages": [
+        3
+      ],
+      "pdf_sha256": "b9d1be933f8db09af76d829ee6b3b4f509ff8324794337fdab17b0a977f55446",
+      "anchors": [
+        "32%"
+      ],
+      "status": "matched_original_pdf"
+    },
+    {
+      "case_id": "nisr-16",
+      "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+      "pages": [
+        3
+      ],
+      "pdf_sha256": "b9d1be933f8db09af76d829ee6b3b4f509ff8324794337fdab17b0a977f55446",
+      "anchors": [
+        "60%"
+      ],
+      "status": "matched_original_pdf"
+    },
+    {
+      "case_id": "nisr-17",
+      "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+      "pages": [
+        3
+      ],
+      "pdf_sha256": "b9d1be933f8db09af76d829ee6b3b4f509ff8324794337fdab17b0a977f55446",
+      "anchors": [
+        "17%"
+      ],
+      "status": "matched_original_pdf"
+    },
+    {
+      "case_id": "nisr-18",
+      "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+      "pages": [
+        3
+      ],
+      "pdf_sha256": "b9d1be933f8db09af76d829ee6b3b4f509ff8324794337fdab17b0a977f55446",
+      "anchors": [
+        "11%"
+      ],
+      "status": "matched_original_pdf"
+    },
+    {
+      "case_id": "nisr-19",
+      "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+      "pages": [
+        3
+      ],
+      "pdf_sha256": "b9d1be933f8db09af76d829ee6b3b4f509ff8324794337fdab17b0a977f55446",
+      "anchors": [
+        "10%"
+      ],
+      "status": "matched_original_pdf"
+    },
+    {
+      "case_id": "nisr-20",
+      "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+      "pages": [
+        3
+      ],
+      "pdf_sha256": "b9d1be933f8db09af76d829ee6b3b4f509ff8324794337fdab17b0a977f55446",
+      "anchors": [
+        "decreased by 1%"
+      ],
+      "status": "matched_original_pdf"
+    },
+    {
+      "case_id": "nisr-21",
+      "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+      "pages": [
+        3
+      ],
+      "pdf_sha256": "b9d1be933f8db09af76d829ee6b3b4f509ff8324794337fdab17b0a977f55446",
+      "anchors": [
+        "24%"
+      ],
+      "status": "matched_original_pdf"
+    },
+    {
+      "case_id": "nisr-22",
+      "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+      "pages": [
+        4
+      ],
+      "pdf_sha256": "b9d1be933f8db09af76d829ee6b3b4f509ff8324794337fdab17b0a977f55446",
+      "anchors": [
+        "15%"
+      ],
+      "status": "matched_original_pdf"
+    },
+    {
+      "case_id": "nisr-23",
+      "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+      "pages": [
+        4
+      ],
+      "pdf_sha256": "b9d1be933f8db09af76d829ee6b3b4f509ff8324794337fdab17b0a977f55446",
+      "anchors": [
+        "7%"
+      ],
+      "status": "matched_original_pdf"
+    },
+    {
+      "case_id": "nisr-24",
+      "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+      "pages": [
+        4
+      ],
+      "pdf_sha256": "b9d1be933f8db09af76d829ee6b3b4f509ff8324794337fdab17b0a977f55446",
+      "anchors": [
+        "decreased by 2%"
+      ],
+      "status": "matched_original_pdf"
+    },
+    {
+      "case_id": "nisr-25",
+      "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+      "pages": [
+        4
+      ],
+      "pdf_sha256": "b9d1be933f8db09af76d829ee6b3b4f509ff8324794337fdab17b0a977f55446",
+      "anchors": [
+        "7%"
+      ],
+      "status": "matched_original_pdf"
+    },
+    {
+      "case_id": "nisr-26",
+      "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+      "pages": [
+        4
+      ],
+      "pdf_sha256": "b9d1be933f8db09af76d829ee6b3b4f509ff8324794337fdab17b0a977f55446",
+      "anchors": [
+        "13%"
+      ],
+      "status": "matched_original_pdf"
+    },
+    {
+      "case_id": "nisr-27",
+      "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+      "pages": [
+        4
+      ],
+      "pdf_sha256": "b9d1be933f8db09af76d829ee6b3b4f509ff8324794337fdab17b0a977f55446",
+      "anchors": [
+        "64%"
+      ],
+      "status": "matched_original_pdf"
+    },
+    {
+      "case_id": "nisr-28",
+      "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+      "pages": [
+        4
+      ],
+      "pdf_sha256": "b9d1be933f8db09af76d829ee6b3b4f509ff8324794337fdab17b0a977f55446",
+      "anchors": [
+        "34%"
+      ],
+      "status": "matched_original_pdf"
+    },
+    {
+      "case_id": "nisr-29",
+      "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+      "pages": [
+        4
+      ],
+      "pdf_sha256": "b9d1be933f8db09af76d829ee6b3b4f509ff8324794337fdab17b0a977f55446",
+      "anchors": [
+        "16%"
+      ],
+      "status": "matched_original_pdf"
+    },
+    {
+      "case_id": "nisr-30",
+      "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+      "pages": [
+        4
+      ],
+      "pdf_sha256": "b9d1be933f8db09af76d829ee6b3b4f509ff8324794337fdab17b0a977f55446",
+      "anchors": [
+        "107"
+      ],
+      "status": "matched_original_pdf"
+    },
+    {
+      "case_id": "nisr-31",
+      "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+      "pages": [
+        5
+      ],
+      "pdf_sha256": "b9d1be933f8db09af76d829ee6b3b4f509ff8324794337fdab17b0a977f55446",
+      "anchors": [
+        "1,156"
+      ],
+      "status": "matched_original_pdf"
+    },
+    {
+      "case_id": "nisr-32",
+      "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+      "pages": [
+        3
+      ],
+      "pdf_sha256": "b9d1be933f8db09af76d829ee6b3b4f509ff8324794337fdab17b0a977f55446",
+      "anchors": [
+        "19,918"
+      ],
+      "status": "matched_original_pdf"
+    },
+    {
+      "case_id": "cpi-41",
+      "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-11/CONSUMER%20PRICE%20INDEX%20%28CPI%29%20-%20%20OCTOBER%202026.pdf",
+      "pages": [
+        4
+      ],
+      "pdf_sha256": "24a0eb8faca4cc5f8cf047831dddbc3074705cf1f587945c0b58f6b427d5f735",
+      "anchors": [
+        "19.5 percent"
+      ],
+      "status": "matched_original_pdf"
+    },
+    {
+      "case_id": "cpi-42",
+      "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-11/CONSUMER%20PRICE%20INDEX%20%28CPI%29%20-%20%20OCTOBER%202026.pdf",
+      "pages": [
+        4
+      ],
+      "pdf_sha256": "24a0eb8faca4cc5f8cf047831dddbc3074705cf1f587945c0b58f6b427d5f735",
+      "anchors": [
+        "31.3 percent"
+      ],
+      "status": "matched_original_pdf"
+    },
+    {
+      "case_id": "cpi-43",
+      "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-11/CONSUMER%20PRICE%20INDEX%20%28CPI%29%20-%20%20OCTOBER%202026.pdf",
+      "pages": [
+        4
+      ],
+      "pdf_sha256": "24a0eb8faca4cc5f8cf047831dddbc3074705cf1f587945c0b58f6b427d5f735",
+      "anchors": [
+        "26.5 percent"
+      ],
+      "status": "matched_original_pdf"
+    },
+    {
+      "case_id": "cpi-44",
+      "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-11/CONSUMER%20PRICE%20INDEX%20%28CPI%29%20-%20%20OCTOBER%202026.pdf",
+      "pages": [
+        4
+      ],
+      "pdf_sha256": "24a0eb8faca4cc5f8cf047831dddbc3074705cf1f587945c0b58f6b427d5f735",
+      "anchors": [
+        "3.3 percent"
+      ],
+      "status": "matched_original_pdf"
+    },
+    {
+      "case_id": "cpi-45",
+      "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-10/SEPTEMBER%202026%20CPI%20Report%20English.pdf",
+      "pages": [
+        4
+      ],
+      "pdf_sha256": "7d0c0c09c52c03728b6ac354654eed4e4cc402b0ede3e70e2e1fa09d699e7c50",
+      "anchors": [
+        "17.2 percent"
+      ],
+      "status": "matched_original_pdf"
+    },
+    {
+      "case_id": "cpi-46",
+      "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-10/SEPTEMBER%202026%20CPI%20Report%20English.pdf",
+      "pages": [
+        4
+      ],
+      "pdf_sha256": "7d0c0c09c52c03728b6ac354654eed4e4cc402b0ede3e70e2e1fa09d699e7c50",
+      "anchors": [
+        "22 percent"
+      ],
+      "status": "matched_original_pdf"
+    },
+    {
+      "case_id": "cpi-47",
+      "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-09/CONSUMER%20PRICE%20INDEX%20%20%28CPI%29%20AUGUST%202026.pdf",
+      "pages": [
+        4
+      ],
+      "pdf_sha256": "4ba5193b1ef224143a2caa8370ca5ca197b1bfbb4cb04526e6d6a726fe4d6117",
+      "anchors": [
+        "15.7 percent"
+      ],
+      "status": "matched_original_pdf"
+    },
+    {
+      "case_id": "cpi-48",
+      "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-09/CONSUMER%20PRICE%20INDEX%20%20%28CPI%29%20AUGUST%202026.pdf",
+      "pages": [
+        4
+      ],
+      "pdf_sha256": "4ba5193b1ef224143a2caa8370ca5ca197b1bfbb4cb04526e6d6a726fe4d6117",
+      "anchors": [
+        "1.8 percent"
+      ],
+      "status": "matched_original_pdf"
+    },
+    {
+      "case_id": "cross-49",
+      "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-10/SEPTEMBER%202026%20CPI%20Report%20English.pdf",
+      "pages": [
+        4
+      ],
+      "pdf_sha256": "7d0c0c09c52c03728b6ac354654eed4e4cc402b0ede3e70e2e1fa09d699e7c50",
+      "anchors": [
+        "17.2 percent"
+      ],
+      "status": "matched_original_pdf"
+    },
+    {
+      "case_id": "cross-49",
+      "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-11/CONSUMER%20PRICE%20INDEX%20%28CPI%29%20-%20%20OCTOBER%202026.pdf",
+      "pages": [
+        4
+      ],
+      "pdf_sha256": "24a0eb8faca4cc5f8cf047831dddbc3074705cf1f587945c0b58f6b427d5f735",
+      "anchors": [
+        "19.5 percent"
+      ],
+      "status": "matched_original_pdf"
+    },
+    {
+      "case_id": "cross-50",
+      "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-10/SEPTEMBER%202026%20CPI%20Report%20English.pdf",
+      "pages": [
+        4
+      ],
+      "pdf_sha256": "7d0c0c09c52c03728b6ac354654eed4e4cc402b0ede3e70e2e1fa09d699e7c50",
+      "anchors": [
+        "22 percent"
+      ],
+      "status": "matched_original_pdf"
+    },
+    {
+      "case_id": "cross-50",
+      "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-11/CONSUMER%20PRICE%20INDEX%20%28CPI%29%20-%20%20OCTOBER%202026.pdf",
+      "pages": [
+        4
+      ],
+      "pdf_sha256": "24a0eb8faca4cc5f8cf047831dddbc3074705cf1f587945c0b58f6b427d5f735",
+      "anchors": [
+        "31.3 percent"
+      ],
+      "status": "matched_original_pdf"
+    },
+    {
+      "case_id": "cross-51",
+      "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-10/SEPTEMBER%202026%20CPI%20Report%20English.pdf",
+      "pages": [
+        4
+      ],
+      "pdf_sha256": "7d0c0c09c52c03728b6ac354654eed4e4cc402b0ede3e70e2e1fa09d699e7c50",
+      "anchors": [
+        "20 percent"
+      ],
+      "status": "matched_original_pdf"
+    },
+    {
+      "case_id": "cross-51",
+      "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-11/CONSUMER%20PRICE%20INDEX%20%28CPI%29%20-%20%20OCTOBER%202026.pdf",
+      "pages": [
+        4
+      ],
+      "pdf_sha256": "24a0eb8faca4cc5f8cf047831dddbc3074705cf1f587945c0b58f6b427d5f735",
+      "anchors": [
+        "26.5 percent"
+      ],
+      "status": "matched_original_pdf"
+    },
+    {
+      "case_id": "revision-cross",
+      "source_url": "https://statistics.gov.rw/sites/default/files/documents/2025-03/GDP%20National%20Accounts%202024%20Annual.pdf",
+      "pages": [
+        1
+      ],
+      "pdf_sha256": "fe76a62230d2e0db629fddea4dae2841c5b231f35ade82a302b1f0567023bd5c",
+      "anchors": [
+        "18,785"
+      ],
+      "status": "matched_original_pdf"
+    },
+    {
+      "case_id": "revision-cross",
+      "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+      "pages": [
+        3
+      ],
+      "pdf_sha256": "b9d1be933f8db09af76d829ee6b3b4f509ff8324794337fdab17b0a977f55446",
+      "anchors": [
+        "19,918"
+      ],
+      "status": "matched_original_pdf"
+    }
+  ]
+}

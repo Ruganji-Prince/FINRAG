@@ -1,0 +1,18 @@
+# platform: win-64
+@EXPLICIT
+https://conda.anaconda.org/conda-forge/noarch/ca-certificates-2026.10.23-h4c7d964_0.conda
+https://conda.anaconda.org/conda-forge/win-64/icu-78.3-h5112557_2.conda
+https://conda.anaconda.org/conda-forge/win-64/krb5-1.22.2-h719d79b_2.conda
+https://conda.anaconda.org/conda-forge/win-64/libiconv-1.18-hc1393d2_3.conda
+https://conda.anaconda.org/conda-forge/win-64/liblzma-5.8.3-hfd05255_1.conda
+https://conda.anaconda.org/conda-forge/win-64/libpq-16.15-h43e12c5_0.conda
+https://conda.anaconda.org/conda-forge/win-64/libxml2-2.15.4-he095d88_1.conda
+https://conda.anaconda.org/conda-forge/win-64/libxml2-16-2.15.4-h3cfd58e_1.conda
+https://conda.anaconda.org/conda-forge/win-64/libzlib-1.3.2-hfd05255_3.conda
+https://conda.anaconda.org/conda-forge/win-64/openssl-3.6.5-hf411b9b_0.conda
+https://conda.anaconda.org/conda-forge/win-64/pgvector-0.8.6-h2466b09_0.conda
+https://conda.anaconda.org/conda-forge/win-64/postgresql-16.15-he837cf3_0.conda
+https://conda.anaconda.org/conda-forge/win-64/ucrt-10.0.26100.0-h57928b3_0.conda
+https://conda.anaconda.org/conda-forge/win-64/vc-14.5-hda273ae_44.conda
+https://conda.anaconda.org/conda-forge/win-64/vc14_runtime-14.51.36247-hb06f545_44.conda
+https://conda.anaconda.org/conda-forge/win-64/vcomp14-14.51.36247-h1c3f1cb_44.conda

@@ -1,0 +1,13 @@
+{
+  "compose_schema_validation": "passed",
+  "schema_url": "https://raw.githubusercontent.com/compose-spec/compose-spec/master/schema/compose-spec.json",
+  "docker_binary_available": false,
+  "runtime_test": "not_run",
+  "blocker": "Docker executable/engine unavailable; WSL is not installed. Native PostgreSQL integration is separately verified.",
+  "resource_limits": "db 1 GiB/1 CPU; migrate 2 GiB/2 CPU; API 10 GiB/4 CPU; frontend 1 GiB/1 CPU. Limits are configured, not load-tested.",
+  "health_checks": [
+    "db pg_isready",
+    "API /health with SQL check",
+    "frontend /_stcore/health"
+  ]
+}

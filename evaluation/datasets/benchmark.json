@@ -1,0 +1,506 @@
+[
+  {
+    "id": "nisr-01",
+    "question": "What does the report say about GDP at current market prices in 2025?",
+    "category": "factual",
+    "title": "GDP National Accounts 2025",
+    "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+    "pages": [
+      3
+    ],
+    "expected_substrings": [
+      "23,387"
+    ],
+    "verification": "Authored against official downloaded PDF; independent human review pending"
+  },
+  {
+    "id": "nisr-02",
+    "question": "What does the report say about GDP growth rate in 2025?",
+    "category": "factual",
+    "title": "GDP National Accounts 2025",
+    "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+    "pages": [
+      3
+    ],
+    "expected_substrings": [
+      "9.4%"
+    ],
+    "verification": "Authored against official downloaded PDF; independent human review pending"
+  },
+  {
+    "id": "nisr-03",
+    "question": "What does the report say about service sector contribution to GDP?",
+    "category": "factual",
+    "title": "GDP National Accounts 2025",
+    "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+    "pages": [
+      3
+    ],
+    "expected_substrings": [
+      "52%"
+    ],
+    "verification": "Authored against official downloaded PDF; independent human review pending"
+  },
+  {
+    "id": "nisr-04",
+    "question": "What does the report say about industry sector contribution to GDP?",
+    "category": "factual",
+    "title": "GDP National Accounts 2025",
+    "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+    "pages": [
+      3
+    ],
+    "expected_substrings": [
+      "22%"
+    ],
+    "verification": "Authored against official downloaded PDF; independent human review pending"
+  },
+  {
+    "id": "nisr-05",
+    "question": "What does the report say about agriculture sector contribution to GDP?",
+    "category": "factual",
+    "title": "GDP National Accounts 2025",
+    "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+    "pages": [
+      3
+    ],
+    "expected_substrings": [
+      "20%"
+    ],
+    "verification": "Authored against official downloaded PDF; independent human review pending"
+  },
+  {
+    "id": "nisr-06",
+    "question": "What does the report say about net direct taxes contribution?",
+    "category": "factual",
+    "title": "GDP National Accounts 2025",
+    "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+    "pages": [
+      3
+    ],
+    "expected_substrings": [
+      "5%"
+    ],
+    "verification": "Authored against official downloaded PDF; independent human review pending"
+  },
+  {
+    "id": "nisr-07",
+    "question": "What does the report say about first quarter GDP growth?",
+    "category": "factual",
+    "title": "GDP National Accounts 2025",
+    "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+    "pages": [
+      3
+    ],
+    "expected_substrings": [
+      "6.5%"
+    ],
+    "verification": "Authored against official downloaded PDF; independent human review pending"
+  },
+  {
+    "id": "nisr-08",
+    "question": "What does the report say about second quarter GDP growth?",
+    "category": "factual",
+    "title": "GDP National Accounts 2025",
+    "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+    "pages": [
+      3
+    ],
+    "expected_substrings": [
+      "7.8%"
+    ],
+    "verification": "Authored against official downloaded PDF; independent human review pending"
+  },
+  {
+    "id": "nisr-09",
+    "question": "What does the report say about third quarter GDP growth?",
+    "category": "factual",
+    "title": "GDP National Accounts 2025",
+    "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+    "pages": [
+      3
+    ],
+    "expected_substrings": [
+      "11.8%"
+    ],
+    "verification": "Authored against official downloaded PDF; independent human review pending"
+  },
+  {
+    "id": "nisr-10",
+    "question": "What does the report say about fourth quarter GDP growth?",
+    "category": "factual",
+    "title": "GDP National Accounts 2025",
+    "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+    "pages": [
+      3
+    ],
+    "expected_substrings": [
+      "11.2%"
+    ],
+    "verification": "Authored against official downloaded PDF; independent human review pending"
+  },
+  {
+    "id": "nisr-11",
+    "question": "What does the report say about agriculture growth?",
+    "category": "factual",
+    "title": "GDP National Accounts 2025",
+    "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+    "pages": [
+      3
+    ],
+    "expected_substrings": [
+      "7%"
+    ],
+    "verification": "Authored against official downloaded PDF; independent human review pending"
+  },
+  {
+    "id": "nisr-12",
+    "question": "What does the report say about industry growth?",
+    "category": "factual",
+    "title": "GDP National Accounts 2025",
+    "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+    "pages": [
+      3
+    ],
+    "expected_substrings": [
+      "11%"
+    ],
+    "verification": "Authored against official downloaded PDF; independent human review pending"
+  },
+  {
+    "id": "nisr-13",
+    "question": "What does the report say about services growth?",
+    "category": "factual",
+    "title": "GDP National Accounts 2025",
+    "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+    "pages": [
+      3
+    ],
+    "expected_substrings": [
+      "9%"
+    ],
+    "verification": "Authored against official downloaded PDF; independent human review pending"
+  },
+  {
+    "id": "nisr-14",
+    "question": "What does the report say about food crops production?",
+    "category": "factual",
+    "title": "GDP National Accounts 2025",
+    "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+    "pages": [
+      3
+    ],
+    "expected_substrings": [
+      "3%"
+    ],
+    "verification": "Authored against official downloaded PDF; independent human review pending"
+  },
+  {
+    "id": "nisr-15",
+    "question": "What does the report say about export crops production?",
+    "category": "factual",
+    "title": "GDP National Accounts 2025",
+    "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+    "pages": [
+      3
+    ],
+    "expected_substrings": [
+      "32%"
+    ],
+    "verification": "Authored against official downloaded PDF; independent human review pending"
+  },
+  {
+    "id": "nisr-16",
+    "question": "What does the report say about coffee and tea production?",
+    "category": "factual",
+    "title": "GDP National Accounts 2025",
+    "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+    "pages": [
+      3
+    ],
+    "expected_substrings": [
+      "60%"
+    ],
+    "verification": "Authored against official downloaded PDF; independent human review pending"
+  },
+  {
+    "id": "nisr-17",
+    "question": "What does the report say about mining and quarrying growth?",
+    "category": "factual",
+    "title": "GDP National Accounts 2025",
+    "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+    "pages": [
+      3
+    ],
+    "expected_substrings": [
+      "17%"
+    ],
+    "verification": "Authored against official downloaded PDF; independent human review pending"
+  },
+  {
+    "id": "nisr-18",
+    "question": "What does the report say about construction activities growth?",
+    "category": "factual",
+    "title": "GDP National Accounts 2025",
+    "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+    "pages": [
+      3
+    ],
+    "expected_substrings": [
+      "11%"
+    ],
+    "verification": "Authored against official downloaded PDF; independent human review pending"
+  },
+  {
+    "id": "nisr-19",
+    "question": "What does the report say about manufacturing growth?",
+    "category": "factual",
+    "title": "GDP National Accounts 2025",
+    "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+    "pages": [
+      3
+    ],
+    "expected_substrings": [
+      "10%"
+    ],
+    "verification": "Authored against official downloaded PDF; independent human review pending"
+  },
+  {
+    "id": "nisr-20",
+    "question": "What does the report say about manufacturing of textile products?",
+    "category": "factual",
+    "title": "GDP National Accounts 2025",
+    "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+    "pages": [
+      3
+    ],
+    "expected_substrings": [
+      "decreased by 1%"
+    ],
+    "verification": "Authored against official downloaded PDF; independent human review pending"
+  },
+  {
+    "id": "nisr-21",
+    "question": "What does the report say about chemicals and plastics production?",
+    "category": "factual",
+    "title": "GDP National Accounts 2025",
+    "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+    "pages": [
+      3
+    ],
+    "expected_substrings": [
+      "24%"
+    ],
+    "verification": "Authored against official downloaded PDF; independent human review pending"
+  },
+  {
+    "id": "nisr-22",
+    "question": "What does the report say about wholesale and retail trade?",
+    "category": "factual",
+    "title": "GDP National Accounts 2025",
+    "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+    "pages": [
+      4
+    ],
+    "expected_substrings": [
+      "15%"
+    ],
+    "verification": "Authored against official downloaded PDF; independent human review pending"
+  },
+  {
+    "id": "nisr-23",
+    "question": "What does the report say about transport activities?",
+    "category": "factual",
+    "title": "GDP National Accounts 2025",
+    "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+    "pages": [
+      4
+    ],
+    "expected_substrings": [
+      "7%"
+    ],
+    "verification": "Authored against official downloaded PDF; independent human review pending"
+  },
+  {
+    "id": "nisr-24",
+    "question": "What does the report say about hotel and restaurants?",
+    "category": "factual",
+    "title": "GDP National Accounts 2025",
+    "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+    "pages": [
+      4
+    ],
+    "expected_substrings": [
+      "decreased by 2%"
+    ],
+    "verification": "Authored against official downloaded PDF; independent human review pending"
+  },
+  {
+    "id": "nisr-25",
+    "question": "What does the report say about financial services growth?",
+    "category": "factual",
+    "title": "GDP National Accounts 2025",
+    "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+    "pages": [
+      4
+    ],
+    "expected_substrings": [
+      "7%"
+    ],
+    "verification": "Authored against official downloaded PDF; independent human review pending"
+  },
+  {
+    "id": "nisr-26",
+    "question": "What does the report say about education services compared to health services?",
+    "category": "comparison",
+    "title": "GDP National Accounts 2025",
+    "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+    "pages": [
+      4
+    ],
+    "expected_substrings": [
+      "13%"
+    ],
+    "verification": "Authored against official downloaded PDF; independent human review pending"
+  },
+  {
+    "id": "nisr-27",
+    "question": "What does the report say about private final consumption expenditure share?",
+    "category": "factual",
+    "title": "GDP National Accounts 2025",
+    "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+    "pages": [
+      4
+    ],
+    "expected_substrings": [
+      "64%"
+    ],
+    "verification": "Authored against official downloaded PDF; independent human review pending"
+  },
+  {
+    "id": "nisr-28",
+    "question": "What does the report say about gross capital formation GDP share?",
+    "category": "factual",
+    "title": "GDP National Accounts 2025",
+    "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+    "pages": [
+      4
+    ],
+    "expected_substrings": [
+      "34%"
+    ],
+    "verification": "Authored against official downloaded PDF; independent human review pending"
+  },
+  {
+    "id": "nisr-29",
+    "question": "What does the report say about exports compared to imports of goods and services?",
+    "category": "comparison",
+    "title": "GDP National Accounts 2025",
+    "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+    "pages": [
+      4
+    ],
+    "expected_substrings": [
+      "16%"
+    ],
+    "verification": "Authored against official downloaded PDF; independent human review pending"
+  },
+  {
+    "id": "nisr-30",
+    "question": "What does the report say about GDP deflator base and increase?",
+    "category": "factual",
+    "title": "GDP National Accounts 2025",
+    "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+    "pages": [
+      4
+    ],
+    "expected_substrings": [
+      "107"
+    ],
+    "verification": "Authored against official downloaded PDF; independent human review pending"
+  },
+  {
+    "id": "nisr-31",
+    "question": "What does the report say about GDP per head in current US Dollars?",
+    "category": "factual",
+    "title": "GDP National Accounts 2025",
+    "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+    "pages": [
+      5
+    ],
+    "expected_substrings": [
+      "1,156"
+    ],
+    "verification": "Authored against official downloaded PDF; independent human review pending"
+  },
+  {
+    "id": "nisr-32",
+    "question": "What does the report say about 2024 GDP estimate in the 2025 report?",
+    "category": "revision_sensitive",
+    "title": "GDP National Accounts 2025",
+    "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+    "pages": [
+      3
+    ],
+    "expected_substrings": [
+      "19,918"
+    ],
+    "verification": "Authored against official downloaded PDF; independent human review pending"
+  },
+  {
+    "id": "unsupported-33",
+    "question": "What is the latest BNR policy rate?",
+    "category": "unsupported",
+    "pages": [],
+    "verification": "Not supported by the curated GDP corpus"
+  },
+  {
+    "id": "unsupported-34",
+    "question": "What is the capital adequacy ratio of a specific bank?",
+    "category": "unsupported",
+    "pages": [],
+    "verification": "Not supported by the curated GDP corpus"
+  },
+  {
+    "id": "unsupported-35",
+    "question": "What are mortgage default probabilities for private borrowers?",
+    "category": "unsupported",
+    "pages": [],
+    "verification": "Not supported by the curated GDP corpus"
+  },
+  {
+    "id": "unsupported-36",
+    "question": "What is the quantum spaceship propulsion yield?",
+    "category": "unsupported",
+    "pages": [],
+    "verification": "Not supported by the curated GDP corpus"
+  },
+  {
+    "id": "unsupported-37",
+    "question": "What are the projected Bitcoin prices in 2035?",
+    "category": "unsupported",
+    "pages": [],
+    "verification": "Not supported by the curated GDP corpus"
+  },
+  {
+    "id": "unsupported-38",
+    "question": "What was the monetary policy rate in 2012?",
+    "category": "unsupported",
+    "pages": [],
+    "verification": "Not supported by the curated GDP corpus"
+  },
+  {
+    "id": "unsupported-39",
+    "question": "What is the current inflation forecast?",
+    "category": "unsupported",
+    "pages": [],
+    "verification": "Not supported by the curated GDP corpus"
+  },
+  {
+    "id": "unsupported-40",
+    "question": "What was the inflation target in 2025?",
+    "category": "unsupported",
+    "pages": [],
+    "verification": "Not supported by the curated GDP corpus"
+  }
+]

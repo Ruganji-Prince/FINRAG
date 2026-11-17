@@ -1,0 +1,16 @@
+﻿# Hosting assessment, checked 17 November 2026
+
+The reliable demonstrated deployment is local Windows: native PostgreSQL/pgvector plus loopback FastAPI and Streamlit. No public service was created, no billing enabled, and no deployment URL is claimed. Docker Compose is prepared and schema-validated; container execution remains unverified because Docker and WSL are absent.
+
+| Option | Verified current published constraints | Fit and decision |
+|---|---|---|
+| Existing local machine | Real float32 Qwen CPU inference, PostgreSQL and browser demonstrated; no cloud API fee | Selected demonstration. Hardware, electricity and operator time are not free and have not been priced. |
+| Render Free web service | $0 compute tier, 512 MB; sleeps after 15 minutes; 750 instance-hours/workspace/month; ephemeral disk. Free PostgreSQL expires after 30 days and has no backups. | Insufficient memory for this local model. Could only host a separately tested lightweight/cloud-provider configuration. No account deployment performed. |
+| Hugging Face Docker Space, CPU Basic | Hardware table lists 2 vCPU, 16 GB RAM and 50 GB ephemeral disk. Current management documentation additionally requires a PRO/Team/Enterprise subscription for new Docker/Gradio Spaces on CPU Basic. | Potential memory fit, but not an unconditional free option. Subscription, account authorization, durable database and tested gateway remain external prerequisites. No subscription purchased. |
+| Neon Free database | $0, 100 CU-hours monthly/project, 1 GB storage/project, scale up to 2 CU/8 GB RAM; no credit card required according to pricing page | Database candidate only. Does not host the local LLM or Streamlit. Region, extension/role compatibility, TLS, cold starts, quota and backup/export behavior must be tested on an authorized account. No external database provisioned. |
+
+Sources: [Render pricing](https://render.com/pricing), [Render free limitations](https://render.com/docs/free), [Hugging Face hardware](https://huggingface.co/docs/hub/en/spaces-overview), [Hugging Face subscription requirement](https://huggingface.co/docs/huggingface_hub/main/guides/manage-spaces), [Neon pricing](https://neon.com/pricing). Pricing and eligibility can change; recheck before provisioning. The subscription requirement takes precedence over interpreting a hardware row marked FREE as permission to deploy free of charge.
+
+A public deployment must use HTTPS, a secured frontend/gateway, `PUBLIC_MODE=true`, a unique shared API token of at least 32 characters, reader-only serving credentials and a managed process/container resource limit. Keep API/database ports private. The shared token protects API calls; it is not enterprise user identity, tenant isolation or a replacement for a gateway. Keep the token server-side. Rate limiting is per-process and the CPU generation queue is deliberately bounded; no multi-user capacity guarantee is made. Do not expose the current local anonymous Streamlit server directly to the internet.
+
+Before spending money, obtain the user's explicit approval for the selected provider, region and monthly spending cap. No paid fallback is automatic. A remote URL should appear in the README only after authenticated deployment and end-to-end verification.

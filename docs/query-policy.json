@@ -1,0 +1,25 @@
+{
+  "policy": "Conservative financial-indicator and reporting-frequency evidence gates",
+  "purpose": "Prevent semantically adjacent GDP/CPI passages from standing in for unsupported banking indicators",
+  "indicator_aliases": {
+    "policy rate": [
+      "policy rate",
+      "central bank rate",
+      "CBR"
+    ],
+    "capital adequacy": [
+      "capital adequacy"
+    ],
+    "mortgage default": [
+      "mortgage default"
+    ],
+    "inflation target": [
+      "inflation target"
+    ]
+  },
+  "frequency": "Annual/year-on-year and monthly/month-on-month require corresponding explicit source frequency words.",
+  "scope": "Urban and rural labels are preserved. Real GDP growth is separated from GDP deflator and per-head measures.",
+  "limitations": "These rules are heuristics. They can reject valid paraphrases and do not prove arbitrary question answerability. Independent human review remains necessary.",
+  "measure_identity": "Contribution/share differs from sector growth; nominal GDP differs from per-head GDP; explicit quarters require the corresponding source period.",
+  "hybrid_evidence_gate": "A strong lexical coverage match may supply evidence when cosine similarity is below the threshold; vector-only retains the semantic threshold."
+}

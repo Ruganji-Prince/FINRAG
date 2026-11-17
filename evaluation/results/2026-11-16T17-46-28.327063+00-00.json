@@ -1,0 +1,724 @@
+{
+  "status": "completed",
+  "run_at": "2026-11-16T17:46:28.327063+00:00",
+  "database": "sqlite",
+  "embedding_model": "lexical-hash-v1-384",
+  "answer_provider": "none",
+  "dataset_sha256": "65143e942fe9e599c2baecd779a3307210bbe44ddc2d48d77b0a26df7a972170",
+  "corpus": [
+    {
+      "id": 1,
+      "title": "GDP National Accounts 2025",
+      "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+      "content_hash": "b9d1be933f8db09af76d829ee6b3b4f509ff8324794337fdab17b0a977f55446"
+    },
+    {
+      "id": 2,
+      "title": "GDP National Accounts Q2 2026",
+      "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-09/GDP%20Q2%202026.pdf",
+      "content_hash": "a36241bb6a167d4a67c88efefa05ac6aceb4f74622ecc2838f35b0c9be93d6ad"
+    }
+  ],
+  "n": 40,
+  "k": 5,
+  "methodology": "Automated page-level relevance labels, not exhaustive chunk-level relevance. Citation metric validates referential integrity, not factual entailment. Dataset authored against official PDF; independent human verification pending.",
+  "metrics": {
+    "page_recall_at_5": 1.0,
+    "mrr_at_5": 0.953125,
+    "citation_integrity": 1,
+    "unsupported_abstention_rate": 0.375,
+    "mean_latency_ms": 3.55575,
+    "p95_latency_ms": 16.73,
+    "answer_faithfulness": null,
+    "human_verified_accuracy": null
+  },
+  "outcomes": [
+    {
+      "id": "nisr-01",
+      "category": "factual",
+      "question": "What does the report say about GDP at current market prices in 2025?",
+      "recall_at_5": 1.0,
+      "reciprocal_rank": 1.0,
+      "abstained": false,
+      "expected_evidence_strings_found": true,
+      "latency_ms": 2.25,
+      "chunk_ids": [
+        3,
+        7,
+        1,
+        2,
+        5
+      ],
+      "usage": null,
+      "estimated_cost_usd": null
+    },
+    {
+      "id": "nisr-02",
+      "category": "factual",
+      "question": "What does the report say about GDP growth rate in 2025?",
+      "recall_at_5": 1.0,
+      "reciprocal_rank": 1.0,
+      "abstained": false,
+      "expected_evidence_strings_found": true,
+      "latency_ms": 1.47,
+      "chunk_ids": [
+        3,
+        1,
+        7,
+        2,
+        5
+      ],
+      "usage": null,
+      "estimated_cost_usd": null
+    },
+    {
+      "id": "nisr-03",
+      "category": "factual",
+      "question": "What does the report say about service sector contribution to GDP?",
+      "recall_at_5": 1.0,
+      "reciprocal_rank": 1.0,
+      "abstained": false,
+      "expected_evidence_strings_found": true,
+      "latency_ms": 1.36,
+      "chunk_ids": [
+        3,
+        5,
+        7,
+        1,
+        2
+      ],
+      "usage": null,
+      "estimated_cost_usd": null
+    },
+    {
+      "id": "nisr-04",
+      "category": "factual",
+      "question": "What does the report say about industry sector contribution to GDP?",
+      "recall_at_5": 1.0,
+      "reciprocal_rank": 1.0,
+      "abstained": false,
+      "expected_evidence_strings_found": true,
+      "latency_ms": 1.36,
+      "chunk_ids": [
+        3,
+        4,
+        7,
+        1,
+        5
+      ],
+      "usage": null,
+      "estimated_cost_usd": null
+    },
+    {
+      "id": "nisr-05",
+      "category": "factual",
+      "question": "What does the report say about agriculture sector contribution to GDP?",
+      "recall_at_5": 1.0,
+      "reciprocal_rank": 1.0,
+      "abstained": false,
+      "expected_evidence_strings_found": true,
+      "latency_ms": 1.33,
+      "chunk_ids": [
+        3,
+        4,
+        7,
+        1,
+        5
+      ],
+      "usage": null,
+      "estimated_cost_usd": null
+    },
+    {
+      "id": "nisr-06",
+      "category": "factual",
+      "question": "What does the report say about net direct taxes contribution?",
+      "recall_at_5": 1.0,
+      "reciprocal_rank": 1.0,
+      "abstained": false,
+      "expected_evidence_strings_found": true,
+      "latency_ms": 1.25,
+      "chunk_ids": [
+        3
+      ],
+      "usage": null,
+      "estimated_cost_usd": null
+    },
+    {
+      "id": "nisr-07",
+      "category": "factual",
+      "question": "What does the report say about first quarter GDP growth?",
+      "recall_at_5": 1.0,
+      "reciprocal_rank": 1.0,
+      "abstained": false,
+      "expected_evidence_strings_found": true,
+      "latency_ms": 1.31,
+      "chunk_ids": [
+        3,
+        5,
+        2,
+        7,
+        1
+      ],
+      "usage": null,
+      "estimated_cost_usd": null
+    },
+    {
+      "id": "nisr-08",
+      "category": "factual",
+      "question": "What does the report say about second quarter GDP growth?",
+      "recall_at_5": 1.0,
+      "reciprocal_rank": 1.0,
+      "abstained": false,
+      "expected_evidence_strings_found": true,
+      "latency_ms": 1.99,
+      "chunk_ids": [
+        3,
+        5,
+        2,
+        7,
+        1
+      ],
+      "usage": null,
+      "estimated_cost_usd": null
+    },
+    {
+      "id": "nisr-09",
+      "category": "factual",
+      "question": "What does the report say about third quarter GDP growth?",
+      "recall_at_5": 1.0,
+      "reciprocal_rank": 1.0,
+      "abstained": false,
+      "expected_evidence_strings_found": true,
+      "latency_ms": 1.51,
+      "chunk_ids": [
+        3,
+        1,
+        5,
+        2,
+        7
+      ],
+      "usage": null,
+      "estimated_cost_usd": null
+    },
+    {
+      "id": "nisr-10",
+      "category": "factual",
+      "question": "What does the report say about fourth quarter GDP growth?",
+      "recall_at_5": 1.0,
+      "reciprocal_rank": 1.0,
+      "abstained": false,
+      "expected_evidence_strings_found": true,
+      "latency_ms": 1.73,
+      "chunk_ids": [
+        3,
+        5,
+        2,
+        7,
+        1
+      ],
+      "usage": null,
+      "estimated_cost_usd": null
+    },
+    {
+      "id": "nisr-11",
+      "category": "factual",
+      "question": "What does the report say about agriculture growth?",
+      "recall_at_5": 1.0,
+      "reciprocal_rank": 1.0,
+      "abstained": false,
+      "expected_evidence_strings_found": true,
+      "latency_ms": 1.48,
+      "chunk_ids": [
+        3,
+        4,
+        5
+      ],
+      "usage": null,
+      "estimated_cost_usd": null
+    },
+    {
+      "id": "nisr-12",
+      "category": "factual",
+      "question": "What does the report say about industry growth?",
+      "recall_at_5": 1.0,
+      "reciprocal_rank": 1.0,
+      "abstained": false,
+      "expected_evidence_strings_found": true,
+      "latency_ms": 2.4,
+      "chunk_ids": [
+        3,
+        4,
+        5
+      ],
+      "usage": null,
+      "estimated_cost_usd": null
+    },
+    {
+      "id": "nisr-13",
+      "category": "factual",
+      "question": "What does the report say about services growth?",
+      "recall_at_5": 1.0,
+      "reciprocal_rank": 0.5,
+      "abstained": false,
+      "expected_evidence_strings_found": true,
+      "latency_ms": 1.62,
+      "chunk_ids": [
+        5,
+        4,
+        3,
+        6
+      ],
+      "usage": null,
+      "estimated_cost_usd": null
+    },
+    {
+      "id": "nisr-14",
+      "category": "factual",
+      "question": "What does the report say about food crops production?",
+      "recall_at_5": 1.0,
+      "reciprocal_rank": 1.0,
+      "abstained": false,
+      "expected_evidence_strings_found": true,
+      "latency_ms": 1.7,
+      "chunk_ids": [
+        4,
+        3
+      ],
+      "usage": null,
+      "estimated_cost_usd": null
+    },
+    {
+      "id": "nisr-15",
+      "category": "factual",
+      "question": "What does the report say about export crops production?",
+      "recall_at_5": 1.0,
+      "reciprocal_rank": 1.0,
+      "abstained": false,
+      "expected_evidence_strings_found": true,
+      "latency_ms": 1.6,
+      "chunk_ids": [
+        4,
+        3
+      ],
+      "usage": null,
+      "estimated_cost_usd": null
+    },
+    {
+      "id": "nisr-16",
+      "category": "factual",
+      "question": "What does the report say about coffee and tea production?",
+      "recall_at_5": 1.0,
+      "reciprocal_rank": 1.0,
+      "abstained": false,
+      "expected_evidence_strings_found": true,
+      "latency_ms": 1.64,
+      "chunk_ids": [
+        4,
+        3
+      ],
+      "usage": null,
+      "estimated_cost_usd": null
+    },
+    {
+      "id": "nisr-17",
+      "category": "factual",
+      "question": "What does the report say about mining and quarrying growth?",
+      "recall_at_5": 1.0,
+      "reciprocal_rank": 1.0,
+      "abstained": false,
+      "expected_evidence_strings_found": true,
+      "latency_ms": 2.14,
+      "chunk_ids": [
+        3,
+        4,
+        5
+      ],
+      "usage": null,
+      "estimated_cost_usd": null
+    },
+    {
+      "id": "nisr-18",
+      "category": "factual",
+      "question": "What does the report say about construction activities growth?",
+      "recall_at_5": 1.0,
+      "reciprocal_rank": 1.0,
+      "abstained": false,
+      "expected_evidence_strings_found": true,
+      "latency_ms": 3.89,
+      "chunk_ids": [
+        4,
+        3,
+        5
+      ],
+      "usage": null,
+      "estimated_cost_usd": null
+    },
+    {
+      "id": "nisr-19",
+      "category": "factual",
+      "question": "What does the report say about manufacturing growth?",
+      "recall_at_5": 1.0,
+      "reciprocal_rank": 1.0,
+      "abstained": false,
+      "expected_evidence_strings_found": true,
+      "latency_ms": 2.76,
+      "chunk_ids": [
+        4,
+        3,
+        5
+      ],
+      "usage": null,
+      "estimated_cost_usd": null
+    },
+    {
+      "id": "nisr-20",
+      "category": "factual",
+      "question": "What does the report say about manufacturing of textile products?",
+      "recall_at_5": 1.0,
+      "reciprocal_rank": 1.0,
+      "abstained": false,
+      "expected_evidence_strings_found": true,
+      "latency_ms": 1.53,
+      "chunk_ids": [
+        4
+      ],
+      "usage": null,
+      "estimated_cost_usd": null
+    },
+    {
+      "id": "nisr-21",
+      "category": "factual",
+      "question": "What does the report say about chemicals and plastics production?",
+      "recall_at_5": 1.0,
+      "reciprocal_rank": 1.0,
+      "abstained": false,
+      "expected_evidence_strings_found": true,
+      "latency_ms": 1.45,
+      "chunk_ids": [
+        4,
+        3
+      ],
+      "usage": null,
+      "estimated_cost_usd": null
+    },
+    {
+      "id": "nisr-22",
+      "category": "factual",
+      "question": "What does the report say about wholesale and retail trade?",
+      "recall_at_5": 1.0,
+      "reciprocal_rank": 1.0,
+      "abstained": false,
+      "expected_evidence_strings_found": true,
+      "latency_ms": 1.59,
+      "chunk_ids": [
+        5
+      ],
+      "usage": null,
+      "estimated_cost_usd": null
+    },
+    {
+      "id": "nisr-23",
+      "category": "factual",
+      "question": "What does the report say about transport activities?",
+      "recall_at_5": 1.0,
+      "reciprocal_rank": 0.5,
+      "abstained": false,
+      "expected_evidence_strings_found": true,
+      "latency_ms": 1.75,
+      "chunk_ids": [
+        4,
+        5
+      ],
+      "usage": null,
+      "estimated_cost_usd": null
+    },
+    {
+      "id": "nisr-24",
+      "category": "factual",
+      "question": "What does the report say about hotel and restaurants?",
+      "recall_at_5": 1.0,
+      "reciprocal_rank": 1.0,
+      "abstained": false,
+      "expected_evidence_strings_found": true,
+      "latency_ms": 1.55,
+      "chunk_ids": [
+        5
+      ],
+      "usage": null,
+      "estimated_cost_usd": null
+    },
+    {
+      "id": "nisr-25",
+      "category": "factual",
+      "question": "What does the report say about financial services growth?",
+      "recall_at_5": 1.0,
+      "reciprocal_rank": 1.0,
+      "abstained": false,
+      "expected_evidence_strings_found": true,
+      "latency_ms": 1.66,
+      "chunk_ids": [
+        5,
+        3,
+        4,
+        6
+      ],
+      "usage": null,
+      "estimated_cost_usd": null
+    },
+    {
+      "id": "nisr-26",
+      "category": "comparison",
+      "question": "What does the report say about education services compared to health services?",
+      "recall_at_5": 1.0,
+      "reciprocal_rank": 1.0,
+      "abstained": false,
+      "expected_evidence_strings_found": true,
+      "latency_ms": 1.81,
+      "chunk_ids": [
+        5,
+        6,
+        4,
+        3
+      ],
+      "usage": null,
+      "estimated_cost_usd": null
+    },
+    {
+      "id": "nisr-27",
+      "category": "factual",
+      "question": "What does the report say about private final consumption expenditure share?",
+      "recall_at_5": 1.0,
+      "reciprocal_rank": 1.0,
+      "abstained": false,
+      "expected_evidence_strings_found": true,
+      "latency_ms": 1.53,
+      "chunk_ids": [
+        5
+      ],
+      "usage": null,
+      "estimated_cost_usd": null
+    },
+    {
+      "id": "nisr-28",
+      "category": "factual",
+      "question": "What does the report say about gross capital formation GDP share?",
+      "recall_at_5": 1.0,
+      "reciprocal_rank": 1.0,
+      "abstained": false,
+      "expected_evidence_strings_found": false,
+      "latency_ms": 1.6,
+      "chunk_ids": [
+        6,
+        5,
+        1,
+        3,
+        7
+      ],
+      "usage": null,
+      "estimated_cost_usd": null
+    },
+    {
+      "id": "nisr-29",
+      "category": "comparison",
+      "question": "What does the report say about exports compared to imports of goods and services?",
+      "recall_at_5": 1.0,
+      "reciprocal_rank": 1.0,
+      "abstained": false,
+      "expected_evidence_strings_found": true,
+      "latency_ms": 1.47,
+      "chunk_ids": [
+        5,
+        6
+      ],
+      "usage": null,
+      "estimated_cost_usd": null
+    },
+    {
+      "id": "nisr-30",
+      "category": "factual",
+      "question": "What does the report say about GDP deflator base and increase?",
+      "recall_at_5": 1.0,
+      "reciprocal_rank": 1.0,
+      "abstained": false,
+      "expected_evidence_strings_found": true,
+      "latency_ms": 1.33,
+      "chunk_ids": [
+        6,
+        5,
+        3,
+        2,
+        7
+      ],
+      "usage": null,
+      "estimated_cost_usd": null
+    },
+    {
+      "id": "nisr-31",
+      "category": "factual",
+      "question": "What does the report say about GDP per head in current US Dollars?",
+      "recall_at_5": 1.0,
+      "reciprocal_rank": 1.0,
+      "abstained": false,
+      "expected_evidence_strings_found": true,
+      "latency_ms": 1.31,
+      "chunk_ids": [
+        7,
+        3
+      ],
+      "usage": null,
+      "estimated_cost_usd": null
+    },
+    {
+      "id": "nisr-32",
+      "category": "revision_sensitive",
+      "question": "What does the report say about 2024 GDP estimate in the 2025 report?",
+      "recall_at_5": 1.0,
+      "reciprocal_rank": 0.5,
+      "abstained": false,
+      "expected_evidence_strings_found": true,
+      "latency_ms": 1.81,
+      "chunk_ids": [
+        7,
+        3,
+        6,
+        5,
+        1
+      ],
+      "usage": null,
+      "estimated_cost_usd": null
+    },
+    {
+      "id": "unsupported-33",
+      "category": "unsupported",
+      "question": "What is the latest BNR policy rate?",
+      "recall_at_5": null,
+      "reciprocal_rank": null,
+      "abstained": true,
+      "expected_evidence_strings_found": null,
+      "latency_ms": 0.01,
+      "chunk_ids": [],
+      "usage": null,
+      "estimated_cost_usd": null
+    },
+    {
+      "id": "unsupported-34",
+      "category": "unsupported",
+      "question": "What is the capital adequacy ratio of a specific bank?",
+      "recall_at_5": null,
+      "reciprocal_rank": null,
+      "abstained": false,
+      "expected_evidence_strings_found": null,
+      "latency_ms": 10.58,
+      "chunk_ids": [
+        6,
+        5,
+        63,
+        13,
+        68
+      ],
+      "usage": null,
+      "estimated_cost_usd": null
+    },
+    {
+      "id": "unsupported-35",
+      "category": "unsupported",
+      "question": "What are mortgage default probabilities for private borrowers?",
+      "recall_at_5": null,
+      "reciprocal_rank": null,
+      "abstained": false,
+      "expected_evidence_strings_found": null,
+      "latency_ms": 16.73,
+      "chunk_ids": [
+        12,
+        13,
+        5,
+        15
+      ],
+      "usage": null,
+      "estimated_cost_usd": null
+    },
+    {
+      "id": "unsupported-36",
+      "category": "unsupported",
+      "question": "What is the quantum spaceship propulsion yield?",
+      "recall_at_5": null,
+      "reciprocal_rank": null,
+      "abstained": true,
+      "expected_evidence_strings_found": null,
+      "latency_ms": 23.44,
+      "chunk_ids": [],
+      "usage": null,
+      "estimated_cost_usd": null
+    },
+    {
+      "id": "unsupported-37",
+      "category": "unsupported",
+      "question": "What are the projected Bitcoin prices in 2035?",
+      "recall_at_5": null,
+      "reciprocal_rank": null,
+      "abstained": false,
+      "expected_evidence_strings_found": null,
+      "latency_ms": 10.22,
+      "chunk_ids": [
+        71,
+        10,
+        3,
+        34,
+        27
+      ],
+      "usage": null,
+      "estimated_cost_usd": null
+    },
+    {
+      "id": "unsupported-38",
+      "category": "unsupported",
+      "question": "What was the monetary policy rate in 2012?",
+      "recall_at_5": null,
+      "reciprocal_rank": null,
+      "abstained": false,
+      "expected_evidence_strings_found": null,
+      "latency_ms": 12.3,
+      "chunk_ids": [
+        14,
+        19,
+        18,
+        15,
+        11
+      ],
+      "usage": null,
+      "estimated_cost_usd": null
+    },
+    {
+      "id": "unsupported-39",
+      "category": "unsupported",
+      "question": "What is the current inflation forecast?",
+      "recall_at_5": null,
+      "reciprocal_rank": null,
+      "abstained": true,
+      "expected_evidence_strings_found": null,
+      "latency_ms": 0.02,
+      "chunk_ids": [],
+      "usage": null,
+      "estimated_cost_usd": null
+    },
+    {
+      "id": "unsupported-40",
+      "category": "unsupported",
+      "question": "What was the inflation target in 2025?",
+      "recall_at_5": null,
+      "reciprocal_rank": null,
+      "abstained": false,
+      "expected_evidence_strings_found": null,
+      "latency_ms": 13.75,
+      "chunk_ids": [
+        1,
+        7,
+        3,
+        2,
+        6
+      ],
+      "usage": null,
+      "estimated_cost_usd": null
+    }
+  ]
+}

@@ -1,0 +1,5218 @@
+{
+  "run_at": "2026-11-16T21:18:25.710332+00:00",
+  "database": "postgresql",
+  "model": "sentence-transformers/all-MiniLM-L6-v2@1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+  "dataset_sha256": "2099a7fecfcbdd939e14f07f535b127775d7e168e2a226e46893143b807ac948",
+  "corpus": [
+    {
+      "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-11/CONSUMER%20PRICE%20INDEX%20%28CPI%29%20-%20%20OCTOBER%202026.pdf",
+      "sha256": "24a0eb8faca4cc5f8cf047831dddbc3074705cf1f587945c0b58f6b427d5f735"
+    },
+    {
+      "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-10/SEPTEMBER%202026%20CPI%20Report%20English.pdf",
+      "sha256": "7d0c0c09c52c03728b6ac354654eed4e4cc402b0ede3e70e2e1fa09d699e7c50"
+    },
+    {
+      "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-09/CONSUMER%20PRICE%20INDEX%20%20%28CPI%29%20AUGUST%202026.pdf",
+      "sha256": "4ba5193b1ef224143a2caa8370ca5ca197b1bfbb4cb04526e6d6a726fe4d6117"
+    },
+    {
+      "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-09/GDP%20Q2%202026.pdf",
+      "sha256": "a36241bb6a167d4a67c88efefa05ac6aceb4f74622ecc2838f35b0c9be93d6ad"
+    },
+    {
+      "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-08/CONSUMER%20PRICE%20INDEX%20JULY%20%28CPI%29%202026%20Report%20.pdf",
+      "sha256": "04b54916d9aef7d49850fd5a5c40d7a1c73b75df29e3152fa0104e32cfad0a83"
+    },
+    {
+      "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-07/JUNE%202026%20CPI%20Report%20English.pdf",
+      "sha256": "e0a0a4fb3a96ec0957de7b82cd065fb40c8679f73f51adc92e6e409a625b4456"
+    },
+    {
+      "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-06/GDP%20Q1%202026%20with%20tables.pdf",
+      "sha256": "43c5a0bd59b0ac4c731597105997e79b81fd9094ccadf7448261afcb9379a366"
+    },
+    {
+      "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-06/CONSUMER%20PRICE%20INDEX%20%28CPI%29%2C%20MAY%202026.pdf",
+      "sha256": "ca6ee9ceb8509e85dca28a9ac1851b89faa5267212e69377463f7b91de6fdbc2"
+    },
+    {
+      "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-05/CONSUMER%20PRICE%20INDEX%20%28CPI%29%20APRIL%202026.pdf",
+      "sha256": "b9cea2739a6a5aa55e8fa696199afa1f5a2b3956d3afeb431c185a56dc92a4ef"
+    },
+    {
+      "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-04/CPI%20Report%20English%20March%202026.pdf",
+      "sha256": "4aae1762a183c0f077b92d403fe6111d469f71b707121e8f675b161b731cb446"
+    },
+    {
+      "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/CPI_Report_English_Feb_2026.pdf",
+      "sha256": "dc96c9b300fc3859f3f90e5ac972c7826fcecfca4629f8e5982190e02303b3ab"
+    },
+    {
+      "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+      "sha256": "b9d1be933f8db09af76d829ee6b3b4f509ff8324794337fdab17b0a977f55446"
+    },
+    {
+      "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-02/CPI-Report-English.pdf",
+      "sha256": "a767578c025cc88e155b5aa32812da4b81cd5be0f03090048fdc1cf4b6555ff1"
+    },
+    {
+      "source_url": "https://statistics.gov.rw/sites/default/files/documents/2025-03/GDP%20National%20Accounts%202024%20Annual.pdf",
+      "sha256": "fe76a62230d2e0db629fddea4dae2841c5b231f35ade82a302b1f0567023bd5c"
+    },
+    {
+      "source_url": "https://statistics.gov.rw/sites/default/files/documents/2024-09/GDP%20National%20Accounts%202023%20annual%20fnl.pdf",
+      "sha256": "f2d3c5b7d928c0187e0596686448e5cc1d570daac5503ab81439d533ab7f386b"
+    }
+  ],
+  "method": "Ungated candidate page Recall@5 and MRR@5. Keyword: PostgreSQL English OR query + ts_rank_cd. Vector: cosine. Hybrid: reciprocal rank fusion, constant 60, top 60 candidates per channel. Same page labels and filters for every configuration. Latency includes first-use model loading, not an isolated service load test.",
+  "metrics": {
+    "keyword": {
+      "page_recall_at_5": 1.0,
+      "mrr_at_5": 0.9772727272727273,
+      "mean_latency_ms": 113.49096153846153,
+      "n_questions": 52,
+      "n_positive_questions": 44
+    },
+    "vector": {
+      "page_recall_at_5": 0.9772727272727273,
+      "mrr_at_5": 0.7803030303030303,
+      "mean_latency_ms": 664.8180769230769,
+      "n_questions": 52,
+      "n_positive_questions": 44
+    },
+    "hybrid": {
+      "page_recall_at_5": 1.0,
+      "mrr_at_5": 0.9375,
+      "mean_latency_ms": 439.2148076923077,
+      "n_questions": 52,
+      "n_positive_questions": 44
+    }
+  },
+  "outcomes": {
+    "keyword": [
+      {
+        "id": "nisr-01",
+        "category": "factual",
+        "page_recall_at_5": 1.0,
+        "reciprocal_rank": 1.0,
+        "latency_ms": 122.16,
+        "sources": [
+          {
+            "chunk_id": 3,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 3
+          },
+          {
+            "chunk_id": 5,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 7,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 5
+          },
+          {
+            "chunk_id": 6,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 1,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 1
+          }
+        ]
+      },
+      {
+        "id": "nisr-02",
+        "category": "factual",
+        "page_recall_at_5": 1.0,
+        "reciprocal_rank": 1.0,
+        "latency_ms": 119.45,
+        "sources": [
+          {
+            "chunk_id": 3,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 3
+          },
+          {
+            "chunk_id": 5,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 6,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 7,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 5
+          },
+          {
+            "chunk_id": 1,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 1
+          }
+        ]
+      },
+      {
+        "id": "nisr-03",
+        "category": "factual",
+        "page_recall_at_5": 1.0,
+        "reciprocal_rank": 1.0,
+        "latency_ms": 121.75,
+        "sources": [
+          {
+            "chunk_id": 3,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 3
+          },
+          {
+            "chunk_id": 5,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 6,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 4,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 3
+          },
+          {
+            "chunk_id": 7,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 5
+          }
+        ]
+      },
+      {
+        "id": "nisr-04",
+        "category": "factual",
+        "page_recall_at_5": 1.0,
+        "reciprocal_rank": 1.0,
+        "latency_ms": 109.64,
+        "sources": [
+          {
+            "chunk_id": 3,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 3
+          },
+          {
+            "chunk_id": 5,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 4,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 3
+          },
+          {
+            "chunk_id": 6,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 7,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 5
+          }
+        ]
+      },
+      {
+        "id": "nisr-05",
+        "category": "factual",
+        "page_recall_at_5": 1.0,
+        "reciprocal_rank": 1.0,
+        "latency_ms": 111.39,
+        "sources": [
+          {
+            "chunk_id": 3,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 3
+          },
+          {
+            "chunk_id": 5,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 4,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 3
+          },
+          {
+            "chunk_id": 6,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 7,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 5
+          }
+        ]
+      },
+      {
+        "id": "nisr-06",
+        "category": "factual",
+        "page_recall_at_5": 1.0,
+        "reciprocal_rank": 1.0,
+        "latency_ms": 106.45,
+        "sources": [
+          {
+            "chunk_id": 3,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 3
+          }
+        ]
+      },
+      {
+        "id": "nisr-07",
+        "category": "factual",
+        "page_recall_at_5": 1.0,
+        "reciprocal_rank": 1.0,
+        "latency_ms": 143.38,
+        "sources": [
+          {
+            "chunk_id": 3,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 3
+          },
+          {
+            "chunk_id": 5,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 4,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 3
+          },
+          {
+            "chunk_id": 6,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 7,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 5
+          }
+        ]
+      },
+      {
+        "id": "nisr-08",
+        "category": "factual",
+        "page_recall_at_5": 1.0,
+        "reciprocal_rank": 1.0,
+        "latency_ms": 127.21,
+        "sources": [
+          {
+            "chunk_id": 3,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 3
+          },
+          {
+            "chunk_id": 5,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 4,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 3
+          },
+          {
+            "chunk_id": 6,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 7,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 5
+          }
+        ]
+      },
+      {
+        "id": "nisr-09",
+        "category": "factual",
+        "page_recall_at_5": 1.0,
+        "reciprocal_rank": 1.0,
+        "latency_ms": 111.67,
+        "sources": [
+          {
+            "chunk_id": 3,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 3
+          },
+          {
+            "chunk_id": 5,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 4,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 3
+          },
+          {
+            "chunk_id": 6,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 7,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 5
+          }
+        ]
+      },
+      {
+        "id": "nisr-10",
+        "category": "factual",
+        "page_recall_at_5": 1.0,
+        "reciprocal_rank": 1.0,
+        "latency_ms": 113.43,
+        "sources": [
+          {
+            "chunk_id": 3,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 3
+          },
+          {
+            "chunk_id": 5,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 4,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 3
+          },
+          {
+            "chunk_id": 6,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 7,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 5
+          }
+        ]
+      },
+      {
+        "id": "nisr-11",
+        "category": "factual",
+        "page_recall_at_5": 1.0,
+        "reciprocal_rank": 1.0,
+        "latency_ms": 113.44,
+        "sources": [
+          {
+            "chunk_id": 3,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 3
+          },
+          {
+            "chunk_id": 4,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 3
+          },
+          {
+            "chunk_id": 5,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 4
+          }
+        ]
+      },
+      {
+        "id": "nisr-12",
+        "category": "factual",
+        "page_recall_at_5": 1.0,
+        "reciprocal_rank": 1.0,
+        "latency_ms": 125.33,
+        "sources": [
+          {
+            "chunk_id": 3,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 3
+          },
+          {
+            "chunk_id": 4,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 3
+          },
+          {
+            "chunk_id": 5,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 4
+          }
+        ]
+      },
+      {
+        "id": "nisr-13",
+        "category": "factual",
+        "page_recall_at_5": 1.0,
+        "reciprocal_rank": 0.5,
+        "latency_ms": 117.21,
+        "sources": [
+          {
+            "chunk_id": 5,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 3,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 3
+          },
+          {
+            "chunk_id": 4,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 3
+          },
+          {
+            "chunk_id": 6,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 4
+          }
+        ]
+      },
+      {
+        "id": "nisr-14",
+        "category": "factual",
+        "page_recall_at_5": 1.0,
+        "reciprocal_rank": 1.0,
+        "latency_ms": 110.61,
+        "sources": [
+          {
+            "chunk_id": 4,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 3
+          },
+          {
+            "chunk_id": 3,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 3
+          },
+          {
+            "chunk_id": 1,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 1
+          },
+          {
+            "chunk_id": 5,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 7,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 5
+          }
+        ]
+      },
+      {
+        "id": "nisr-15",
+        "category": "factual",
+        "page_recall_at_5": 1.0,
+        "reciprocal_rank": 1.0,
+        "latency_ms": 100.43,
+        "sources": [
+          {
+            "chunk_id": 4,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 3
+          },
+          {
+            "chunk_id": 3,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 3
+          },
+          {
+            "chunk_id": 5,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 1,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 1
+          },
+          {
+            "chunk_id": 7,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 5
+          }
+        ]
+      },
+      {
+        "id": "nisr-16",
+        "category": "factual",
+        "page_recall_at_5": 1.0,
+        "reciprocal_rank": 1.0,
+        "latency_ms": 124.7,
+        "sources": [
+          {
+            "chunk_id": 4,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 3
+          },
+          {
+            "chunk_id": 3,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 3
+          },
+          {
+            "chunk_id": 1,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 1
+          },
+          {
+            "chunk_id": 5,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 7,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 5
+          }
+        ]
+      },
+      {
+        "id": "nisr-17",
+        "category": "factual",
+        "page_recall_at_5": 1.0,
+        "reciprocal_rank": 1.0,
+        "latency_ms": 114.59,
+        "sources": [
+          {
+            "chunk_id": 4,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 3
+          },
+          {
+            "chunk_id": 3,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 3
+          },
+          {
+            "chunk_id": 5,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 4
+          }
+        ]
+      },
+      {
+        "id": "nisr-18",
+        "category": "factual",
+        "page_recall_at_5": 1.0,
+        "reciprocal_rank": 1.0,
+        "latency_ms": 98.81,
+        "sources": [
+          {
+            "chunk_id": 4,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 3
+          },
+          {
+            "chunk_id": 3,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 3
+          },
+          {
+            "chunk_id": 5,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 4
+          }
+        ]
+      },
+      {
+        "id": "nisr-19",
+        "category": "factual",
+        "page_recall_at_5": 1.0,
+        "reciprocal_rank": 1.0,
+        "latency_ms": 110.44,
+        "sources": [
+          {
+            "chunk_id": 4,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 3
+          },
+          {
+            "chunk_id": 3,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 3
+          },
+          {
+            "chunk_id": 5,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 4
+          }
+        ]
+      },
+      {
+        "id": "nisr-20",
+        "category": "factual",
+        "page_recall_at_5": 1.0,
+        "reciprocal_rank": 1.0,
+        "latency_ms": 127.31,
+        "sources": [
+          {
+            "chunk_id": 4,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 3
+          },
+          {
+            "chunk_id": 3,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 3
+          },
+          {
+            "chunk_id": 1,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 1
+          },
+          {
+            "chunk_id": 5,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 7,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 5
+          }
+        ]
+      },
+      {
+        "id": "nisr-21",
+        "category": "factual",
+        "page_recall_at_5": 1.0,
+        "reciprocal_rank": 1.0,
+        "latency_ms": 116.96,
+        "sources": [
+          {
+            "chunk_id": 4,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 3
+          },
+          {
+            "chunk_id": 3,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 3
+          },
+          {
+            "chunk_id": 1,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 1
+          },
+          {
+            "chunk_id": 5,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 7,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 5
+          }
+        ]
+      },
+      {
+        "id": "nisr-22",
+        "category": "factual",
+        "page_recall_at_5": 1.0,
+        "reciprocal_rank": 1.0,
+        "latency_ms": 109.36,
+        "sources": [
+          {
+            "chunk_id": 5,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 4
+          }
+        ]
+      },
+      {
+        "id": "nisr-23",
+        "category": "factual",
+        "page_recall_at_5": 1.0,
+        "reciprocal_rank": 0.5,
+        "latency_ms": 113.9,
+        "sources": [
+          {
+            "chunk_id": 4,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 3
+          },
+          {
+            "chunk_id": 5,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 3,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 3
+          }
+        ]
+      },
+      {
+        "id": "nisr-24",
+        "category": "factual",
+        "page_recall_at_5": 1.0,
+        "reciprocal_rank": 1.0,
+        "latency_ms": 100.24,
+        "sources": [
+          {
+            "chunk_id": 5,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 4
+          }
+        ]
+      },
+      {
+        "id": "nisr-25",
+        "category": "factual",
+        "page_recall_at_5": 1.0,
+        "reciprocal_rank": 1.0,
+        "latency_ms": 130.98,
+        "sources": [
+          {
+            "chunk_id": 5,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 3,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 3
+          },
+          {
+            "chunk_id": 4,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 3
+          },
+          {
+            "chunk_id": 6,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 4
+          }
+        ]
+      },
+      {
+        "id": "nisr-26",
+        "category": "comparison",
+        "page_recall_at_5": 1.0,
+        "reciprocal_rank": 1.0,
+        "latency_ms": 114.54,
+        "sources": [
+          {
+            "chunk_id": 5,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 3,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 3
+          },
+          {
+            "chunk_id": 4,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 3
+          },
+          {
+            "chunk_id": 6,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 4
+          }
+        ]
+      },
+      {
+        "id": "nisr-27",
+        "category": "factual",
+        "page_recall_at_5": 1.0,
+        "reciprocal_rank": 1.0,
+        "latency_ms": 95.99,
+        "sources": [
+          {
+            "chunk_id": 5,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 4
+          }
+        ]
+      },
+      {
+        "id": "nisr-28",
+        "category": "factual",
+        "page_recall_at_5": 1.0,
+        "reciprocal_rank": 1.0,
+        "latency_ms": 111.02,
+        "sources": [
+          {
+            "chunk_id": 5,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 3,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 3
+          },
+          {
+            "chunk_id": 6,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 7,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 5
+          },
+          {
+            "chunk_id": 1,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 1
+          }
+        ]
+      },
+      {
+        "id": "nisr-29",
+        "category": "comparison",
+        "page_recall_at_5": 1.0,
+        "reciprocal_rank": 1.0,
+        "latency_ms": 100.37,
+        "sources": [
+          {
+            "chunk_id": 5,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 3,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 3
+          },
+          {
+            "chunk_id": 6,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 4,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 3
+          }
+        ]
+      },
+      {
+        "id": "nisr-30",
+        "category": "factual",
+        "page_recall_at_5": 1.0,
+        "reciprocal_rank": 1.0,
+        "latency_ms": 118.85,
+        "sources": [
+          {
+            "chunk_id": 5,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 3,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 3
+          },
+          {
+            "chunk_id": 4,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 3
+          },
+          {
+            "chunk_id": 6,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 7,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 5
+          }
+        ]
+      },
+      {
+        "id": "nisr-31",
+        "category": "factual",
+        "page_recall_at_5": 1.0,
+        "reciprocal_rank": 1.0,
+        "latency_ms": 107.21,
+        "sources": [
+          {
+            "chunk_id": 7,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 5
+          },
+          {
+            "chunk_id": 3,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 3
+          },
+          {
+            "chunk_id": 5,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 6,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 1,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 1
+          }
+        ]
+      },
+      {
+        "id": "nisr-32",
+        "category": "revision_sensitive",
+        "page_recall_at_5": 1.0,
+        "reciprocal_rank": 1.0,
+        "latency_ms": 102.1,
+        "sources": [
+          {
+            "chunk_id": 3,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 3
+          },
+          {
+            "chunk_id": 5,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 6,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 7,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 5
+          },
+          {
+            "chunk_id": 1,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 1
+          }
+        ]
+      },
+      {
+        "id": "unsupported-33",
+        "category": "unsupported",
+        "page_recall_at_5": null,
+        "reciprocal_rank": null,
+        "latency_ms": 118.66,
+        "sources": [
+          {
+            "chunk_id": 14,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-09/GDP%20Q2%202026.pdf",
+            "page": 5
+          },
+          {
+            "chunk_id": 18,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-09/GDP%20Q2%202026.pdf",
+            "page": 5
+          },
+          {
+            "chunk_id": 83,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-11/CONSUMER%20PRICE%20INDEX%20%28CPI%29%20-%20%20OCTOBER%202026.pdf",
+            "page": 5
+          },
+          {
+            "chunk_id": 104,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-10/SEPTEMBER%202026%20CPI%20Report%20English.pdf",
+            "page": 5
+          },
+          {
+            "chunk_id": 125,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-09/CONSUMER%20PRICE%20INDEX%20%20%28CPI%29%20AUGUST%202026.pdf",
+            "page": 5
+          }
+        ]
+      },
+      {
+        "id": "unsupported-34",
+        "category": "unsupported",
+        "page_recall_at_5": null,
+        "reciprocal_rank": null,
+        "latency_ms": 117.63,
+        "sources": [
+          {
+            "chunk_id": 291,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2025-03/GDP%20National%20Accounts%202024%20Annual.pdf",
+            "page": 2
+          },
+          {
+            "chunk_id": 376,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2024-09/GDP%20National%20Accounts%202023%20annual%20fnl.pdf",
+            "page": 2
+          },
+          {
+            "chunk_id": 5,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 13,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-09/GDP%20Q2%202026.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 62,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-09/GDP%20Q2%202026.pdf",
+            "page": 12
+          }
+        ]
+      },
+      {
+        "id": "unsupported-35",
+        "category": "unsupported",
+        "page_recall_at_5": null,
+        "reciprocal_rank": null,
+        "latency_ms": 119.97,
+        "sources": [
+          {
+            "chunk_id": 291,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2025-03/GDP%20National%20Accounts%202024%20Annual.pdf",
+            "page": 2
+          },
+          {
+            "chunk_id": 5,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 12,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-09/GDP%20Q2%202026.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 13,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-09/GDP%20Q2%202026.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 15,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-09/GDP%20Q2%202026.pdf",
+            "page": 5
+          }
+        ]
+      },
+      {
+        "id": "unsupported-36",
+        "category": "unsupported",
+        "page_recall_at_5": null,
+        "reciprocal_rank": null,
+        "latency_ms": 117.78,
+        "sources": []
+      },
+      {
+        "id": "unsupported-37",
+        "category": "unsupported",
+        "page_recall_at_5": null,
+        "reciprocal_rank": null,
+        "latency_ms": 130.66,
+        "sources": [
+          {
+            "chunk_id": 214,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-05/CONSUMER%20PRICE%20INDEX%20%28CPI%29%20APRIL%202026.pdf",
+            "page": 7
+          },
+          {
+            "chunk_id": 235,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-04/CPI%20Report%20English%20March%202026.pdf",
+            "page": 7
+          },
+          {
+            "chunk_id": 257,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/CPI_Report_English_Feb_2026.pdf",
+            "page": 7
+          },
+          {
+            "chunk_id": 277,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-02/CPI-Report-English.pdf",
+            "page": 5
+          },
+          {
+            "chunk_id": 10,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-09/GDP%20Q2%202026.pdf",
+            "page": 3
+          }
+        ]
+      },
+      {
+        "id": "unsupported-38",
+        "category": "unsupported",
+        "page_recall_at_5": null,
+        "reciprocal_rank": null,
+        "latency_ms": 133.35,
+        "sources": [
+          {
+            "chunk_id": 379,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2024-09/GDP%20National%20Accounts%202023%20annual%20fnl.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 14,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-09/GDP%20Q2%202026.pdf",
+            "page": 5
+          },
+          {
+            "chunk_id": 18,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-09/GDP%20Q2%202026.pdf",
+            "page": 5
+          },
+          {
+            "chunk_id": 79,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-11/CONSUMER%20PRICE%20INDEX%20%28CPI%29%20-%20%20OCTOBER%202026.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 83,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-11/CONSUMER%20PRICE%20INDEX%20%28CPI%29%20-%20%20OCTOBER%202026.pdf",
+            "page": 5
+          }
+        ]
+      },
+      {
+        "id": "unsupported-39",
+        "category": "unsupported",
+        "page_recall_at_5": null,
+        "reciprocal_rank": null,
+        "latency_ms": 111.36,
+        "sources": [
+          {
+            "chunk_id": 259,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/CPI_Report_English_Feb_2026.pdf",
+            "page": 8
+          },
+          {
+            "chunk_id": 279,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-02/CPI-Report-English.pdf",
+            "page": 6
+          },
+          {
+            "chunk_id": 88,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-11/CONSUMER%20PRICE%20INDEX%20%28CPI%29%20-%20%20OCTOBER%202026.pdf",
+            "page": 8
+          },
+          {
+            "chunk_id": 89,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-11/CONSUMER%20PRICE%20INDEX%20%28CPI%29%20-%20%20OCTOBER%202026.pdf",
+            "page": 8
+          },
+          {
+            "chunk_id": 109,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-10/SEPTEMBER%202026%20CPI%20Report%20English.pdf",
+            "page": 8
+          }
+        ]
+      },
+      {
+        "id": "unsupported-40",
+        "category": "unsupported",
+        "page_recall_at_5": null,
+        "reciprocal_rank": null,
+        "latency_ms": 110.57,
+        "sources": [
+          {
+            "chunk_id": 83,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-11/CONSUMER%20PRICE%20INDEX%20%28CPI%29%20-%20%20OCTOBER%202026.pdf",
+            "page": 5
+          },
+          {
+            "chunk_id": 104,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-10/SEPTEMBER%202026%20CPI%20Report%20English.pdf",
+            "page": 5
+          },
+          {
+            "chunk_id": 273,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-02/CPI-Report-English.pdf",
+            "page": 3
+          },
+          {
+            "chunk_id": 125,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-09/CONSUMER%20PRICE%20INDEX%20%20%28CPI%29%20AUGUST%202026.pdf",
+            "page": 5
+          },
+          {
+            "chunk_id": 146,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-08/CONSUMER%20PRICE%20INDEX%20JULY%20%28CPI%29%202026%20Report%20.pdf",
+            "page": 5
+          }
+        ]
+      },
+      {
+        "id": "cpi-41",
+        "category": "financial_factual",
+        "page_recall_at_5": 1.0,
+        "reciprocal_rank": 1.0,
+        "latency_ms": 122.4,
+        "sources": [
+          {
+            "chunk_id": 79,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-11/CONSUMER%20PRICE%20INDEX%20%28CPI%29%20-%20%20OCTOBER%202026.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 85,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-11/CONSUMER%20PRICE%20INDEX%20%28CPI%29%20-%20%20OCTOBER%202026.pdf",
+            "page": 7
+          },
+          {
+            "chunk_id": 82,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-11/CONSUMER%20PRICE%20INDEX%20%28CPI%29%20-%20%20OCTOBER%202026.pdf",
+            "page": 5
+          },
+          {
+            "chunk_id": 80,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-11/CONSUMER%20PRICE%20INDEX%20%28CPI%29%20-%20%20OCTOBER%202026.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 81,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-11/CONSUMER%20PRICE%20INDEX%20%28CPI%29%20-%20%20OCTOBER%202026.pdf",
+            "page": 5
+          }
+        ]
+      },
+      {
+        "id": "cpi-42",
+        "category": "financial_factual",
+        "page_recall_at_5": 1.0,
+        "reciprocal_rank": 1.0,
+        "latency_ms": 86.6,
+        "sources": [
+          {
+            "chunk_id": 79,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-11/CONSUMER%20PRICE%20INDEX%20%28CPI%29%20-%20%20OCTOBER%202026.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 82,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-11/CONSUMER%20PRICE%20INDEX%20%28CPI%29%20-%20%20OCTOBER%202026.pdf",
+            "page": 5
+          },
+          {
+            "chunk_id": 80,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-11/CONSUMER%20PRICE%20INDEX%20%28CPI%29%20-%20%20OCTOBER%202026.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 85,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-11/CONSUMER%20PRICE%20INDEX%20%28CPI%29%20-%20%20OCTOBER%202026.pdf",
+            "page": 7
+          },
+          {
+            "chunk_id": 83,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-11/CONSUMER%20PRICE%20INDEX%20%28CPI%29%20-%20%20OCTOBER%202026.pdf",
+            "page": 5
+          }
+        ]
+      },
+      {
+        "id": "cpi-43",
+        "category": "financial_factual",
+        "page_recall_at_5": 1.0,
+        "reciprocal_rank": 1.0,
+        "latency_ms": 94.22,
+        "sources": [
+          {
+            "chunk_id": 79,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-11/CONSUMER%20PRICE%20INDEX%20%28CPI%29%20-%20%20OCTOBER%202026.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 82,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-11/CONSUMER%20PRICE%20INDEX%20%28CPI%29%20-%20%20OCTOBER%202026.pdf",
+            "page": 5
+          },
+          {
+            "chunk_id": 85,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-11/CONSUMER%20PRICE%20INDEX%20%28CPI%29%20-%20%20OCTOBER%202026.pdf",
+            "page": 7
+          },
+          {
+            "chunk_id": 80,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-11/CONSUMER%20PRICE%20INDEX%20%28CPI%29%20-%20%20OCTOBER%202026.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 83,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-11/CONSUMER%20PRICE%20INDEX%20%28CPI%29%20-%20%20OCTOBER%202026.pdf",
+            "page": 5
+          }
+        ]
+      },
+      {
+        "id": "cpi-44",
+        "category": "financial_factual",
+        "page_recall_at_5": 1.0,
+        "reciprocal_rank": 1.0,
+        "latency_ms": 107.08,
+        "sources": [
+          {
+            "chunk_id": 79,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-11/CONSUMER%20PRICE%20INDEX%20%28CPI%29%20-%20%20OCTOBER%202026.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 80,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-11/CONSUMER%20PRICE%20INDEX%20%28CPI%29%20-%20%20OCTOBER%202026.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 81,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-11/CONSUMER%20PRICE%20INDEX%20%28CPI%29%20-%20%20OCTOBER%202026.pdf",
+            "page": 5
+          },
+          {
+            "chunk_id": 90,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-11/CONSUMER%20PRICE%20INDEX%20%28CPI%29%20-%20%20OCTOBER%202026.pdf",
+            "page": 9
+          },
+          {
+            "chunk_id": 84,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-11/CONSUMER%20PRICE%20INDEX%20%28CPI%29%20-%20%20OCTOBER%202026.pdf",
+            "page": 6
+          }
+        ]
+      },
+      {
+        "id": "cpi-45",
+        "category": "financial_factual",
+        "page_recall_at_5": 1.0,
+        "reciprocal_rank": 1.0,
+        "latency_ms": 113.35,
+        "sources": [
+          {
+            "chunk_id": 100,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-10/SEPTEMBER%202026%20CPI%20Report%20English.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 106,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-10/SEPTEMBER%202026%20CPI%20Report%20English.pdf",
+            "page": 7
+          },
+          {
+            "chunk_id": 103,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-10/SEPTEMBER%202026%20CPI%20Report%20English.pdf",
+            "page": 5
+          },
+          {
+            "chunk_id": 101,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-10/SEPTEMBER%202026%20CPI%20Report%20English.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 102,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-10/SEPTEMBER%202026%20CPI%20Report%20English.pdf",
+            "page": 5
+          }
+        ]
+      },
+      {
+        "id": "cpi-46",
+        "category": "financial_factual",
+        "page_recall_at_5": 1.0,
+        "reciprocal_rank": 1.0,
+        "latency_ms": 97.89,
+        "sources": [
+          {
+            "chunk_id": 100,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-10/SEPTEMBER%202026%20CPI%20Report%20English.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 103,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-10/SEPTEMBER%202026%20CPI%20Report%20English.pdf",
+            "page": 5
+          },
+          {
+            "chunk_id": 106,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-10/SEPTEMBER%202026%20CPI%20Report%20English.pdf",
+            "page": 7
+          },
+          {
+            "chunk_id": 101,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-10/SEPTEMBER%202026%20CPI%20Report%20English.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 104,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-10/SEPTEMBER%202026%20CPI%20Report%20English.pdf",
+            "page": 5
+          }
+        ]
+      },
+      {
+        "id": "cpi-47",
+        "category": "financial_factual",
+        "page_recall_at_5": 1.0,
+        "reciprocal_rank": 1.0,
+        "latency_ms": 104.17,
+        "sources": [
+          {
+            "chunk_id": 121,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-09/CONSUMER%20PRICE%20INDEX%20%20%28CPI%29%20AUGUST%202026.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 124,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-09/CONSUMER%20PRICE%20INDEX%20%20%28CPI%29%20AUGUST%202026.pdf",
+            "page": 5
+          },
+          {
+            "chunk_id": 127,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-09/CONSUMER%20PRICE%20INDEX%20%20%28CPI%29%20AUGUST%202026.pdf",
+            "page": 7
+          },
+          {
+            "chunk_id": 122,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-09/CONSUMER%20PRICE%20INDEX%20%20%28CPI%29%20AUGUST%202026.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 123,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-09/CONSUMER%20PRICE%20INDEX%20%20%28CPI%29%20AUGUST%202026.pdf",
+            "page": 5
+          }
+        ]
+      },
+      {
+        "id": "cpi-48",
+        "category": "financial_factual",
+        "page_recall_at_5": 1.0,
+        "reciprocal_rank": 1.0,
+        "latency_ms": 102.89,
+        "sources": [
+          {
+            "chunk_id": 121,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-09/CONSUMER%20PRICE%20INDEX%20%20%28CPI%29%20AUGUST%202026.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 122,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-09/CONSUMER%20PRICE%20INDEX%20%20%28CPI%29%20AUGUST%202026.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 123,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-09/CONSUMER%20PRICE%20INDEX%20%20%28CPI%29%20AUGUST%202026.pdf",
+            "page": 5
+          },
+          {
+            "chunk_id": 132,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-09/CONSUMER%20PRICE%20INDEX%20%20%28CPI%29%20AUGUST%202026.pdf",
+            "page": 9
+          },
+          {
+            "chunk_id": 126,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-09/CONSUMER%20PRICE%20INDEX%20%20%28CPI%29%20AUGUST%202026.pdf",
+            "page": 6
+          }
+        ]
+      },
+      {
+        "id": "cross-49",
+        "category": "cross_report_comparison",
+        "page_recall_at_5": 1.0,
+        "reciprocal_rank": 1.0,
+        "latency_ms": 116.0,
+        "sources": [
+          {
+            "chunk_id": 79,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-11/CONSUMER%20PRICE%20INDEX%20%28CPI%29%20-%20%20OCTOBER%202026.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 100,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-10/SEPTEMBER%202026%20CPI%20Report%20English.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 82,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-11/CONSUMER%20PRICE%20INDEX%20%28CPI%29%20-%20%20OCTOBER%202026.pdf",
+            "page": 5
+          },
+          {
+            "chunk_id": 103,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-10/SEPTEMBER%202026%20CPI%20Report%20English.pdf",
+            "page": 5
+          },
+          {
+            "chunk_id": 106,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-10/SEPTEMBER%202026%20CPI%20Report%20English.pdf",
+            "page": 7
+          }
+        ]
+      },
+      {
+        "id": "cross-50",
+        "category": "cross_report_comparison",
+        "page_recall_at_5": 1.0,
+        "reciprocal_rank": 1.0,
+        "latency_ms": 120.44,
+        "sources": [
+          {
+            "chunk_id": 79,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-11/CONSUMER%20PRICE%20INDEX%20%28CPI%29%20-%20%20OCTOBER%202026.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 100,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-10/SEPTEMBER%202026%20CPI%20Report%20English.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 82,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-11/CONSUMER%20PRICE%20INDEX%20%28CPI%29%20-%20%20OCTOBER%202026.pdf",
+            "page": 5
+          },
+          {
+            "chunk_id": 103,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-10/SEPTEMBER%202026%20CPI%20Report%20English.pdf",
+            "page": 5
+          },
+          {
+            "chunk_id": 106,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-10/SEPTEMBER%202026%20CPI%20Report%20English.pdf",
+            "page": 7
+          }
+        ]
+      },
+      {
+        "id": "cross-51",
+        "category": "cross_report_comparison",
+        "page_recall_at_5": 1.0,
+        "reciprocal_rank": 1.0,
+        "latency_ms": 114.01,
+        "sources": [
+          {
+            "chunk_id": 79,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-11/CONSUMER%20PRICE%20INDEX%20%28CPI%29%20-%20%20OCTOBER%202026.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 100,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-10/SEPTEMBER%202026%20CPI%20Report%20English.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 82,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-11/CONSUMER%20PRICE%20INDEX%20%28CPI%29%20-%20%20OCTOBER%202026.pdf",
+            "page": 5
+          },
+          {
+            "chunk_id": 103,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-10/SEPTEMBER%202026%20CPI%20Report%20English.pdf",
+            "page": 5
+          },
+          {
+            "chunk_id": 106,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-10/SEPTEMBER%202026%20CPI%20Report%20English.pdf",
+            "page": 7
+          }
+        ]
+      },
+      {
+        "id": "revision-cross",
+        "category": "revision_conflict",
+        "page_recall_at_5": 1.0,
+        "reciprocal_rank": 1.0,
+        "latency_ms": 111.58,
+        "sources": [
+          {
+            "chunk_id": 3,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 3
+          },
+          {
+            "chunk_id": 288,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2025-03/GDP%20National%20Accounts%202024%20Annual.pdf",
+            "page": 1
+          },
+          {
+            "chunk_id": 292,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2025-03/GDP%20National%20Accounts%202024%20Annual.pdf",
+            "page": 3
+          },
+          {
+            "chunk_id": 5,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 291,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2025-03/GDP%20National%20Accounts%202024%20Annual.pdf",
+            "page": 2
+          }
+        ]
+      }
+    ],
+    "vector": [
+      {
+        "id": "nisr-01",
+        "category": "factual",
+        "page_recall_at_5": 1.0,
+        "reciprocal_rank": 0.25,
+        "latency_ms": 12860.38,
+        "sources": [
+          {
+            "chunk_id": 7,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 5
+          },
+          {
+            "chunk_id": 1,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 1
+          },
+          {
+            "chunk_id": 6,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 3,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 3
+          },
+          {
+            "chunk_id": 5,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 4
+          }
+        ]
+      },
+      {
+        "id": "nisr-02",
+        "category": "factual",
+        "page_recall_at_5": 1.0,
+        "reciprocal_rank": 1.0,
+        "latency_ms": 273.58,
+        "sources": [
+          {
+            "chunk_id": 3,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 3
+          },
+          {
+            "chunk_id": 7,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 5
+          },
+          {
+            "chunk_id": 6,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 1,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 1
+          },
+          {
+            "chunk_id": 5,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 4
+          }
+        ]
+      },
+      {
+        "id": "nisr-03",
+        "category": "factual",
+        "page_recall_at_5": 1.0,
+        "reciprocal_rank": 0.5,
+        "latency_ms": 319.33,
+        "sources": [
+          {
+            "chunk_id": 5,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 3,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 3
+          },
+          {
+            "chunk_id": 6,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 1,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 1
+          },
+          {
+            "chunk_id": 7,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 5
+          }
+        ]
+      },
+      {
+        "id": "nisr-04",
+        "category": "factual",
+        "page_recall_at_5": 1.0,
+        "reciprocal_rank": 1.0,
+        "latency_ms": 381.83,
+        "sources": [
+          {
+            "chunk_id": 3,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 3
+          },
+          {
+            "chunk_id": 6,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 5,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 7,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 5
+          },
+          {
+            "chunk_id": 1,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 1
+          }
+        ]
+      },
+      {
+        "id": "nisr-05",
+        "category": "factual",
+        "page_recall_at_5": 1.0,
+        "reciprocal_rank": 1.0,
+        "latency_ms": 444.58,
+        "sources": [
+          {
+            "chunk_id": 3,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 3
+          },
+          {
+            "chunk_id": 5,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 1,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 1
+          },
+          {
+            "chunk_id": 6,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 7,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 5
+          }
+        ]
+      },
+      {
+        "id": "nisr-06",
+        "category": "factual",
+        "page_recall_at_5": 1.0,
+        "reciprocal_rank": 0.5,
+        "latency_ms": 762.87,
+        "sources": [
+          {
+            "chunk_id": 1,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 1
+          },
+          {
+            "chunk_id": 3,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 3
+          },
+          {
+            "chunk_id": 2,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 2
+          },
+          {
+            "chunk_id": 5,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 6,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 4
+          }
+        ]
+      },
+      {
+        "id": "nisr-07",
+        "category": "factual",
+        "page_recall_at_5": 1.0,
+        "reciprocal_rank": 0.5,
+        "latency_ms": 388.71,
+        "sources": [
+          {
+            "chunk_id": 6,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 3,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 3
+          },
+          {
+            "chunk_id": 5,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 7,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 5
+          },
+          {
+            "chunk_id": 1,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 1
+          }
+        ]
+      },
+      {
+        "id": "nisr-08",
+        "category": "factual",
+        "page_recall_at_5": 1.0,
+        "reciprocal_rank": 0.5,
+        "latency_ms": 333.68,
+        "sources": [
+          {
+            "chunk_id": 6,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 3,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 3
+          },
+          {
+            "chunk_id": 5,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 1,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 1
+          },
+          {
+            "chunk_id": 7,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 5
+          }
+        ]
+      },
+      {
+        "id": "nisr-09",
+        "category": "factual",
+        "page_recall_at_5": 1.0,
+        "reciprocal_rank": 0.5,
+        "latency_ms": 409.68,
+        "sources": [
+          {
+            "chunk_id": 6,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 3,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 3
+          },
+          {
+            "chunk_id": 5,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 1,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 1
+          },
+          {
+            "chunk_id": 7,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 5
+          }
+        ]
+      },
+      {
+        "id": "nisr-10",
+        "category": "factual",
+        "page_recall_at_5": 1.0,
+        "reciprocal_rank": 0.5,
+        "latency_ms": 326.84,
+        "sources": [
+          {
+            "chunk_id": 6,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 3,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 3
+          },
+          {
+            "chunk_id": 5,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 1,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 1
+          },
+          {
+            "chunk_id": 7,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 5
+          }
+        ]
+      },
+      {
+        "id": "nisr-11",
+        "category": "factual",
+        "page_recall_at_5": 1.0,
+        "reciprocal_rank": 1.0,
+        "latency_ms": 397.97,
+        "sources": [
+          {
+            "chunk_id": 3,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 3
+          },
+          {
+            "chunk_id": 1,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 1
+          },
+          {
+            "chunk_id": 4,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 3
+          },
+          {
+            "chunk_id": 6,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 5,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 4
+          }
+        ]
+      },
+      {
+        "id": "nisr-12",
+        "category": "factual",
+        "page_recall_at_5": 1.0,
+        "reciprocal_rank": 1.0,
+        "latency_ms": 335.79,
+        "sources": [
+          {
+            "chunk_id": 4,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 3
+          },
+          {
+            "chunk_id": 3,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 3
+          },
+          {
+            "chunk_id": 6,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 5,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 1,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 1
+          }
+        ]
+      },
+      {
+        "id": "nisr-13",
+        "category": "factual",
+        "page_recall_at_5": 1.0,
+        "reciprocal_rank": 0.5,
+        "latency_ms": 331.89,
+        "sources": [
+          {
+            "chunk_id": 5,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 3,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 3
+          },
+          {
+            "chunk_id": 6,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 1,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 1
+          },
+          {
+            "chunk_id": 4,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 3
+          }
+        ]
+      },
+      {
+        "id": "nisr-14",
+        "category": "factual",
+        "page_recall_at_5": 1.0,
+        "reciprocal_rank": 1.0,
+        "latency_ms": 268.29,
+        "sources": [
+          {
+            "chunk_id": 3,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 3
+          },
+          {
+            "chunk_id": 4,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 3
+          },
+          {
+            "chunk_id": 1,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 1
+          },
+          {
+            "chunk_id": 5,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 2,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 2
+          }
+        ]
+      },
+      {
+        "id": "nisr-15",
+        "category": "factual",
+        "page_recall_at_5": 1.0,
+        "reciprocal_rank": 1.0,
+        "latency_ms": 190.89,
+        "sources": [
+          {
+            "chunk_id": 3,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 3
+          },
+          {
+            "chunk_id": 4,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 3
+          },
+          {
+            "chunk_id": 1,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 1
+          },
+          {
+            "chunk_id": 5,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 2,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 2
+          }
+        ]
+      },
+      {
+        "id": "nisr-16",
+        "category": "factual",
+        "page_recall_at_5": 1.0,
+        "reciprocal_rank": 1.0,
+        "latency_ms": 373.11,
+        "sources": [
+          {
+            "chunk_id": 4,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 3
+          },
+          {
+            "chunk_id": 1,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 1
+          },
+          {
+            "chunk_id": 3,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 3
+          },
+          {
+            "chunk_id": 5,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 2,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 2
+          }
+        ]
+      },
+      {
+        "id": "nisr-17",
+        "category": "factual",
+        "page_recall_at_5": 1.0,
+        "reciprocal_rank": 1.0,
+        "latency_ms": 402.95,
+        "sources": [
+          {
+            "chunk_id": 4,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 3
+          },
+          {
+            "chunk_id": 3,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 3
+          },
+          {
+            "chunk_id": 1,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 1
+          },
+          {
+            "chunk_id": 6,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 5,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 4
+          }
+        ]
+      },
+      {
+        "id": "nisr-18",
+        "category": "factual",
+        "page_recall_at_5": 1.0,
+        "reciprocal_rank": 1.0,
+        "latency_ms": 372.46,
+        "sources": [
+          {
+            "chunk_id": 4,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 3
+          },
+          {
+            "chunk_id": 3,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 3
+          },
+          {
+            "chunk_id": 1,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 1
+          },
+          {
+            "chunk_id": 5,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 6,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 4
+          }
+        ]
+      },
+      {
+        "id": "nisr-19",
+        "category": "factual",
+        "page_recall_at_5": 1.0,
+        "reciprocal_rank": 1.0,
+        "latency_ms": 330.52,
+        "sources": [
+          {
+            "chunk_id": 4,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 3
+          },
+          {
+            "chunk_id": 3,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 3
+          },
+          {
+            "chunk_id": 6,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 1,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 1
+          },
+          {
+            "chunk_id": 5,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 4
+          }
+        ]
+      },
+      {
+        "id": "nisr-20",
+        "category": "factual",
+        "page_recall_at_5": 1.0,
+        "reciprocal_rank": 1.0,
+        "latency_ms": 395.19,
+        "sources": [
+          {
+            "chunk_id": 4,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 3
+          },
+          {
+            "chunk_id": 1,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 1
+          },
+          {
+            "chunk_id": 3,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 3
+          },
+          {
+            "chunk_id": 5,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 6,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 4
+          }
+        ]
+      },
+      {
+        "id": "nisr-21",
+        "category": "factual",
+        "page_recall_at_5": 1.0,
+        "reciprocal_rank": 1.0,
+        "latency_ms": 402.85,
+        "sources": [
+          {
+            "chunk_id": 4,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 3
+          },
+          {
+            "chunk_id": 1,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 1
+          },
+          {
+            "chunk_id": 3,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 3
+          },
+          {
+            "chunk_id": 5,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 6,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 4
+          }
+        ]
+      },
+      {
+        "id": "nisr-22",
+        "category": "factual",
+        "page_recall_at_5": 1.0,
+        "reciprocal_rank": 1.0,
+        "latency_ms": 407.0,
+        "sources": [
+          {
+            "chunk_id": 6,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 3,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 3
+          },
+          {
+            "chunk_id": 5,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 1,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 1
+          },
+          {
+            "chunk_id": 4,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 3
+          }
+        ]
+      },
+      {
+        "id": "nisr-23",
+        "category": "factual",
+        "page_recall_at_5": 1.0,
+        "reciprocal_rank": 1.0,
+        "latency_ms": 285.53,
+        "sources": [
+          {
+            "chunk_id": 5,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 1,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 1
+          },
+          {
+            "chunk_id": 6,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 2,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 2
+          },
+          {
+            "chunk_id": 3,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 3
+          }
+        ]
+      },
+      {
+        "id": "nisr-24",
+        "category": "factual",
+        "page_recall_at_5": 1.0,
+        "reciprocal_rank": 0.5,
+        "latency_ms": 366.52,
+        "sources": [
+          {
+            "chunk_id": 1,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 1
+          },
+          {
+            "chunk_id": 5,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 2,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 2
+          },
+          {
+            "chunk_id": 3,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 3
+          },
+          {
+            "chunk_id": 6,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 4
+          }
+        ]
+      },
+      {
+        "id": "nisr-25",
+        "category": "factual",
+        "page_recall_at_5": 1.0,
+        "reciprocal_rank": 1.0,
+        "latency_ms": 468.73,
+        "sources": [
+          {
+            "chunk_id": 5,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 6,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 3,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 3
+          },
+          {
+            "chunk_id": 1,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 1
+          },
+          {
+            "chunk_id": 7,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 5
+          }
+        ]
+      },
+      {
+        "id": "nisr-26",
+        "category": "comparison",
+        "page_recall_at_5": 1.0,
+        "reciprocal_rank": 1.0,
+        "latency_ms": 578.03,
+        "sources": [
+          {
+            "chunk_id": 5,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 1,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 1
+          },
+          {
+            "chunk_id": 3,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 3
+          },
+          {
+            "chunk_id": 2,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 2
+          },
+          {
+            "chunk_id": 6,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 4
+          }
+        ]
+      },
+      {
+        "id": "nisr-27",
+        "category": "factual",
+        "page_recall_at_5": 1.0,
+        "reciprocal_rank": 1.0,
+        "latency_ms": 652.13,
+        "sources": [
+          {
+            "chunk_id": 5,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 6,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 1,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 1
+          },
+          {
+            "chunk_id": 3,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 3
+          },
+          {
+            "chunk_id": 7,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 5
+          }
+        ]
+      },
+      {
+        "id": "nisr-28",
+        "category": "factual",
+        "page_recall_at_5": 1.0,
+        "reciprocal_rank": 1.0,
+        "latency_ms": 462.66,
+        "sources": [
+          {
+            "chunk_id": 6,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 5,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 7,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 5
+          },
+          {
+            "chunk_id": 3,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 3
+          },
+          {
+            "chunk_id": 1,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 1
+          }
+        ]
+      },
+      {
+        "id": "nisr-29",
+        "category": "comparison",
+        "page_recall_at_5": 1.0,
+        "reciprocal_rank": 1.0,
+        "latency_ms": 675.38,
+        "sources": [
+          {
+            "chunk_id": 5,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 6,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 3,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 3
+          },
+          {
+            "chunk_id": 1,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 1
+          },
+          {
+            "chunk_id": 4,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 3
+          }
+        ]
+      },
+      {
+        "id": "nisr-30",
+        "category": "factual",
+        "page_recall_at_5": 1.0,
+        "reciprocal_rank": 1.0,
+        "latency_ms": 827.85,
+        "sources": [
+          {
+            "chunk_id": 6,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 5,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 7,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 5
+          },
+          {
+            "chunk_id": 3,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 3
+          },
+          {
+            "chunk_id": 1,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 1
+          }
+        ]
+      },
+      {
+        "id": "nisr-31",
+        "category": "factual",
+        "page_recall_at_5": 1.0,
+        "reciprocal_rank": 1.0,
+        "latency_ms": 359.45,
+        "sources": [
+          {
+            "chunk_id": 7,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 5
+          },
+          {
+            "chunk_id": 6,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 5,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 1,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 1
+          },
+          {
+            "chunk_id": 3,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 3
+          }
+        ]
+      },
+      {
+        "id": "nisr-32",
+        "category": "revision_sensitive",
+        "page_recall_at_5": 1.0,
+        "reciprocal_rank": 0.25,
+        "latency_ms": 425.91,
+        "sources": [
+          {
+            "chunk_id": 7,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 5
+          },
+          {
+            "chunk_id": 1,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 1
+          },
+          {
+            "chunk_id": 6,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 3,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 3
+          },
+          {
+            "chunk_id": 5,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 4
+          }
+        ]
+      },
+      {
+        "id": "unsupported-33",
+        "category": "unsupported",
+        "page_recall_at_5": null,
+        "reciprocal_rank": null,
+        "latency_ms": 465.86,
+        "sources": [
+          {
+            "chunk_id": 124,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-09/CONSUMER%20PRICE%20INDEX%20%20%28CPI%29%20AUGUST%202026.pdf",
+            "page": 5
+          },
+          {
+            "chunk_id": 230,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-04/CPI%20Report%20English%20March%202026.pdf",
+            "page": 5
+          },
+          {
+            "chunk_id": 169,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-07/JUNE%202026%20CPI%20Report%20English.pdf",
+            "page": 6
+          },
+          {
+            "chunk_id": 145,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-08/CONSUMER%20PRICE%20INDEX%20JULY%20%28CPI%29%202026%20Report%20.pdf",
+            "page": 5
+          },
+          {
+            "chunk_id": 166,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-07/JUNE%202026%20CPI%20Report%20English.pdf",
+            "page": 5
+          }
+        ]
+      },
+      {
+        "id": "unsupported-34",
+        "category": "unsupported",
+        "page_recall_at_5": null,
+        "reciprocal_rank": null,
+        "latency_ms": 384.19,
+        "sources": [
+          {
+            "chunk_id": 295,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2025-03/GDP%20National%20Accounts%202024%20Annual.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 370,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2025-03/GDP%20National%20Accounts%202024%20Annual.pdf",
+            "page": 12
+          },
+          {
+            "chunk_id": 74,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-09/GDP%20Q2%202026.pdf",
+            "page": 14
+          },
+          {
+            "chunk_id": 18,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-09/GDP%20Q2%202026.pdf",
+            "page": 5
+          },
+          {
+            "chunk_id": 380,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2024-09/GDP%20National%20Accounts%202023%20annual%20fnl.pdf",
+            "page": 4
+          }
+        ]
+      },
+      {
+        "id": "unsupported-35",
+        "category": "unsupported",
+        "page_recall_at_5": null,
+        "reciprocal_rank": null,
+        "latency_ms": 258.91,
+        "sources": [
+          {
+            "chunk_id": 382,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2024-09/GDP%20National%20Accounts%202023%20annual%20fnl.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 18,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-09/GDP%20Q2%202026.pdf",
+            "page": 5
+          },
+          {
+            "chunk_id": 443,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-06/GDP%20Q1%202026%20with%20tables.pdf",
+            "page": 5
+          },
+          {
+            "chunk_id": 74,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-09/GDP%20Q2%202026.pdf",
+            "page": 14
+          },
+          {
+            "chunk_id": 370,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2025-03/GDP%20National%20Accounts%202024%20Annual.pdf",
+            "page": 12
+          }
+        ]
+      },
+      {
+        "id": "unsupported-36",
+        "category": "unsupported",
+        "page_recall_at_5": null,
+        "reciprocal_rank": null,
+        "latency_ms": 367.41,
+        "sources": [
+          {
+            "chunk_id": 451,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-06/GDP%20Q1%202026%20with%20tables.pdf",
+            "page": 7
+          },
+          {
+            "chunk_id": 27,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-09/GDP%20Q2%202026.pdf",
+            "page": 7
+          },
+          {
+            "chunk_id": 310,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2025-03/GDP%20National%20Accounts%202024%20Annual.pdf",
+            "page": 6
+          },
+          {
+            "chunk_id": 390,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2024-09/GDP%20National%20Accounts%202023%20annual%20fnl.pdf",
+            "page": 6
+          },
+          {
+            "chunk_id": 468,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-06/GDP%20Q1%202026%20with%20tables.pdf",
+            "page": 9
+          }
+        ]
+      },
+      {
+        "id": "unsupported-37",
+        "category": "unsupported",
+        "page_recall_at_5": null,
+        "reciprocal_rank": null,
+        "latency_ms": 315.36,
+        "sources": [
+          {
+            "chunk_id": 293,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2025-03/GDP%20National%20Accounts%202024%20Annual.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 378,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2024-09/GDP%20National%20Accounts%202023%20annual%20fnl.pdf",
+            "page": 3
+          },
+          {
+            "chunk_id": 377,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2024-09/GDP%20National%20Accounts%202023%20annual%20fnl.pdf",
+            "page": 2
+          },
+          {
+            "chunk_id": 7,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 5
+          },
+          {
+            "chunk_id": 182,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-06/CONSUMER%20PRICE%20INDEX%20%28CPI%29%2C%20MAY%202026.pdf",
+            "page": 1
+          }
+        ]
+      },
+      {
+        "id": "unsupported-38",
+        "category": "unsupported",
+        "page_recall_at_5": null,
+        "reciprocal_rank": null,
+        "latency_ms": 365.4,
+        "sources": [
+          {
+            "chunk_id": 124,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-09/CONSUMER%20PRICE%20INDEX%20%20%28CPI%29%20AUGUST%202026.pdf",
+            "page": 5
+          },
+          {
+            "chunk_id": 121,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-09/CONSUMER%20PRICE%20INDEX%20%20%28CPI%29%20AUGUST%202026.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 100,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-10/SEPTEMBER%202026%20CPI%20Report%20English.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 163,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-07/JUNE%202026%20CPI%20Report%20English.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 248,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/CPI_Report_English_Feb_2026.pdf",
+            "page": 4
+          }
+        ]
+      },
+      {
+        "id": "unsupported-39",
+        "category": "unsupported",
+        "page_recall_at_5": null,
+        "reciprocal_rank": null,
+        "latency_ms": 448.27,
+        "sources": [
+          {
+            "chunk_id": 273,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-02/CPI-Report-English.pdf",
+            "page": 3
+          },
+          {
+            "chunk_id": 83,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-11/CONSUMER%20PRICE%20INDEX%20%28CPI%29%20-%20%20OCTOBER%202026.pdf",
+            "page": 5
+          },
+          {
+            "chunk_id": 167,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-07/JUNE%202026%20CPI%20Report%20English.pdf",
+            "page": 5
+          },
+          {
+            "chunk_id": 210,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-05/CONSUMER%20PRICE%20INDEX%20%28CPI%29%20APRIL%202026.pdf",
+            "page": 5
+          },
+          {
+            "chunk_id": 146,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-08/CONSUMER%20PRICE%20INDEX%20JULY%20%28CPI%29%202026%20Report%20.pdf",
+            "page": 5
+          }
+        ]
+      },
+      {
+        "id": "unsupported-40",
+        "category": "unsupported",
+        "page_recall_at_5": null,
+        "reciprocal_rank": null,
+        "latency_ms": 630.71,
+        "sources": [
+          {
+            "chunk_id": 231,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-04/CPI%20Report%20English%20March%202026.pdf",
+            "page": 5
+          },
+          {
+            "chunk_id": 167,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-07/JUNE%202026%20CPI%20Report%20English.pdf",
+            "page": 5
+          },
+          {
+            "chunk_id": 104,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-10/SEPTEMBER%202026%20CPI%20Report%20English.pdf",
+            "page": 5
+          },
+          {
+            "chunk_id": 210,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-05/CONSUMER%20PRICE%20INDEX%20%28CPI%29%20APRIL%202026.pdf",
+            "page": 5
+          },
+          {
+            "chunk_id": 146,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-08/CONSUMER%20PRICE%20INDEX%20JULY%20%28CPI%29%202026%20Report%20.pdf",
+            "page": 5
+          }
+        ]
+      },
+      {
+        "id": "cpi-41",
+        "category": "financial_factual",
+        "page_recall_at_5": 1.0,
+        "reciprocal_rank": 0.5,
+        "latency_ms": 681.36,
+        "sources": [
+          {
+            "chunk_id": 82,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-11/CONSUMER%20PRICE%20INDEX%20%28CPI%29%20-%20%20OCTOBER%202026.pdf",
+            "page": 5
+          },
+          {
+            "chunk_id": 80,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-11/CONSUMER%20PRICE%20INDEX%20%28CPI%29%20-%20%20OCTOBER%202026.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 79,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-11/CONSUMER%20PRICE%20INDEX%20%28CPI%29%20-%20%20OCTOBER%202026.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 84,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-11/CONSUMER%20PRICE%20INDEX%20%28CPI%29%20-%20%20OCTOBER%202026.pdf",
+            "page": 6
+          },
+          {
+            "chunk_id": 83,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-11/CONSUMER%20PRICE%20INDEX%20%28CPI%29%20-%20%20OCTOBER%202026.pdf",
+            "page": 5
+          }
+        ]
+      },
+      {
+        "id": "cpi-42",
+        "category": "financial_factual",
+        "page_recall_at_5": 1.0,
+        "reciprocal_rank": 1.0,
+        "latency_ms": 438.19,
+        "sources": [
+          {
+            "chunk_id": 80,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-11/CONSUMER%20PRICE%20INDEX%20%28CPI%29%20-%20%20OCTOBER%202026.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 82,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-11/CONSUMER%20PRICE%20INDEX%20%28CPI%29%20-%20%20OCTOBER%202026.pdf",
+            "page": 5
+          },
+          {
+            "chunk_id": 79,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-11/CONSUMER%20PRICE%20INDEX%20%28CPI%29%20-%20%20OCTOBER%202026.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 84,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-11/CONSUMER%20PRICE%20INDEX%20%28CPI%29%20-%20%20OCTOBER%202026.pdf",
+            "page": 6
+          },
+          {
+            "chunk_id": 76,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-11/CONSUMER%20PRICE%20INDEX%20%28CPI%29%20-%20%20OCTOBER%202026.pdf",
+            "page": 1
+          }
+        ]
+      },
+      {
+        "id": "cpi-43",
+        "category": "financial_factual",
+        "page_recall_at_5": 1.0,
+        "reciprocal_rank": 1.0,
+        "latency_ms": 1335.64,
+        "sources": [
+          {
+            "chunk_id": 79,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-11/CONSUMER%20PRICE%20INDEX%20%28CPI%29%20-%20%20OCTOBER%202026.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 76,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-11/CONSUMER%20PRICE%20INDEX%20%28CPI%29%20-%20%20OCTOBER%202026.pdf",
+            "page": 1
+          },
+          {
+            "chunk_id": 84,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-11/CONSUMER%20PRICE%20INDEX%20%28CPI%29%20-%20%20OCTOBER%202026.pdf",
+            "page": 6
+          },
+          {
+            "chunk_id": 81,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-11/CONSUMER%20PRICE%20INDEX%20%28CPI%29%20-%20%20OCTOBER%202026.pdf",
+            "page": 5
+          },
+          {
+            "chunk_id": 77,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-11/CONSUMER%20PRICE%20INDEX%20%28CPI%29%20-%20%20OCTOBER%202026.pdf",
+            "page": 2
+          }
+        ]
+      },
+      {
+        "id": "cpi-44",
+        "category": "financial_factual",
+        "page_recall_at_5": 1.0,
+        "reciprocal_rank": 0.5,
+        "latency_ms": 400.12,
+        "sources": [
+          {
+            "chunk_id": 82,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-11/CONSUMER%20PRICE%20INDEX%20%28CPI%29%20-%20%20OCTOBER%202026.pdf",
+            "page": 5
+          },
+          {
+            "chunk_id": 80,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-11/CONSUMER%20PRICE%20INDEX%20%28CPI%29%20-%20%20OCTOBER%202026.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 79,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-11/CONSUMER%20PRICE%20INDEX%20%28CPI%29%20-%20%20OCTOBER%202026.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 84,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-11/CONSUMER%20PRICE%20INDEX%20%28CPI%29%20-%20%20OCTOBER%202026.pdf",
+            "page": 6
+          },
+          {
+            "chunk_id": 76,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-11/CONSUMER%20PRICE%20INDEX%20%28CPI%29%20-%20%20OCTOBER%202026.pdf",
+            "page": 1
+          }
+        ]
+      },
+      {
+        "id": "cpi-45",
+        "category": "financial_factual",
+        "page_recall_at_5": 1.0,
+        "reciprocal_rank": 0.5,
+        "latency_ms": 451.81,
+        "sources": [
+          {
+            "chunk_id": 103,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-10/SEPTEMBER%202026%20CPI%20Report%20English.pdf",
+            "page": 5
+          },
+          {
+            "chunk_id": 101,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-10/SEPTEMBER%202026%20CPI%20Report%20English.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 105,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-10/SEPTEMBER%202026%20CPI%20Report%20English.pdf",
+            "page": 6
+          },
+          {
+            "chunk_id": 100,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-10/SEPTEMBER%202026%20CPI%20Report%20English.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 97,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-10/SEPTEMBER%202026%20CPI%20Report%20English.pdf",
+            "page": 1
+          }
+        ]
+      },
+      {
+        "id": "cpi-46",
+        "category": "financial_factual",
+        "page_recall_at_5": 1.0,
+        "reciprocal_rank": 1.0,
+        "latency_ms": 276.64,
+        "sources": [
+          {
+            "chunk_id": 101,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-10/SEPTEMBER%202026%20CPI%20Report%20English.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 103,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-10/SEPTEMBER%202026%20CPI%20Report%20English.pdf",
+            "page": 5
+          },
+          {
+            "chunk_id": 100,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-10/SEPTEMBER%202026%20CPI%20Report%20English.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 105,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-10/SEPTEMBER%202026%20CPI%20Report%20English.pdf",
+            "page": 6
+          },
+          {
+            "chunk_id": 97,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-10/SEPTEMBER%202026%20CPI%20Report%20English.pdf",
+            "page": 1
+          }
+        ]
+      },
+      {
+        "id": "cpi-47",
+        "category": "financial_factual",
+        "page_recall_at_5": 1.0,
+        "reciprocal_rank": 0.5,
+        "latency_ms": 327.16,
+        "sources": [
+          {
+            "chunk_id": 124,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-09/CONSUMER%20PRICE%20INDEX%20%20%28CPI%29%20AUGUST%202026.pdf",
+            "page": 5
+          },
+          {
+            "chunk_id": 122,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-09/CONSUMER%20PRICE%20INDEX%20%20%28CPI%29%20AUGUST%202026.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 126,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-09/CONSUMER%20PRICE%20INDEX%20%20%28CPI%29%20AUGUST%202026.pdf",
+            "page": 6
+          },
+          {
+            "chunk_id": 121,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-09/CONSUMER%20PRICE%20INDEX%20%20%28CPI%29%20AUGUST%202026.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 118,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-09/CONSUMER%20PRICE%20INDEX%20%20%28CPI%29%20AUGUST%202026.pdf",
+            "page": 1
+          }
+        ]
+      },
+      {
+        "id": "cpi-48",
+        "category": "financial_factual",
+        "page_recall_at_5": 1.0,
+        "reciprocal_rank": 0.5,
+        "latency_ms": 320.84,
+        "sources": [
+          {
+            "chunk_id": 124,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-09/CONSUMER%20PRICE%20INDEX%20%20%28CPI%29%20AUGUST%202026.pdf",
+            "page": 5
+          },
+          {
+            "chunk_id": 122,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-09/CONSUMER%20PRICE%20INDEX%20%20%28CPI%29%20AUGUST%202026.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 126,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-09/CONSUMER%20PRICE%20INDEX%20%20%28CPI%29%20AUGUST%202026.pdf",
+            "page": 6
+          },
+          {
+            "chunk_id": 121,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-09/CONSUMER%20PRICE%20INDEX%20%20%28CPI%29%20AUGUST%202026.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 118,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-09/CONSUMER%20PRICE%20INDEX%20%20%28CPI%29%20AUGUST%202026.pdf",
+            "page": 1
+          }
+        ]
+      },
+      {
+        "id": "cross-49",
+        "category": "cross_report_comparison",
+        "page_recall_at_5": 1.0,
+        "reciprocal_rank": 0.3333333333333333,
+        "latency_ms": 354.78,
+        "sources": [
+          {
+            "chunk_id": 82,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-11/CONSUMER%20PRICE%20INDEX%20%28CPI%29%20-%20%20OCTOBER%202026.pdf",
+            "page": 5
+          },
+          {
+            "chunk_id": 103,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-10/SEPTEMBER%202026%20CPI%20Report%20English.pdf",
+            "page": 5
+          },
+          {
+            "chunk_id": 79,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-11/CONSUMER%20PRICE%20INDEX%20%28CPI%29%20-%20%20OCTOBER%202026.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 105,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-10/SEPTEMBER%202026%20CPI%20Report%20English.pdf",
+            "page": 6
+          },
+          {
+            "chunk_id": 100,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-10/SEPTEMBER%202026%20CPI%20Report%20English.pdf",
+            "page": 4
+          }
+        ]
+      },
+      {
+        "id": "cross-50",
+        "category": "cross_report_comparison",
+        "page_recall_at_5": 1.0,
+        "reciprocal_rank": 1.0,
+        "latency_ms": 351.11,
+        "sources": [
+          {
+            "chunk_id": 79,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-11/CONSUMER%20PRICE%20INDEX%20%28CPI%29%20-%20%20OCTOBER%202026.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 80,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-11/CONSUMER%20PRICE%20INDEX%20%28CPI%29%20-%20%20OCTOBER%202026.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 100,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-10/SEPTEMBER%202026%20CPI%20Report%20English.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 101,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-10/SEPTEMBER%202026%20CPI%20Report%20English.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 82,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-11/CONSUMER%20PRICE%20INDEX%20%28CPI%29%20-%20%20OCTOBER%202026.pdf",
+            "page": 5
+          }
+        ]
+      },
+      {
+        "id": "cross-51",
+        "category": "cross_report_comparison",
+        "page_recall_at_5": 1.0,
+        "reciprocal_rank": 1.0,
+        "latency_ms": 261.47,
+        "sources": [
+          {
+            "chunk_id": 79,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-11/CONSUMER%20PRICE%20INDEX%20%28CPI%29%20-%20%20OCTOBER%202026.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 100,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-10/SEPTEMBER%202026%20CPI%20Report%20English.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 105,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-10/SEPTEMBER%202026%20CPI%20Report%20English.pdf",
+            "page": 6
+          },
+          {
+            "chunk_id": 84,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-11/CONSUMER%20PRICE%20INDEX%20%28CPI%29%20-%20%20OCTOBER%202026.pdf",
+            "page": 6
+          },
+          {
+            "chunk_id": 97,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-10/SEPTEMBER%202026%20CPI%20Report%20English.pdf",
+            "page": 1
+          }
+        ]
+      },
+      {
+        "id": "revision-cross",
+        "category": "revision_conflict",
+        "page_recall_at_5": 0.0,
+        "reciprocal_rank": 0,
+        "latency_ms": 322.73,
+        "sources": [
+          {
+            "chunk_id": 292,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2025-03/GDP%20National%20Accounts%202024%20Annual.pdf",
+            "page": 3
+          },
+          {
+            "chunk_id": 7,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 5
+          },
+          {
+            "chunk_id": 1,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 1
+          },
+          {
+            "chunk_id": 293,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2025-03/GDP%20National%20Accounts%202024%20Annual.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 6,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 4
+          }
+        ]
+      }
+    ],
+    "hybrid": [
+      {
+        "id": "nisr-01",
+        "category": "factual",
+        "page_recall_at_5": 1.0,
+        "reciprocal_rank": 0.5,
+        "latency_ms": 851.19,
+        "sources": [
+          {
+            "chunk_id": 7,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 5
+          },
+          {
+            "chunk_id": 3,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 3
+          },
+          {
+            "chunk_id": 1,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 1
+          },
+          {
+            "chunk_id": 5,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 6,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 4
+          }
+        ]
+      },
+      {
+        "id": "nisr-02",
+        "category": "factual",
+        "page_recall_at_5": 1.0,
+        "reciprocal_rank": 1.0,
+        "latency_ms": 380.43,
+        "sources": [
+          {
+            "chunk_id": 3,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 3
+          },
+          {
+            "chunk_id": 7,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 5
+          },
+          {
+            "chunk_id": 6,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 5,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 1,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 1
+          }
+        ]
+      },
+      {
+        "id": "nisr-03",
+        "category": "factual",
+        "page_recall_at_5": 1.0,
+        "reciprocal_rank": 1.0,
+        "latency_ms": 532.95,
+        "sources": [
+          {
+            "chunk_id": 3,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 3
+          },
+          {
+            "chunk_id": 5,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 6,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 1,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 1
+          },
+          {
+            "chunk_id": 7,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 5
+          }
+        ]
+      },
+      {
+        "id": "nisr-04",
+        "category": "factual",
+        "page_recall_at_5": 1.0,
+        "reciprocal_rank": 1.0,
+        "latency_ms": 499.48,
+        "sources": [
+          {
+            "chunk_id": 3,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 3
+          },
+          {
+            "chunk_id": 5,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 6,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 4,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 3
+          },
+          {
+            "chunk_id": 7,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 5
+          }
+        ]
+      },
+      {
+        "id": "nisr-05",
+        "category": "factual",
+        "page_recall_at_5": 1.0,
+        "reciprocal_rank": 1.0,
+        "latency_ms": 681.36,
+        "sources": [
+          {
+            "chunk_id": 3,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 3
+          },
+          {
+            "chunk_id": 5,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 6,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 1,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 1
+          },
+          {
+            "chunk_id": 4,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 3
+          }
+        ]
+      },
+      {
+        "id": "nisr-06",
+        "category": "factual",
+        "page_recall_at_5": 1.0,
+        "reciprocal_rank": 1.0,
+        "latency_ms": 471.99,
+        "sources": [
+          {
+            "chunk_id": 3,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 3
+          },
+          {
+            "chunk_id": 1,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 1
+          },
+          {
+            "chunk_id": 2,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 2
+          },
+          {
+            "chunk_id": 5,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 6,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 4
+          }
+        ]
+      },
+      {
+        "id": "nisr-07",
+        "category": "factual",
+        "page_recall_at_5": 1.0,
+        "reciprocal_rank": 1.0,
+        "latency_ms": 286.89,
+        "sources": [
+          {
+            "chunk_id": 3,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 3
+          },
+          {
+            "chunk_id": 6,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 5,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 7,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 5
+          },
+          {
+            "chunk_id": 4,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 3
+          }
+        ]
+      },
+      {
+        "id": "nisr-08",
+        "category": "factual",
+        "page_recall_at_5": 1.0,
+        "reciprocal_rank": 1.0,
+        "latency_ms": 370.81,
+        "sources": [
+          {
+            "chunk_id": 3,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 3
+          },
+          {
+            "chunk_id": 6,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 5,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 4,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 3
+          },
+          {
+            "chunk_id": 1,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 1
+          }
+        ]
+      },
+      {
+        "id": "nisr-09",
+        "category": "factual",
+        "page_recall_at_5": 1.0,
+        "reciprocal_rank": 1.0,
+        "latency_ms": 606.91,
+        "sources": [
+          {
+            "chunk_id": 3,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 3
+          },
+          {
+            "chunk_id": 6,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 5,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 4,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 3
+          },
+          {
+            "chunk_id": 1,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 1
+          }
+        ]
+      },
+      {
+        "id": "nisr-10",
+        "category": "factual",
+        "page_recall_at_5": 1.0,
+        "reciprocal_rank": 1.0,
+        "latency_ms": 494.13,
+        "sources": [
+          {
+            "chunk_id": 3,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 3
+          },
+          {
+            "chunk_id": 6,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 5,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 4,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 3
+          },
+          {
+            "chunk_id": 1,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 1
+          }
+        ]
+      },
+      {
+        "id": "nisr-11",
+        "category": "factual",
+        "page_recall_at_5": 1.0,
+        "reciprocal_rank": 1.0,
+        "latency_ms": 336.57,
+        "sources": [
+          {
+            "chunk_id": 3,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 3
+          },
+          {
+            "chunk_id": 4,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 3
+          },
+          {
+            "chunk_id": 5,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 1,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 1
+          },
+          {
+            "chunk_id": 6,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 4
+          }
+        ]
+      },
+      {
+        "id": "nisr-12",
+        "category": "factual",
+        "page_recall_at_5": 1.0,
+        "reciprocal_rank": 1.0,
+        "latency_ms": 747.84,
+        "sources": [
+          {
+            "chunk_id": 3,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 3
+          },
+          {
+            "chunk_id": 4,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 3
+          },
+          {
+            "chunk_id": 5,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 6,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 1,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 1
+          }
+        ]
+      },
+      {
+        "id": "nisr-13",
+        "category": "factual",
+        "page_recall_at_5": 1.0,
+        "reciprocal_rank": 0.5,
+        "latency_ms": 544.15,
+        "sources": [
+          {
+            "chunk_id": 5,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 3,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 3
+          },
+          {
+            "chunk_id": 6,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 4,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 3
+          },
+          {
+            "chunk_id": 1,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 1
+          }
+        ]
+      },
+      {
+        "id": "nisr-14",
+        "category": "factual",
+        "page_recall_at_5": 1.0,
+        "reciprocal_rank": 1.0,
+        "latency_ms": 471.32,
+        "sources": [
+          {
+            "chunk_id": 3,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 3
+          },
+          {
+            "chunk_id": 4,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 3
+          },
+          {
+            "chunk_id": 1,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 1
+          },
+          {
+            "chunk_id": 5,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 7,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 5
+          }
+        ]
+      },
+      {
+        "id": "nisr-15",
+        "category": "factual",
+        "page_recall_at_5": 1.0,
+        "reciprocal_rank": 1.0,
+        "latency_ms": 589.89,
+        "sources": [
+          {
+            "chunk_id": 3,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 3
+          },
+          {
+            "chunk_id": 4,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 3
+          },
+          {
+            "chunk_id": 1,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 1
+          },
+          {
+            "chunk_id": 5,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 7,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 5
+          }
+        ]
+      },
+      {
+        "id": "nisr-16",
+        "category": "factual",
+        "page_recall_at_5": 1.0,
+        "reciprocal_rank": 1.0,
+        "latency_ms": 266.67,
+        "sources": [
+          {
+            "chunk_id": 4,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 3
+          },
+          {
+            "chunk_id": 1,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 1
+          },
+          {
+            "chunk_id": 3,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 3
+          },
+          {
+            "chunk_id": 5,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 7,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 5
+          }
+        ]
+      },
+      {
+        "id": "nisr-17",
+        "category": "factual",
+        "page_recall_at_5": 1.0,
+        "reciprocal_rank": 1.0,
+        "latency_ms": 445.49,
+        "sources": [
+          {
+            "chunk_id": 4,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 3
+          },
+          {
+            "chunk_id": 3,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 3
+          },
+          {
+            "chunk_id": 5,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 1,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 1
+          },
+          {
+            "chunk_id": 6,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 4
+          }
+        ]
+      },
+      {
+        "id": "nisr-18",
+        "category": "factual",
+        "page_recall_at_5": 1.0,
+        "reciprocal_rank": 1.0,
+        "latency_ms": 481.58,
+        "sources": [
+          {
+            "chunk_id": 4,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 3
+          },
+          {
+            "chunk_id": 3,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 3
+          },
+          {
+            "chunk_id": 5,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 1,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 1
+          },
+          {
+            "chunk_id": 6,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 4
+          }
+        ]
+      },
+      {
+        "id": "nisr-19",
+        "category": "factual",
+        "page_recall_at_5": 1.0,
+        "reciprocal_rank": 1.0,
+        "latency_ms": 478.37,
+        "sources": [
+          {
+            "chunk_id": 4,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 3
+          },
+          {
+            "chunk_id": 3,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 3
+          },
+          {
+            "chunk_id": 5,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 6,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 1,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 1
+          }
+        ]
+      },
+      {
+        "id": "nisr-20",
+        "category": "factual",
+        "page_recall_at_5": 1.0,
+        "reciprocal_rank": 1.0,
+        "latency_ms": 527.94,
+        "sources": [
+          {
+            "chunk_id": 4,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 3
+          },
+          {
+            "chunk_id": 1,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 1
+          },
+          {
+            "chunk_id": 3,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 3
+          },
+          {
+            "chunk_id": 5,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 7,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 5
+          }
+        ]
+      },
+      {
+        "id": "nisr-21",
+        "category": "factual",
+        "page_recall_at_5": 1.0,
+        "reciprocal_rank": 1.0,
+        "latency_ms": 454.46,
+        "sources": [
+          {
+            "chunk_id": 4,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 3
+          },
+          {
+            "chunk_id": 1,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 1
+          },
+          {
+            "chunk_id": 3,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 3
+          },
+          {
+            "chunk_id": 5,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 7,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 5
+          }
+        ]
+      },
+      {
+        "id": "nisr-22",
+        "category": "factual",
+        "page_recall_at_5": 1.0,
+        "reciprocal_rank": 1.0,
+        "latency_ms": 465.94,
+        "sources": [
+          {
+            "chunk_id": 5,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 6,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 3,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 3
+          },
+          {
+            "chunk_id": 1,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 1
+          },
+          {
+            "chunk_id": 4,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 3
+          }
+        ]
+      },
+      {
+        "id": "nisr-23",
+        "category": "factual",
+        "page_recall_at_5": 1.0,
+        "reciprocal_rank": 1.0,
+        "latency_ms": 459.51,
+        "sources": [
+          {
+            "chunk_id": 5,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 4,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 3
+          },
+          {
+            "chunk_id": 3,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 3
+          },
+          {
+            "chunk_id": 1,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 1
+          },
+          {
+            "chunk_id": 6,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 4
+          }
+        ]
+      },
+      {
+        "id": "nisr-24",
+        "category": "factual",
+        "page_recall_at_5": 1.0,
+        "reciprocal_rank": 1.0,
+        "latency_ms": 419.54,
+        "sources": [
+          {
+            "chunk_id": 5,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 1,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 1
+          },
+          {
+            "chunk_id": 2,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 2
+          },
+          {
+            "chunk_id": 3,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 3
+          },
+          {
+            "chunk_id": 6,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 4
+          }
+        ]
+      },
+      {
+        "id": "nisr-25",
+        "category": "factual",
+        "page_recall_at_5": 1.0,
+        "reciprocal_rank": 1.0,
+        "latency_ms": 463.01,
+        "sources": [
+          {
+            "chunk_id": 5,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 3,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 3
+          },
+          {
+            "chunk_id": 6,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 4,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 3
+          },
+          {
+            "chunk_id": 1,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 1
+          }
+        ]
+      },
+      {
+        "id": "nisr-26",
+        "category": "comparison",
+        "page_recall_at_5": 1.0,
+        "reciprocal_rank": 1.0,
+        "latency_ms": 450.52,
+        "sources": [
+          {
+            "chunk_id": 5,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 3,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 3
+          },
+          {
+            "chunk_id": 6,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 4,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 3
+          },
+          {
+            "chunk_id": 1,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 1
+          }
+        ]
+      },
+      {
+        "id": "nisr-27",
+        "category": "factual",
+        "page_recall_at_5": 1.0,
+        "reciprocal_rank": 1.0,
+        "latency_ms": 441.04,
+        "sources": [
+          {
+            "chunk_id": 5,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 6,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 1,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 1
+          },
+          {
+            "chunk_id": 3,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 3
+          },
+          {
+            "chunk_id": 7,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 5
+          }
+        ]
+      },
+      {
+        "id": "nisr-28",
+        "category": "factual",
+        "page_recall_at_5": 1.0,
+        "reciprocal_rank": 1.0,
+        "latency_ms": 355.89,
+        "sources": [
+          {
+            "chunk_id": 5,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 6,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 3,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 3
+          },
+          {
+            "chunk_id": 7,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 5
+          },
+          {
+            "chunk_id": 1,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 1
+          }
+        ]
+      },
+      {
+        "id": "nisr-29",
+        "category": "comparison",
+        "page_recall_at_5": 1.0,
+        "reciprocal_rank": 1.0,
+        "latency_ms": 344.58,
+        "sources": [
+          {
+            "chunk_id": 5,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 3,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 3
+          },
+          {
+            "chunk_id": 6,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 4,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 3
+          },
+          {
+            "chunk_id": 1,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 1
+          }
+        ]
+      },
+      {
+        "id": "nisr-30",
+        "category": "factual",
+        "page_recall_at_5": 1.0,
+        "reciprocal_rank": 1.0,
+        "latency_ms": 292.36,
+        "sources": [
+          {
+            "chunk_id": 5,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 6,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 3,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 3
+          },
+          {
+            "chunk_id": 7,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 5
+          },
+          {
+            "chunk_id": 4,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 3
+          }
+        ]
+      },
+      {
+        "id": "nisr-31",
+        "category": "factual",
+        "page_recall_at_5": 1.0,
+        "reciprocal_rank": 1.0,
+        "latency_ms": 395.97,
+        "sources": [
+          {
+            "chunk_id": 7,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 5
+          },
+          {
+            "chunk_id": 6,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 5,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 3,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 3
+          },
+          {
+            "chunk_id": 1,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 1
+          }
+        ]
+      },
+      {
+        "id": "nisr-32",
+        "category": "revision_sensitive",
+        "page_recall_at_5": 1.0,
+        "reciprocal_rank": 1.0,
+        "latency_ms": 430.31,
+        "sources": [
+          {
+            "chunk_id": 3,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 3
+          },
+          {
+            "chunk_id": 7,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 5
+          },
+          {
+            "chunk_id": 6,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 1,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 1
+          },
+          {
+            "chunk_id": 5,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 4
+          }
+        ]
+      },
+      {
+        "id": "unsupported-33",
+        "category": "unsupported",
+        "page_recall_at_5": null,
+        "reciprocal_rank": null,
+        "latency_ms": 441.26,
+        "sources": [
+          {
+            "chunk_id": 124,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-09/CONSUMER%20PRICE%20INDEX%20%20%28CPI%29%20AUGUST%202026.pdf",
+            "page": 5
+          },
+          {
+            "chunk_id": 82,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-11/CONSUMER%20PRICE%20INDEX%20%28CPI%29%20-%20%20OCTOBER%202026.pdf",
+            "page": 5
+          },
+          {
+            "chunk_id": 145,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-08/CONSUMER%20PRICE%20INDEX%20JULY%20%28CPI%29%202026%20Report%20.pdf",
+            "page": 5
+          },
+          {
+            "chunk_id": 103,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-10/SEPTEMBER%202026%20CPI%20Report%20English.pdf",
+            "page": 5
+          },
+          {
+            "chunk_id": 15,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-09/GDP%20Q2%202026.pdf",
+            "page": 5
+          }
+        ]
+      },
+      {
+        "id": "unsupported-34",
+        "category": "unsupported",
+        "page_recall_at_5": null,
+        "reciprocal_rank": null,
+        "latency_ms": 434.81,
+        "sources": [
+          {
+            "chunk_id": 74,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-09/GDP%20Q2%202026.pdf",
+            "page": 14
+          },
+          {
+            "chunk_id": 370,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2025-03/GDP%20National%20Accounts%202024%20Annual.pdf",
+            "page": 12
+          },
+          {
+            "chunk_id": 68,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-09/GDP%20Q2%202026.pdf",
+            "page": 13
+          },
+          {
+            "chunk_id": 5,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 429,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2024-09/GDP%20National%20Accounts%202023%20annual%20fnl.pdf",
+            "page": 12
+          }
+        ]
+      },
+      {
+        "id": "unsupported-35",
+        "category": "unsupported",
+        "page_recall_at_5": null,
+        "reciprocal_rank": null,
+        "latency_ms": 403.78,
+        "sources": [
+          {
+            "chunk_id": 380,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2024-09/GDP%20National%20Accounts%202023%20annual%20fnl.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 295,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2025-03/GDP%20National%20Accounts%202024%20Annual.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 291,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2025-03/GDP%20National%20Accounts%202024%20Annual.pdf",
+            "page": 2
+          },
+          {
+            "chunk_id": 382,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2024-09/GDP%20National%20Accounts%202023%20annual%20fnl.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 5,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 4
+          }
+        ]
+      },
+      {
+        "id": "unsupported-36",
+        "category": "unsupported",
+        "page_recall_at_5": null,
+        "reciprocal_rank": null,
+        "latency_ms": 342.31,
+        "sources": [
+          {
+            "chunk_id": 451,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-06/GDP%20Q1%202026%20with%20tables.pdf",
+            "page": 7
+          },
+          {
+            "chunk_id": 27,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-09/GDP%20Q2%202026.pdf",
+            "page": 7
+          },
+          {
+            "chunk_id": 310,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2025-03/GDP%20National%20Accounts%202024%20Annual.pdf",
+            "page": 6
+          },
+          {
+            "chunk_id": 390,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2024-09/GDP%20National%20Accounts%202023%20annual%20fnl.pdf",
+            "page": 6
+          },
+          {
+            "chunk_id": 468,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-06/GDP%20Q1%202026%20with%20tables.pdf",
+            "page": 9
+          }
+        ]
+      },
+      {
+        "id": "unsupported-37",
+        "category": "unsupported",
+        "page_recall_at_5": null,
+        "reciprocal_rank": null,
+        "latency_ms": 465.15,
+        "sources": [
+          {
+            "chunk_id": 62,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-09/GDP%20Q2%202026.pdf",
+            "page": 12
+          },
+          {
+            "chunk_id": 14,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-09/GDP%20Q2%202026.pdf",
+            "page": 5
+          },
+          {
+            "chunk_id": 293,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2025-03/GDP%20National%20Accounts%202024%20Annual.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 10,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-09/GDP%20Q2%202026.pdf",
+            "page": 3
+          },
+          {
+            "chunk_id": 379,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2024-09/GDP%20National%20Accounts%202023%20annual%20fnl.pdf",
+            "page": 4
+          }
+        ]
+      },
+      {
+        "id": "unsupported-38",
+        "category": "unsupported",
+        "page_recall_at_5": null,
+        "reciprocal_rank": null,
+        "latency_ms": 378.05,
+        "sources": [
+          {
+            "chunk_id": 100,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-10/SEPTEMBER%202026%20CPI%20Report%20English.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 121,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-09/CONSUMER%20PRICE%20INDEX%20%20%28CPI%29%20AUGUST%202026.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 79,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-11/CONSUMER%20PRICE%20INDEX%20%28CPI%29%20-%20%20OCTOBER%202026.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 163,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-07/JUNE%202026%20CPI%20Report%20English.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 142,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-08/CONSUMER%20PRICE%20INDEX%20JULY%20%28CPI%29%202026%20Report%20.pdf",
+            "page": 4
+          }
+        ]
+      },
+      {
+        "id": "unsupported-39",
+        "category": "unsupported",
+        "page_recall_at_5": null,
+        "reciprocal_rank": null,
+        "latency_ms": 331.59,
+        "sources": [
+          {
+            "chunk_id": 89,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-11/CONSUMER%20PRICE%20INDEX%20%28CPI%29%20-%20%20OCTOBER%202026.pdf",
+            "page": 8
+          },
+          {
+            "chunk_id": 259,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/CPI_Report_English_Feb_2026.pdf",
+            "page": 8
+          },
+          {
+            "chunk_id": 83,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-11/CONSUMER%20PRICE%20INDEX%20%28CPI%29%20-%20%20OCTOBER%202026.pdf",
+            "page": 5
+          },
+          {
+            "chunk_id": 279,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-02/CPI-Report-English.pdf",
+            "page": 6
+          },
+          {
+            "chunk_id": 110,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-10/SEPTEMBER%202026%20CPI%20Report%20English.pdf",
+            "page": 8
+          }
+        ]
+      },
+      {
+        "id": "unsupported-40",
+        "category": "unsupported",
+        "page_recall_at_5": null,
+        "reciprocal_rank": null,
+        "latency_ms": 401.14,
+        "sources": [
+          {
+            "chunk_id": 104,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-10/SEPTEMBER%202026%20CPI%20Report%20English.pdf",
+            "page": 5
+          },
+          {
+            "chunk_id": 167,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-07/JUNE%202026%20CPI%20Report%20English.pdf",
+            "page": 5
+          },
+          {
+            "chunk_id": 83,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-11/CONSUMER%20PRICE%20INDEX%20%28CPI%29%20-%20%20OCTOBER%202026.pdf",
+            "page": 5
+          },
+          {
+            "chunk_id": 273,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-02/CPI-Report-English.pdf",
+            "page": 3
+          },
+          {
+            "chunk_id": 146,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-08/CONSUMER%20PRICE%20INDEX%20JULY%20%28CPI%29%202026%20Report%20.pdf",
+            "page": 5
+          }
+        ]
+      },
+      {
+        "id": "cpi-41",
+        "category": "financial_factual",
+        "page_recall_at_5": 1.0,
+        "reciprocal_rank": 1.0,
+        "latency_ms": 290.66,
+        "sources": [
+          {
+            "chunk_id": 79,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-11/CONSUMER%20PRICE%20INDEX%20%28CPI%29%20-%20%20OCTOBER%202026.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 82,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-11/CONSUMER%20PRICE%20INDEX%20%28CPI%29%20-%20%20OCTOBER%202026.pdf",
+            "page": 5
+          },
+          {
+            "chunk_id": 80,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-11/CONSUMER%20PRICE%20INDEX%20%28CPI%29%20-%20%20OCTOBER%202026.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 85,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-11/CONSUMER%20PRICE%20INDEX%20%28CPI%29%20-%20%20OCTOBER%202026.pdf",
+            "page": 7
+          },
+          {
+            "chunk_id": 84,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-11/CONSUMER%20PRICE%20INDEX%20%28CPI%29%20-%20%20OCTOBER%202026.pdf",
+            "page": 6
+          }
+        ]
+      },
+      {
+        "id": "cpi-42",
+        "category": "financial_factual",
+        "page_recall_at_5": 1.0,
+        "reciprocal_rank": 1.0,
+        "latency_ms": 290.92,
+        "sources": [
+          {
+            "chunk_id": 79,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-11/CONSUMER%20PRICE%20INDEX%20%28CPI%29%20-%20%20OCTOBER%202026.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 80,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-11/CONSUMER%20PRICE%20INDEX%20%28CPI%29%20-%20%20OCTOBER%202026.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 82,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-11/CONSUMER%20PRICE%20INDEX%20%28CPI%29%20-%20%20OCTOBER%202026.pdf",
+            "page": 5
+          },
+          {
+            "chunk_id": 83,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-11/CONSUMER%20PRICE%20INDEX%20%28CPI%29%20-%20%20OCTOBER%202026.pdf",
+            "page": 5
+          },
+          {
+            "chunk_id": 84,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-11/CONSUMER%20PRICE%20INDEX%20%28CPI%29%20-%20%20OCTOBER%202026.pdf",
+            "page": 6
+          }
+        ]
+      },
+      {
+        "id": "cpi-43",
+        "category": "financial_factual",
+        "page_recall_at_5": 1.0,
+        "reciprocal_rank": 1.0,
+        "latency_ms": 329.42,
+        "sources": [
+          {
+            "chunk_id": 79,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-11/CONSUMER%20PRICE%20INDEX%20%28CPI%29%20-%20%20OCTOBER%202026.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 84,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-11/CONSUMER%20PRICE%20INDEX%20%28CPI%29%20-%20%20OCTOBER%202026.pdf",
+            "page": 6
+          },
+          {
+            "chunk_id": 81,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-11/CONSUMER%20PRICE%20INDEX%20%28CPI%29%20-%20%20OCTOBER%202026.pdf",
+            "page": 5
+          },
+          {
+            "chunk_id": 85,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-11/CONSUMER%20PRICE%20INDEX%20%28CPI%29%20-%20%20OCTOBER%202026.pdf",
+            "page": 7
+          },
+          {
+            "chunk_id": 76,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-11/CONSUMER%20PRICE%20INDEX%20%28CPI%29%20-%20%20OCTOBER%202026.pdf",
+            "page": 1
+          }
+        ]
+      },
+      {
+        "id": "cpi-44",
+        "category": "financial_factual",
+        "page_recall_at_5": 1.0,
+        "reciprocal_rank": 1.0,
+        "latency_ms": 319.11,
+        "sources": [
+          {
+            "chunk_id": 79,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-11/CONSUMER%20PRICE%20INDEX%20%28CPI%29%20-%20%20OCTOBER%202026.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 80,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-11/CONSUMER%20PRICE%20INDEX%20%28CPI%29%20-%20%20OCTOBER%202026.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 82,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-11/CONSUMER%20PRICE%20INDEX%20%28CPI%29%20-%20%20OCTOBER%202026.pdf",
+            "page": 5
+          },
+          {
+            "chunk_id": 84,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-11/CONSUMER%20PRICE%20INDEX%20%28CPI%29%20-%20%20OCTOBER%202026.pdf",
+            "page": 6
+          },
+          {
+            "chunk_id": 90,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-11/CONSUMER%20PRICE%20INDEX%20%28CPI%29%20-%20%20OCTOBER%202026.pdf",
+            "page": 9
+          }
+        ]
+      },
+      {
+        "id": "cpi-45",
+        "category": "financial_factual",
+        "page_recall_at_5": 1.0,
+        "reciprocal_rank": 0.5,
+        "latency_ms": 346.44,
+        "sources": [
+          {
+            "chunk_id": 103,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-10/SEPTEMBER%202026%20CPI%20Report%20English.pdf",
+            "page": 5
+          },
+          {
+            "chunk_id": 100,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-10/SEPTEMBER%202026%20CPI%20Report%20English.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 101,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-10/SEPTEMBER%202026%20CPI%20Report%20English.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 106,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-10/SEPTEMBER%202026%20CPI%20Report%20English.pdf",
+            "page": 7
+          },
+          {
+            "chunk_id": 105,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-10/SEPTEMBER%202026%20CPI%20Report%20English.pdf",
+            "page": 6
+          }
+        ]
+      },
+      {
+        "id": "cpi-46",
+        "category": "financial_factual",
+        "page_recall_at_5": 1.0,
+        "reciprocal_rank": 1.0,
+        "latency_ms": 316.03,
+        "sources": [
+          {
+            "chunk_id": 100,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-10/SEPTEMBER%202026%20CPI%20Report%20English.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 103,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-10/SEPTEMBER%202026%20CPI%20Report%20English.pdf",
+            "page": 5
+          },
+          {
+            "chunk_id": 101,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-10/SEPTEMBER%202026%20CPI%20Report%20English.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 106,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-10/SEPTEMBER%202026%20CPI%20Report%20English.pdf",
+            "page": 7
+          },
+          {
+            "chunk_id": 105,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-10/SEPTEMBER%202026%20CPI%20Report%20English.pdf",
+            "page": 6
+          }
+        ]
+      },
+      {
+        "id": "cpi-47",
+        "category": "financial_factual",
+        "page_recall_at_5": 1.0,
+        "reciprocal_rank": 0.5,
+        "latency_ms": 382.71,
+        "sources": [
+          {
+            "chunk_id": 124,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-09/CONSUMER%20PRICE%20INDEX%20%20%28CPI%29%20AUGUST%202026.pdf",
+            "page": 5
+          },
+          {
+            "chunk_id": 121,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-09/CONSUMER%20PRICE%20INDEX%20%20%28CPI%29%20AUGUST%202026.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 122,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-09/CONSUMER%20PRICE%20INDEX%20%20%28CPI%29%20AUGUST%202026.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 126,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-09/CONSUMER%20PRICE%20INDEX%20%20%28CPI%29%20AUGUST%202026.pdf",
+            "page": 6
+          },
+          {
+            "chunk_id": 127,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-09/CONSUMER%20PRICE%20INDEX%20%20%28CPI%29%20AUGUST%202026.pdf",
+            "page": 7
+          }
+        ]
+      },
+      {
+        "id": "cpi-48",
+        "category": "financial_factual",
+        "page_recall_at_5": 1.0,
+        "reciprocal_rank": 1.0,
+        "latency_ms": 381.63,
+        "sources": [
+          {
+            "chunk_id": 122,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-09/CONSUMER%20PRICE%20INDEX%20%20%28CPI%29%20AUGUST%202026.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 121,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-09/CONSUMER%20PRICE%20INDEX%20%20%28CPI%29%20AUGUST%202026.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 126,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-09/CONSUMER%20PRICE%20INDEX%20%20%28CPI%29%20AUGUST%202026.pdf",
+            "page": 6
+          },
+          {
+            "chunk_id": 124,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-09/CONSUMER%20PRICE%20INDEX%20%20%28CPI%29%20AUGUST%202026.pdf",
+            "page": 5
+          },
+          {
+            "chunk_id": 132,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-09/CONSUMER%20PRICE%20INDEX%20%20%28CPI%29%20AUGUST%202026.pdf",
+            "page": 9
+          }
+        ]
+      },
+      {
+        "id": "cross-49",
+        "category": "cross_report_comparison",
+        "page_recall_at_5": 1.0,
+        "reciprocal_rank": 1.0,
+        "latency_ms": 362.58,
+        "sources": [
+          {
+            "chunk_id": 79,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-11/CONSUMER%20PRICE%20INDEX%20%28CPI%29%20-%20%20OCTOBER%202026.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 82,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-11/CONSUMER%20PRICE%20INDEX%20%28CPI%29%20-%20%20OCTOBER%202026.pdf",
+            "page": 5
+          },
+          {
+            "chunk_id": 103,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-10/SEPTEMBER%202026%20CPI%20Report%20English.pdf",
+            "page": 5
+          },
+          {
+            "chunk_id": 100,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-10/SEPTEMBER%202026%20CPI%20Report%20English.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 80,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-11/CONSUMER%20PRICE%20INDEX%20%28CPI%29%20-%20%20OCTOBER%202026.pdf",
+            "page": 4
+          }
+        ]
+      },
+      {
+        "id": "cross-50",
+        "category": "cross_report_comparison",
+        "page_recall_at_5": 1.0,
+        "reciprocal_rank": 1.0,
+        "latency_ms": 401.16,
+        "sources": [
+          {
+            "chunk_id": 79,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-11/CONSUMER%20PRICE%20INDEX%20%28CPI%29%20-%20%20OCTOBER%202026.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 100,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-10/SEPTEMBER%202026%20CPI%20Report%20English.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 80,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-11/CONSUMER%20PRICE%20INDEX%20%28CPI%29%20-%20%20OCTOBER%202026.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 82,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-11/CONSUMER%20PRICE%20INDEX%20%28CPI%29%20-%20%20OCTOBER%202026.pdf",
+            "page": 5
+          },
+          {
+            "chunk_id": 103,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-10/SEPTEMBER%202026%20CPI%20Report%20English.pdf",
+            "page": 5
+          }
+        ]
+      },
+      {
+        "id": "cross-51",
+        "category": "cross_report_comparison",
+        "page_recall_at_5": 1.0,
+        "reciprocal_rank": 1.0,
+        "latency_ms": 601.5,
+        "sources": [
+          {
+            "chunk_id": 79,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-11/CONSUMER%20PRICE%20INDEX%20%28CPI%29%20-%20%20OCTOBER%202026.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 100,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-10/SEPTEMBER%202026%20CPI%20Report%20English.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 84,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-11/CONSUMER%20PRICE%20INDEX%20%28CPI%29%20-%20%20OCTOBER%202026.pdf",
+            "page": 6
+          },
+          {
+            "chunk_id": 105,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-10/SEPTEMBER%202026%20CPI%20Report%20English.pdf",
+            "page": 6
+          },
+          {
+            "chunk_id": 81,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-11/CONSUMER%20PRICE%20INDEX%20%28CPI%29%20-%20%20OCTOBER%202026.pdf",
+            "page": 5
+          }
+        ]
+      },
+      {
+        "id": "revision-cross",
+        "category": "revision_conflict",
+        "page_recall_at_5": 1.0,
+        "reciprocal_rank": 0.25,
+        "latency_ms": 579.83,
+        "sources": [
+          {
+            "chunk_id": 292,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2025-03/GDP%20National%20Accounts%202024%20Annual.pdf",
+            "page": 3
+          },
+          {
+            "chunk_id": 7,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 5
+          },
+          {
+            "chunk_id": 6,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 4
+          },
+          {
+            "chunk_id": 3,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "page": 3
+          },
+          {
+            "chunk_id": 288,
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2025-03/GDP%20National%20Accounts%202024%20Annual.pdf",
+            "page": 1
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,156 @@
+{
+  "method": "Append exact source sentence windows and pypdf layout table blocks; original IDs retained. Table layout is not a validated cell parser.",
+  "documents": [
+    {
+      "document_id": 3,
+      "added": 23,
+      "original_pdf_sha256": "24a0eb8faca4cc5f8cf047831dddbc3074705cf1f587945c0b58f6b427d5f735"
+    },
+    {
+      "document_id": 29,
+      "added": 29,
+      "original_pdf_sha256": "8492f5741060c055f357843e7f7023c894881762a348a69234914b0f55665817"
+    },
+    {
+      "document_id": 30,
+      "added": 22,
+      "original_pdf_sha256": "78329bb17776a70f9a223dde8781100e03eb43e8e426d6ca7d5723e5c9ab4a6e"
+    },
+    {
+      "document_id": 4,
+      "added": 23,
+      "original_pdf_sha256": "7d0c0c09c52c03728b6ac354654eed4e4cc402b0ede3e70e2e1fa09d699e7c50"
+    },
+    {
+      "document_id": 28,
+      "added": 34,
+      "original_pdf_sha256": "01139b2e1d5068424f936b7674c898bb276d7fd6074fd79a5967fceae5a26144"
+    },
+    {
+      "document_id": 5,
+      "added": 23,
+      "original_pdf_sha256": "4ba5193b1ef224143a2caa8370ca5ca197b1bfbb4cb04526e6d6a726fe4d6117"
+    },
+    {
+      "document_id": 2,
+      "added": 38,
+      "original_pdf_sha256": "a36241bb6a167d4a67c88efefa05ac6aceb4f74622ecc2838f35b0c9be93d6ad"
+    },
+    {
+      "document_id": 6,
+      "added": 23,
+      "original_pdf_sha256": "04b54916d9aef7d49850fd5a5c40d7a1c73b75df29e3152fa0104e32cfad0a83"
+    },
+    {
+      "document_id": 7,
+      "added": 24,
+      "original_pdf_sha256": "e0a0a4fb3a96ec0957de7b82cd065fb40c8679f73f51adc92e6e409a625b4456"
+    },
+    {
+      "document_id": 15,
+      "added": 41,
+      "original_pdf_sha256": "43c5a0bd59b0ac4c731597105997e79b81fd9094ccadf7448261afcb9379a366"
+    },
+    {
+      "document_id": 8,
+      "added": 23,
+      "original_pdf_sha256": "ca6ee9ceb8509e85dca28a9ac1851b89faa5267212e69377463f7b91de6fdbc2"
+    },
+    {
+      "document_id": 9,
+      "added": 24,
+      "original_pdf_sha256": "b9cea2739a6a5aa55e8fa696199afa1f5a2b3956d3afeb431c185a56dc92a4ef"
+    },
+    {
+      "document_id": 10,
+      "added": 25,
+      "original_pdf_sha256": "4aae1762a183c0f077b92d403fe6111d469f71b707121e8f675b161b731cb446"
+    },
+    {
+      "document_id": 11,
+      "added": 23,
+      "original_pdf_sha256": "dc96c9b300fc3859f3f90e5ac972c7826fcecfca4629f8e5982190e02303b3ab"
+    },
+    {
+      "document_id": 1,
+      "added": 22,
+      "original_pdf_sha256": "b9d1be933f8db09af76d829ee6b3b4f509ff8324794337fdab17b0a977f55446"
+    },
+    {
+      "document_id": 12,
+      "added": 24,
+      "original_pdf_sha256": "a767578c025cc88e155b5aa32812da4b81cd5be0f03090048fdc1cf4b6555ff1"
+    },
+    {
+      "document_id": 16,
+      "added": 24,
+      "original_pdf_sha256": "07b7f9878f30fcee6eae8826b4ad6eac5c005b3b15fcf29b9acf3ab431b03d38"
+    },
+    {
+      "document_id": 17,
+      "added": 24,
+      "original_pdf_sha256": "28501274c8c5944008a14b023abe8ce82fb8e207cca1aa264444206083ecf4cf"
+    },
+    {
+      "document_id": 18,
+      "added": 21,
+      "original_pdf_sha256": "6ff7ad5af5cb2ecadada8a953cba2722742640b14999492c5a3d0258697f7d07"
+    },
+    {
+      "document_id": 19,
+      "added": 20,
+      "original_pdf_sha256": "bcbb6ea172dcc689b7a830abb293d51908543242e30d88d09e98710f1db73c96"
+    },
+    {
+      "document_id": 20,
+      "added": 21,
+      "original_pdf_sha256": "64d2357481fb0ede9771e864d4d7dd4182fc78f9044c053746f6d97fec4cca7a"
+    },
+    {
+      "document_id": 21,
+      "added": 22,
+      "original_pdf_sha256": "7f9928d6fbbd2c11436ef455319a38bd21ee3e25b70be0752d00ecec540b5017"
+    },
+    {
+      "document_id": 22,
+      "added": 21,
+      "original_pdf_sha256": "0e075936eb5d98fca322282ffbdf605233bfc28094cfd099321faad9d2323903"
+    },
+    {
+      "document_id": 23,
+      "added": 21,
+      "original_pdf_sha256": "dcabeec65913a6b5a553364f4a92b55db0d1e77d680486f686166fd0ce62699f"
+    },
+    {
+      "document_id": 24,
+      "added": 21,
+      "original_pdf_sha256": "8b7d72dcdf856a312cdcf2b14f273ed2487d2d61bfe04ae0ec758df1202b4cb8"
+    },
+    {
+      "document_id": 25,
+      "added": 21,
+      "original_pdf_sha256": "1ac84c708a23c000ebf360cb61da688ded99422f0846163fbd1bd55e61051bd8"
+    },
+    {
+      "document_id": 13,
+      "added": 36,
+      "original_pdf_sha256": "fe76a62230d2e0db629fddea4dae2841c5b231f35ade82a302b1f0567023bd5c"
+    },
+    {
+      "document_id": 26,
+      "added": 21,
+      "original_pdf_sha256": "7a3b89185f859fe4201c27a8c33d41e575952f6ac6d44fb439e321cb8f73d02a"
+    },
+    {
+      "document_id": 27,
+      "added": 22,
+      "original_pdf_sha256": "37dfc95288c34723d26df5b0ae65e9374d46f15d162359b348e613409bb50817"
+    },
+    {
+      "document_id": 14,
+      "added": 39,
+      "original_pdf_sha256": "f2d3c5b7d928c0187e0596686448e5cc1d570daac5503ab81439d533ab7f386b"
+    }
+  ],
+  "added": 755
+}

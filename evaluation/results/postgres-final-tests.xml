@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="0" failures="1" skipped="0" tests="3" time="19.230" timestamp="2026-11-17T08:05:09.490360+02:00" hostname="RUGANJI-P"><testcase classname="tests.test_pg_upgrade" name="test_real_migration_preserves_evidence_and_governance" time="0.393"><failure message="NameError: name 'json' is not defined. Did you forget to import 'json'?">pg_isolated = 'finrag_test_f7bed661eb894f69b8c4d4aa55a7830a'
+tmp_path = WindowsPath('C:/Users/PRINCE R/Box/FinRAG/.pytest-tmp/test_real_migration_preserves_0')
+
+    def test_real_migration_preserves_evidence_and_governance(pg_isolated, tmp_path):
+        source = ROOT / "data/backups/finrag-before-rag-upgrade.db"
+        # CI uses the bundled legally redistributable index to create a separate source.
+        from pipelines.snapshot import restore
+    
+        pg_url = settings.database_url
+        settings.database_url = "sqlite:///" + str(tmp_path / "source.db")
+        try:
+            restore(ROOT / "data/prebuilt-index.json")
+            initialize()
+            import hashlib
+&gt;           payload=json.dumps({'fixture_registry':True,'steward':'test fixture'})
+                    ^^^^
+E           NameError: name 'json' is not defined. Did you forget to import 'json'?
+
+tests\test_pg_upgrade.py:23: NameError</failure></testcase><testcase classname="tests.test_pg_upgrade" name="test_postgres_persistence_and_readonly" time="0.417" /><testcase classname="tests.test_pg_upgrade" name="test_real_semantic_embeddings_postgres" time="18.185" /></testsuite></testsuites>

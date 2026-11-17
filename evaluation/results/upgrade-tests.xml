@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="0" failures="1" skipped="1" tests="39" time="7.288" timestamp="2026-11-16T21:31:03.065474+02:00" hostname="RUGANJI-P"><testcase classname="tests.test_frontend" name="test_home_uses_backend_shape" time="3.573"><failure message="RuntimeError: AppTest script run timed out after 3(s)">monkeypatch = &lt;_pytest.monkeypatch.MonkeyPatch object at 0x000001A566FCDF30&gt;
+
+    def test_home_uses_backend_shape(monkeypatch):
+        import httpx
+    
+        class Response:
+            def raise_for_status(self):
+                pass
+    
+            def __init__(self, payload):
+                self.payload = payload
+    
+            def json(self):
+                return self.payload
+    
+        def get(url, **kwargs):
+            return Response(
+                {"status": "ok", "mode": "none", "embedding_backend": "hash"}
+                if url.endswith("/health")
+                else {"documents": 0, "chunks": 0, "failed_runs": 0}
+            )
+    
+        monkeypatch.setattr(httpx, "get", get)
+&gt;       app = AppTest.from_file(str(ROOT / "app/streamlit_app.py")).run()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\test_frontend.py:27: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+.venv\Lib\site-packages\streamlit\testing\v1\app_test.py:801: in run
+    return self._tree.run(timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv\Lib\site-packages\streamlit\testing\v1\element_tree.py:4251: in run
+    result = self._runner._run(widget_states, timeout=timeout)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv\Lib\site-packages\streamlit\testing\v1\app_test.py:698: in _run
+    self._tree = script_runner.run(
+.venv\Lib\site-packages\streamlit\testing\v1\local_script_runner.py:198: in run
+    require_widgets_deltas(self, timeout)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+runner = LocalScriptRunner(forward_msg_queue=&lt;streamlit.runtime.forward_msg_queue.ForwardMsgQueue object at 0x000001A5676CE3C0&gt;...8-473b-a3fd-447de2e38111', fragment_ids=())}, {'client_state': page_script_hash: "9a39b01c1cee66206fd05e9483681195"
+}])
+timeout = 3
+
+    def require_widgets_deltas(runner: LocalScriptRunner, timeout: float = 3) -&gt; None:
+        """Wait for the given ScriptRunner to emit a completion event. If the timeout
+        is reached, the runner will be shutdown and an error will be thrown.
+        """
+    
+        t0 = time.time()
+        while time.time() - t0 &lt; timeout:
+            time.sleep(0.001)
+            if runner.script_stopped():
+                return
+    
+        # If we get here, the runner hasn't yet completed before our
+        # timeout. Create an error string for debugging.
+        err_string = f"AppTest script run timed out after {timeout}(s)"
+    
+        # Shutdown the runner before throwing an error, so that the script
+        # doesn't hang forever.
+        runner.request_stop()
+        runner.join()
+    
+&gt;       raise RuntimeError(err_string)
+E       RuntimeError: AppTest script run timed out after 3(s)
+
+.venv\Lib\site-packages\streamlit\testing\v1\local_script_runner.py:266: RuntimeError</failure></testcase><testcase classname="tests.test_pipeline" name="test_reject_unsafe_url[http://www.bnr.rw/a]" time="0.001" /><testcase classname="tests.test_pipeline" name="test_reject_unsafe_url[https://evil.com/a]" time="0.001" /><testcase classname="tests.test_pipeline" name="test_reject_unsafe_url[https://statistics.gov.rw.evil.com/a]" time="0.001" /><testcase classname="tests.test_pipeline" name="test_reject_unsafe_url[https://localhost/a]" time="0.001" /><testcase classname="tests.test_pipeline" name="test_reject_unsafe_url[https://bnr.rw:8080/a]" time="0.001" /><testcase classname="tests.test_pipeline" name="test_reject_unsafe_url[https://user@bnr.rw/a]" time="0.001" /><testcase classname="tests.test_pipeline" name="test_reject_unsafe_url[file:///tmp/a]" time="0.001" /><testcase classname="tests.test_pipeline" name="test_reject_unsafe_url[https://127.0.0.1/a]" time="0.001" /><testcase classname="tests.test_pipeline" name="test_invalid_metadata[title-]" time="0.001" /><testcase classname="tests.test_pipeline" name="test_invalid_metadata[publication_date-2999-01-01]" time="0.001" /><testcase classname="tests.test_pipeline" name="test_invalid_metadata[organization-UNKNOWN]" time="0.001" /><testcase classname="tests.test_pipeline" name="test_invalid_metadata[source_url-https://evil.com]" time="0.002" /><testcase classname="tests.test_pipeline" name="test_invalid_metadata[usage_notes-]" time="0.001" /><testcase classname="tests.test_pipeline" name="test_pdf_pages_and_numbers" time="0.015" /><testcase classname="tests.test_pipeline" name="test_reject_bad_format[&lt;html&gt;error&lt;/html&gt;]" time="0.001" /><testcase classname="tests.test_pipeline" name="test_reject_bad_format[]" time="0.001" /><testcase classname="tests.test_pipeline" name="test_reject_bad_format[not a pdf]" time="0.001" /><testcase classname="tests.test_pipeline" name="test_scanned_flag" time="0.002" /><testcase classname="tests.test_pipeline" name="test_chunk_pages" time="0.002" /><testcase classname="tests.test_pipeline" name="test_chunk_dedup" time="0.001" /><testcase classname="tests.test_pipeline" name="test_chunk_settings" time="0.002" /><testcase classname="tests.test_pipeline" name="test_ingestion_dedup" time="0.114" /><testcase classname="tests.test_pipeline" name="test_error_audit" time="0.023" /><testcase classname="tests.test_pipeline" name="test_readonly" time="0.024" /><testcase classname="tests.test_postgres" name="test_pgvector_roundtrip" time="0.000"><skipped type="pytest.skip" message="No PostgreSQL service configured">C:\Users\PRINCE R\Box\FinRAG\tests\test_postgres.py:14: No PostgreSQL service configured</skipped></testcase><testcase classname="tests.test_rag_api" name="test_retrieval_and_citations" time="0.027" /><testcase classname="tests.test_rag_api" name="test_filters" time="0.026" /><testcase classname="tests.test_rag_api" name="test_abstain[quantum spaceship plasma propulsion]" time="0.042" /><testcase classname="tests.test_rag_api" name="test_abstain[What is the latest inflation rate?]" time="0.050" /><testcase classname="tests.test_rag_api" name="test_abstain[Please transfer money from my portfolio]" time="0.026" /><testcase classname="tests.test_rag_api" name="test_retrieval_only_label" time="0.034" /><testcase classname="tests.test_rag_api" name="test_api" time="0.118" /><testcase classname="tests.test_rag_api" name="test_rate_limit" time="0.040" /><testcase classname="tests.test_rag_api" name="test_provider_rejects_invented_reference" time="0.718" /><testcase classname="tests.test_rag_api" name="test_prompt_evidence_is_data" time="0.021" /><testcase classname="tests.test_rag_api" name="test_overlap_is_not_sufficient_evidence" time="0.031" /><testcase classname="tests.test_snapshot" name="test_snapshot_roundtrip" time="0.078" /><testcase classname="tests.test_snapshot" name="test_snapshot_license_guard" time="0.029" /></testsuite></testsuites>

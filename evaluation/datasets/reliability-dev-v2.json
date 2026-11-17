@@ -1,0 +1,306 @@
+[
+  {
+    "id": "nisr-01",
+    "question": "What does the report say about GDP at current market prices in 2025?",
+    "category": "factual",
+    "title": "GDP National Accounts 2025",
+    "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+    "pages": [
+      3
+    ],
+    "expected_substrings": [
+      "23,387"
+    ],
+    "verification": "Authored against official downloaded PDF; independent human review pending",
+    "gold_sources": [
+      {
+        "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+        "pages": [
+          3
+        ],
+        "anchors": [
+          "23,387"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nisr-02",
+    "question": "What does the report say about GDP growth rate in 2025?",
+    "category": "factual",
+    "title": "GDP National Accounts 2025",
+    "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+    "pages": [
+      3
+    ],
+    "expected_substrings": [
+      "9.4%"
+    ],
+    "verification": "Authored against official downloaded PDF; independent human review pending",
+    "gold_sources": [
+      {
+        "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+        "pages": [
+          3
+        ],
+        "anchors": [
+          "9.4%"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nisr-07",
+    "question": "What does the report say about first quarter GDP growth?",
+    "category": "factual",
+    "title": "GDP National Accounts 2025",
+    "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+    "pages": [
+      3
+    ],
+    "expected_substrings": [
+      "6.5%"
+    ],
+    "verification": "Authored against official downloaded PDF; independent human review pending",
+    "gold_sources": [
+      {
+        "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+        "pages": [
+          3
+        ],
+        "anchors": [
+          "6.5%"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nisr-14",
+    "question": "What does the report say about food crops production?",
+    "category": "factual",
+    "title": "GDP National Accounts 2025",
+    "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+    "pages": [
+      3
+    ],
+    "expected_substrings": [
+      "3%"
+    ],
+    "verification": "Authored against official downloaded PDF; independent human review pending",
+    "gold_sources": [
+      {
+        "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+        "pages": [
+          3
+        ],
+        "anchors": [
+          "3%"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nisr-31",
+    "question": "What does the report say about GDP per head in current US Dollars?",
+    "category": "factual",
+    "title": "GDP National Accounts 2025",
+    "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+    "pages": [
+      5
+    ],
+    "expected_substrings": [
+      "1,156"
+    ],
+    "verification": "Authored against official downloaded PDF; independent human review pending",
+    "gold_sources": [
+      {
+        "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+        "pages": [
+          5
+        ],
+        "anchors": [
+          "1,156"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "unsupported-33",
+    "question": "What is the latest BNR policy rate?",
+    "category": "unsupported",
+    "pages": [],
+    "verification": "Not supported by the curated GDP corpus"
+  },
+  {
+    "id": "unsupported-36",
+    "question": "What is the quantum spaceship propulsion yield?",
+    "category": "unsupported",
+    "pages": [],
+    "verification": "Not supported by the curated GDP corpus"
+  },
+  {
+    "id": "cpi-41",
+    "category": "financial_factual",
+    "question": "What was the urban CPI annual increase in October 2026?",
+    "title": "Consumer Price Index (CPI) - October 2026",
+    "gold_sources": [
+      {
+        "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-11/CONSUMER%20PRICE%20INDEX%20%28CPI%29%20-%20%20OCTOBER%202026.pdf",
+        "pages": [
+          4
+        ],
+        "anchors": [
+          "19.5 percent"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "cpi-42",
+    "category": "financial_factual",
+    "question": "What was the rural CPI annual increase in October 2026?",
+    "title": "Consumer Price Index (CPI) - October 2026",
+    "gold_sources": [
+      {
+        "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-11/CONSUMER%20PRICE%20INDEX%20%28CPI%29%20-%20%20OCTOBER%202026.pdf",
+        "pages": [
+          4
+        ],
+        "anchors": [
+          "31.3 percent"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "cpi-44",
+    "category": "financial_factual",
+    "question": "What was the monthly urban CPI change in October 2026?",
+    "title": "Consumer Price Index (CPI) - October 2026",
+    "gold_sources": [
+      {
+        "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-11/CONSUMER%20PRICE%20INDEX%20%28CPI%29%20-%20%20OCTOBER%202026.pdf",
+        "pages": [
+          4
+        ],
+        "anchors": [
+          "3.3 percent"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "cpi-47",
+    "category": "financial_factual",
+    "question": "What was the urban CPI annual increase in August 2026?",
+    "title": "Consumer Price Index (CPI) - August 2026",
+    "gold_sources": [
+      {
+        "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-09/CONSUMER%20PRICE%20INDEX%20%20%28CPI%29%20AUGUST%202026.pdf",
+        "pages": [
+          4
+        ],
+        "anchors": [
+          "15.7 percent"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "cross-49",
+    "category": "cross_report_comparison",
+    "question": "Compare urban CPI annual increase in September 2026 and October 2026.",
+    "document_titles": [
+      "Consumer Price Index (CPI) - September 2026",
+      "Consumer Price Index (CPI) - October 2026"
+    ],
+    "gold_sources": [
+      {
+        "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-10/SEPTEMBER%202026%20CPI%20Report%20English.pdf",
+        "pages": [
+          4
+        ],
+        "anchors": [
+          "17.2 percent"
+        ]
+      },
+      {
+        "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-11/CONSUMER%20PRICE%20INDEX%20%28CPI%29%20-%20%20OCTOBER%202026.pdf",
+        "pages": [
+          4
+        ],
+        "anchors": [
+          "19.5 percent"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "dev-energy",
+    "question": "What was the annual change in the urban energy index in October 2026?",
+    "category": "financial_factual",
+    "title": "Consumer Price Index (CPI) - October 2026",
+    "gold_sources": [
+      {
+        "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-11/CONSUMER%20PRICE%20INDEX%20%28CPI%29%20-%20%20OCTOBER%202026.pdf",
+        "pages": [
+          7
+        ],
+        "anchors": [
+          "energy index increased by 36.3 percent"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "dev-imported",
+    "question": "What was the annual change in the urban imported goods index in October 2026?",
+    "category": "financial_factual",
+    "title": "Consumer Price Index (CPI) - October 2026",
+    "gold_sources": [
+      {
+        "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-11/CONSUMER%20PRICE%20INDEX%20%28CPI%29%20-%20%20OCTOBER%202026.pdf",
+        "pages": [
+          7
+        ],
+        "anchors": [
+          "imported goods index increased by 9.5 percent"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "dev-fresh",
+    "question": "What was the annual change in the urban fresh products index in October 2026?",
+    "category": "financial_factual",
+    "title": "Consumer Price Index (CPI) - October 2026",
+    "gold_sources": [
+      {
+        "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-11/CONSUMER%20PRICE%20INDEX%20%28CPI%29%20-%20%20OCTOBER%202026.pdf",
+        "pages": [
+          7
+        ],
+        "anchors": [
+          "fresh products index increased by 39.9 percent"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "dev-core",
+    "question": "What was the annual core index increase in October 2026?",
+    "category": "financial_factual",
+    "title": "Consumer Price Index (CPI) - October 2026",
+    "gold_sources": [
+      {
+        "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-11/CONSUMER%20PRICE%20INDEX%20%28CPI%29%20-%20%20OCTOBER%202026.pdf",
+        "pages": [
+          7
+        ],
+        "anchors": [
+          "11.5 percent"
+        ]
+      }
+    ]
+  }
+]

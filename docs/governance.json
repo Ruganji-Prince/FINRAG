@@ -1,0 +1,64 @@
+{
+  "project_owner": "Repository maintainer",
+  "publishers": {
+    "BNR": "National Bank of Rwanda",
+    "NISR": "National Institute of Statistics of Rwanda"
+  },
+  "principles": [
+    "DAMA-inspired metadata, quality, stewardship, lineage and lifecycle management",
+    "Public documents only",
+    "Source restrictions reviewed per document",
+    "No institutional endorsement"
+  ],
+  "metadata_registry": {
+    "title": "Publisher title",
+    "publication_date": "ISO date; imputed day identified in usage_notes",
+    "content_hash": "SHA256 of original PDF bytes",
+    "retrieved_at": "UTC retrieval timestamp",
+    "embedding_model": "Index compatibility identifier",
+    "section": "First extracted line of PDF page; heuristic, not authoritative heading"
+  },
+  "quality_rules": [
+    {
+      "id": "DQ01",
+      "rule": "Required publisher, title, date, source URL and usage notes",
+      "action": "reject"
+    },
+    {
+      "id": "DQ02",
+      "rule": "HTTPS allowlisted official hosts, no redirects",
+      "action": "reject"
+    },
+    {
+      "id": "DQ03",
+      "rule": "More than 30% pages under 40 characters or under 200 total characters",
+      "action": "flag failure for OCR review"
+    },
+    {
+      "id": "DQ04",
+      "rule": "Duplicate document SHA256",
+      "action": "skip and audit"
+    },
+    {
+      "id": "DQ05",
+      "rule": "Repeated chunk SHA256 within document",
+      "action": "skip repeated passage"
+    },
+    {
+      "id": "DQ06",
+      "rule": "Future publication dates",
+      "action": "reject"
+    },
+    {
+      "id": "DQ07",
+      "rule": "Corrupt replacement characters",
+      "action": "reject"
+    }
+  ],
+  "lifecycle": "Keep versioned reports when source bytes change; no automatic deletion. Maintainer handles lawful removal and backups.",
+  "privacy": "No customer records. API questions are not persisted. Streamlit conversation is session-only.",
+  "restrictions": "Research demonstration only. No transactions, personalized investment instructions or consequential decisions.",
+  "governance_record_store": "PostgreSQL/SQLite governance_records with SHA256 payload identity; explicit updates archive previous versions.",
+  "query_policy_registry": "docs/query-policy.json; separately persisted under query_policy",
+  "stewardship": "BNR candidate reports remain outside the indexed corpus pending rights clarification. NISR date precision/proxies are explicitly documented per report."
+}

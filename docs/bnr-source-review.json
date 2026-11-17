@@ -1,0 +1,45 @@
+{
+  "reviewed_at": "2026-11-17T07:29:29.844011+00:00",
+  "entries": [
+    {
+      "title": "Monetary Policy Report - August 2026",
+      "source_url": "https://www.bnr.rw/documents/Monetary_Policy_Report_August_2026.pdf",
+      "publication_date": "2026-09-08",
+      "publisher": "BNR",
+      "pages": 38,
+      "sha256": "6ecbc9f1aa543c6cee4bf46df07ebba17f29089cedaffa793661a906e02203d1",
+      "status": "pending_rights_review",
+      "reason": "Public official source and robots allow download; a clear reproduction/redistribution permission was not established. Not indexed or included in prebuilt data."
+    },
+    {
+      "title": "CONSUMER RISKS IN DIGITAL FINANCIAL SERVICES: RWANDA NATIONAL SURVEY",
+      "source_url": "https://www.bnr.rw/documents/CGAP_report_rUUDCJi.pdf",
+      "publication_date": "2026-09-23",
+      "publisher": "BNR",
+      "pages": 108,
+      "sha256": "ff731772741c4f5c995fe11f1c0b9f7ae7852368823197b0148603d03a7e9395",
+      "status": "pending_rights_review",
+      "reason": "Public official source and robots allow download; a clear reproduction/redistribution permission was not established. Not indexed or included in prebuilt data."
+    },
+    {
+      "title": "Integrated Annual Report 2025-2026",
+      "source_url": "https://www.bnr.rw/documents/Annual_Report_2025-26_Engl_Full_version_Final_SA9BTP1.pdf",
+      "publication_date": "2026-11-11",
+      "publisher": "BNR",
+      "pages": 210,
+      "sha256": "35dd3811751ec584222bd73e51393498622b3075d8ad05ab917f9048ea4734ef",
+      "status": "pending_rights_review",
+      "reason": "Public official source and robots allow download; a clear reproduction/redistribution permission was not established. Not indexed or included in prebuilt data."
+    },
+    {
+      "title": "MONETARY POLICY AND FINANCIAL STABILITY STATEMENT PRESENTATION - OCTOBER 2026",
+      "source_url": "https://www.bnr.rw/documents/MPFSS_PPT-_October_2026_Final.pdf",
+      "publication_date": "2026-10-08",
+      "publisher": "BNR",
+      "pages": 35,
+      "sha256": "3e8f8596af3092937f7082a1475a11cf309c7e01bc6281f029f029d981d60223",
+      "status": "pending_rights_review",
+      "reason": "Public official source and robots allow download; a clear reproduction/redistribution permission was not established. Not indexed or included in prebuilt data."
+    }
+  ]
+}

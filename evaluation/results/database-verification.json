@@ -1,0 +1,91 @@
+{
+  "checked_at": "2026-11-16T21:21:31.752067+00:00",
+  "documents": 15,
+  "passages": 499,
+  "vector_dimensions": [
+    {
+      "n": 384
+    }
+  ],
+  "model_ids": [
+    {
+      "embedding_model": "sentence-transformers/all-MiniLM-L6-v2@1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+      "documents": 15
+    }
+  ],
+  "schema_versions": [
+    {
+      "version": "001",
+      "sha256": "b85c39d34986a2dbde03a66c24e58df662a56e3d0e61fcfd07e28c06cd3f00d7",
+      "applied_at": "2026-11-16T19:31:00.066312+00:00"
+    },
+    {
+      "version": "002",
+      "sha256": "d846ecf8f9e9cdee542a59fe8517ba599f7719c0c4fc4843d159c844bc99f572",
+      "applied_at": "2026-11-16T19:31:00.119552+00:00"
+    }
+  ],
+  "database_version": "PostgreSQL 16.15, compiled by Visual C++ build 1944, 64-bit",
+  "vector_version": "0.8.6",
+  "indexes": [
+    {
+      "indexname": "audit_pkey"
+    },
+    {
+      "indexname": "audit_status_time"
+    },
+    {
+      "indexname": "chunks_document_id_content_hash_key"
+    },
+    {
+      "indexname": "chunks_document_page"
+    },
+    {
+      "indexname": "chunks_pkey"
+    },
+    {
+      "indexname": "chunks_search"
+    },
+    {
+      "indexname": "chunks_vector"
+    },
+    {
+      "indexname": "data_transfers_pkey"
+    },
+    {
+      "indexname": "documents_content_hash_key"
+    },
+    {
+      "indexname": "documents_filters"
+    },
+    {
+      "indexname": "documents_pkey"
+    },
+    {
+      "indexname": "documents_source"
+    },
+    {
+      "indexname": "embedding_runs_pkey"
+    },
+    {
+      "indexname": "governance_records_pkey"
+    },
+    {
+      "indexname": "schema_migrations_pkey"
+    }
+  ],
+  "governance_records": [
+    {
+      "registry_key": "bnr_pending_rights_review",
+      "payload_sha256": "518754f6a736b8525c01e99124ed5152fa66c4ceca6d9ceaf1f16b715f5acd33"
+    },
+    {
+      "registry_key": "nisr_source_review",
+      "payload_sha256": "96aef9efd52a5253a0ccfd39c89d7fc7319f8b3e89ab0284a4b1dfe6e0bbd9b6"
+    },
+    {
+      "registry_key": "project_registry",
+      "payload_sha256": "ba1e258735b8454ff3c68b792ddcfe8ab540e6d124e2019f04417c39bad9d0fd"
+    }
+  ]
+}

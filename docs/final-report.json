@@ -1,0 +1,297 @@
+{
+  "scope": "Production-oriented local research demonstration; not bank-production-ready",
+  "requirements": [
+    {
+      "requirement": "Preserve existing implementation and evidence",
+      "status": "Completed and verified",
+      "verification": "Regression tests; history/artifact inspection",
+      "evidence": "72 passing tests; original SQLite/snapshots and 32-case development evaluation retained",
+      "limitations": "No .git history was present in supplied workspace; none was rewritten",
+      "user_action": "None for the local demonstration"
+    },
+    {
+      "requirement": "PostgreSQL, pgvector, migration, indexes and SQLite option",
+      "status": "Completed and verified",
+      "verification": "Real native database and isolated integration tests",
+      "evidence": "Migration/persistence/semantic tests; database-verification.json; 30-document restart fingerprint",
+      "limitations": "Native Windows development deployment, not managed HA",
+      "user_action": "Use separate operator and reader credentials"
+    },
+    {
+      "requirement": "Docker Compose execution",
+      "status": "Implemented but unverified",
+      "verification": "Official Compose schema validation only",
+      "evidence": "compose-final-verification.json; health/resource/PID limits configured",
+      "limitations": "Docker executable/engine and WSL absent; image startup and container limits not runtime-tested",
+      "user_action": "Run documented Compose checks on a Docker-capable host"
+    },
+    {
+      "requirement": "Semantic retrieval and measured hybrid ranking",
+      "status": "Completed and verified",
+      "verification": "Real embeddings, pgvector search, HTTP modes and same-question benchmark",
+      "evidence": "holdout-retrieval.json; keyword Recall@5 1.0, vector 0.6458, hybrid 0.75",
+      "limitations": "Keyword outperformed hybrid; sampled old/new library vector compatibility only",
+      "user_action": "None to reproduce; improve ranking using separate development data"
+    },
+    {
+      "requirement": "Actual local LLM RAG and source validation",
+      "status": "Completed and verified",
+      "verification": "Pinned Qwen float32 inference; HTTP and browser checks",
+      "evidence": "local-rag-calibration.json; api-verification.json; 18 generated holdout responses",
+      "limitations": "Extractive quote selection; no validated free-form synthesis or broad semantic accuracy claim",
+      "user_action": "Review original PDFs before relying on answers"
+    },
+    {
+      "requirement": "Cloud Gemini/OpenAI live inference and billing",
+      "status": "Blocked by external dependency",
+      "verification": "Mocked adapter contracts and retry/error tests",
+      "evidence": "72-test suite includes both provider contracts; environment credential check found no valid cloud key",
+      "limitations": "No live commercial inference, quotas or billing verification",
+      "user_action": "Configure authorized LLM_API_KEY/model and approve any paid usage before live checks"
+    },
+    {
+      "requirement": "Provider reliability and fallback behavior",
+      "status": "Completed and verified",
+      "verification": "Bounded retry, timeout and concurrency tests; actual healthy local path",
+      "evidence": "tests/test_security.py; provider failures abstain with retained evidence",
+      "limitations": "No automatic provider switching; decoding time is checked between steps",
+      "user_action": "None for local mode; provision capacity before public use"
+    },
+    {
+      "requirement": "Complete provider billing ledger",
+      "status": "Incomplete",
+      "verification": "Usage/cost implementation review",
+      "evidence": "Successful calls expose token usage; local holdout 8496 prompt/1686 completion tokens",
+      "limitations": "Failed or invalid billable cloud responses are not fully accounted; hardware/energy not priced",
+      "user_action": "Establish billing observability if commercial APIs are enabled"
+    },
+    {
+      "requirement": "Expand permitted corpus to about 30 publications",
+      "status": "Completed and verified",
+      "verification": "Original PDF SHA256/page checks and incremental re-ingestion",
+      "evidence": "30 NISR documents, 839 passages; corpus-30-verification.json; versioned v3 snapshot",
+      "limitations": "All indexed publications are NISR; some release days are explicitly imputed/proxies",
+      "user_action": "None for licensed NISR demonstration"
+    },
+    {
+      "requirement": "BNR monetary, stability and annual reports",
+      "status": "Blocked by external dependency",
+      "verification": "Source/robots and rights review recorded",
+      "evidence": "docs/bnr-source-review.json; candidates excluded from index and distributed PDFs",
+      "limitations": "Clear reproduction/redistribution basis not established",
+      "user_action": "Obtain or verify publisher permission before indexing/redistributing"
+    },
+    {
+      "requirement": "General financial answer relevance and completeness",
+      "status": "Incomplete",
+      "verification": "Untuned 30-question actual HTTP/LLM holdout",
+      "evidence": "holdout-rag.json; 10/24 expected-anchor coverage, 6/24 unnecessary refusals; 14 diagnostic failures retained",
+      "limitations": "Wrong-measure/chart/table selections and comparison headings remain; exact-source support is not relevance",
+      "user_action": "Use a separate development set and a new untouched validation set before a stronger accuracy claim"
+    },
+    {
+      "requirement": "Quotation/citation, unsupported and injection safeguards",
+      "status": "Completed and verified",
+      "verification": "Exact database text/page/URL checks; adversarial cases and unit tests",
+      "evidence": "100% quotation/citation integrity for emitted holdout claims; unsupported requests refused 6/6",
+      "limitations": "Heuristic defenses and a small refusal set do not prove universal security or answerability",
+      "user_action": "Retain human verification for financial conclusions"
+    },
+    {
+      "requirement": "Independent-from-tuning holdout and retrieval comparison",
+      "status": "Completed and verified",
+      "verification": "Frozen backend before authoring; original PDF labels; actual inference",
+      "evidence": "holdout-freeze.json, holdout-v1.json, holdout-rag.json, holdout-retrieval.json",
+      "limitations": "Agent-authored and partly related templates; not independently human-authored or production-distribution validation",
+      "user_action": "Do not reuse its scores as unbiased evidence after tuning against it"
+    },
+    {
+      "requirement": "Human-review package",
+      "status": "Completed and verified",
+      "verification": "Packet generation from actual answers and references",
+      "evidence": "30 shuffled provider-anonymized packets; blank ratings CSV; rubric and separate key",
+      "limitations": "No completed human ratings or agreement calculation",
+      "user_action": "Give packets to independent financial researchers"
+    },
+    {
+      "requirement": "Independent human answer adjudication",
+      "status": "Blocked by external dependency",
+      "verification": "Review package status inspection",
+      "evidence": "Human-reviewed count is 0; human_verified_accuracy remains null",
+      "limitations": "Requires independent reviewers; no simulated human result",
+      "user_action": "Collect two independent ratings and adjudicate disagreements"
+    },
+    {
+      "requirement": "Security controls for the research demonstration",
+      "status": "Completed and verified",
+      "verification": "Real authenticated HTTP service plus regression/security review",
+      "evidence": "Anonymous 401, authorized catalogue 200, oversized chunked request 413; audit zero known findings",
+      "limitations": "Shared token only; loopback test, not public penetration testing",
+      "user_action": "Keep ports private and secrets local"
+    },
+    {
+      "requirement": "Financial-institution production hardening",
+      "status": "Incomplete",
+      "verification": "Documented security gap review",
+      "evidence": "docs/security-review.md",
+      "limitations": "No enterprise SSO/RBAC, isolated PDF workers, distributed limits, restore drills, monitoring or concurrent-load qualification",
+      "user_action": "Commission production security/operations work before institutional deployment"
+    },
+    {
+      "requirement": "Operational governance and DAMA-inspired evidence",
+      "status": "Completed and verified",
+      "verification": "Stored catalogue/history/lineage plus checksum and privilege checks",
+      "evidence": "source-catalogue.json persisted; all governance checksums valid; reader cannot write after read-only flag disabled",
+      "limitations": "DAMA-inspired practice only; no DAMA or banking certification",
+      "user_action": "Assign institutional stewards and retention policy for real adoption"
+    },
+    {
+      "requirement": "Existing six-page Streamlit UI and mobile readability",
+      "status": "Completed and verified",
+      "verification": "Real Edge browser; actual answer/link/comparison and 390px viewport",
+      "evidence": "docs/screenshots/verification.json and PNGs",
+      "limitations": "Smoke/visual review only; no formal accessibility audit",
+      "user_action": "None for local demonstration"
+    },
+    {
+      "requirement": "Hosting feasibility assessment",
+      "status": "Completed and verified",
+      "verification": "Current official provider documentation reviewed",
+      "evidence": "docs/hosting-assessment.md; Render memory/sleep limits; HF subscription requirement; Neon database-only option",
+      "limitations": "Prices and eligibility can change; no authorized cloud account provisioned",
+      "user_action": "Recheck terms before selecting a host"
+    },
+    {
+      "requirement": "Secure public deployment",
+      "status": "Blocked by external dependency",
+      "verification": "Local/container readiness assessment",
+      "evidence": "Local http://127.0.0.1:8501 verified; no public URL created",
+      "limitations": "No authorized suitable host/gateway; paid subscription cannot be enabled without approval",
+      "user_action": "Provide hosting authorization and an approved budget if a paid resource is needed"
+    },
+    {
+      "requirement": "Public release content preparation",
+      "status": "Completed and verified",
+      "verification": "Publication allowlist and configured-secret/pattern scan",
+      "evidence": "scripts/prepare_release.py; release/manifest.json, secret-scan.json and ZIP",
+      "limitations": "Scanning is not a guarantee against every sensitive item; no source-code license chosen",
+      "user_action": "Review release manifest and choose source-code license if desired"
+    },
+    {
+      "requirement": "Publish requested GitHub repository",
+      "status": "Blocked by external dependency",
+      "verification": "Connected account lookup and exact target repository check",
+      "evidence": "Authenticated account Ruganji-Prince; requested target returned 404; no create-repository tool available",
+      "limitations": "No public repository or remote CI run created",
+      "user_action": "Create empty FinRAG-Rwanda-Financial-Intelligence under the connected account, or configure authenticated Git tooling"
+    },
+    {
+      "requirement": "README, architecture, setup, security/evaluation/failure documentation",
+      "status": "Completed and verified",
+      "verification": "Cross-check against actual saved evidence",
+      "evidence": "README.md; docs/architecture.md, postgres.md, evaluation.md, deployment.md, security-review.md, hosting-assessment.md",
+      "limitations": "Fresh container/cloud setup not executed on this host",
+      "user_action": "Follow explicit unverified steps on the appropriate host"
+    },
+    {
+      "requirement": "Automated verification and CI configuration",
+      "status": "Completed and verified",
+      "verification": "Final full native/model suite, lint, dependency check, API and browser runs",
+      "evidence": "72 passed, 0 failed/errors/skipped; lint/pip check passed; dependency audit zero findings",
+      "limitations": "CI is configured but remote Actions execution is unverified",
+      "user_action": "Run remote CI once an authorized repository exists"
+    },
+    {
+      "requirement": "Final requirement/status report",
+      "status": "Completed and verified",
+      "verification": "Generated from completion artifacts with assertions",
+      "evidence": "docs/FINAL_PROJECT_COMPLETION_REPORT.md and docs/final-report.json",
+      "limitations": "External dependencies and incomplete accuracy/hardening remain explicit",
+      "user_action": "Address the actions in this table before stronger public claims"
+    }
+  ],
+  "tests": {
+    "tests": 72,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "corpus": {
+    "documents": 30,
+    "passages": 839
+  },
+  "holdout_metrics": {
+    "page_recall_at_5": 0.75,
+    "mrr_at_5": 0.3611111111111111,
+    "citation_quote_integrity": 1,
+    "extractive_claim_support": 1,
+    "unsupported_abstention_rate": 1,
+    "positive_question_abstention_rate": 0.25,
+    "mean_expected_anchor_coverage": 0.4166666666666667,
+    "mean_latency_ms": 17764.064666666665,
+    "mean_client_round_trip_ms": 18202.761666666665,
+    "prompt_tokens": 8496,
+    "completion_tokens": 1686,
+    "estimated_api_cost_usd": 0.0,
+    "human_verified_accuracy": null,
+    "semantic_entailment_judge": null
+  },
+  "retrieval_metrics": {
+    "keyword": {
+      "page_recall_at_5": 1.0,
+      "mrr_at_5": 0.8645833333333334,
+      "mean_latency_ms": 152.76266666666666,
+      "n_questions": 30,
+      "n_positive_questions": 24
+    },
+    "vector": {
+      "page_recall_at_5": 0.6458333333333334,
+      "mrr_at_5": 0.24305555555555555,
+      "mean_latency_ms": 701.7496666666667,
+      "n_questions": 30,
+      "n_positive_questions": 24
+    },
+    "hybrid": {
+      "page_recall_at_5": 0.75,
+      "mrr_at_5": 0.3611111111111111,
+      "mean_latency_ms": 261.42566666666664,
+      "n_questions": 30,
+      "n_positive_questions": 24
+    }
+  },
+  "browser": {
+    "status": "passed",
+    "database": "postgresql",
+    "provider": "local",
+    "embedding_backend": "sentence-transformers",
+    "generated_answer_verified": true,
+    "checks": [
+      "live backend",
+      "home metrics",
+      "chat real API evidence and links",
+      "library",
+      "quality",
+      "evaluation",
+      "two-document comparison",
+      "mobile viewport"
+    ]
+  },
+  "persistence": {
+    "checked_at": "2026-11-17T07:53:19.043651+00:00",
+    "native_restart": "passed",
+    "logical_fingerprint_before": "39ce49bc8ae119853160e786934da46a9b272ef475a075dce8e4471c55e6c5e7",
+    "logical_fingerprint_after": "39ce49bc8ae119853160e786934da46a9b272ef475a075dce8e4471c55e6c5e7",
+    "documents_after_restart": 30,
+    "passages_after_restart": 839,
+    "governance_checksums_valid": true,
+    "reader_role": "finrag_reader",
+    "reader_superuser": false,
+    "reader_createdb": false,
+    "reader_createrole": false,
+    "reader_write_denied_after_readonly_flag_disabled": true,
+    "docker_runtime": "unavailable"
+  },
+  "human_reviewed": 0,
+  "public_deployment": null,
+  "github_publication": null
+}

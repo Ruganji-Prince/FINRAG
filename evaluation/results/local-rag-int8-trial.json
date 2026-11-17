@@ -1,0 +1,126 @@
+{
+  "provider": "local",
+  "model": "Qwen/Qwen2.5-1.5B-Instruct",
+  "revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+  "quantization": "dynamic_int8",
+  "cases": [
+    {
+      "question": "GDP growth in 2025?",
+      "expected_anchor": "9.4%",
+      "anchor_found": false,
+      "result": {
+        "mode": "llm",
+        "abstained": false,
+        "answer": "\"GDP Deflator Based on 2024=100, the implied GDP deflator increased by 7 % from 100 in 2024 to 107 in 2025.\" [6]",
+        "evidence": [
+          {
+            "chunk_id": 3,
+            "page": 3,
+            "section": "3",
+            "text": "3 1. Gross Domestic Product and its structure In 2025, GDP at current market prices was estimated at Frw 23,387 billion, up from Frw 19,918 billion in 2024. Service sector contributed 52% to GDP, the industry sector contributed 22% to GDP, and the agriculture sector with 20%. Net direct taxes contributed 5% to overall GDP. Figure 1: Gross Domestic Product (billions of Rwandan Franc) 2. Growth rate by kind of activity In 2025, GDP grew by 9.4%. This is a result of a continuous growth through the year where GDP grew by 6.5% in the first quarter, 7.8% in the second quarter, 11.8% in the third quarter and 11.2% in the fourth quarter. The annual growth rates by sectors were as follow: \u2013 Agriculture increased by 7%. \u2013 Industry increased by 11%. \u2013 Services increased by 9%. 2.1 Agriculture The overall performance of agriculture sector was 7%. Within agriculture, food crops production increased by 3%. The export crops production increased",
+            "document_id": 1,
+            "title": "GDP National Accounts 2025",
+            "organization": "NISR",
+            "publication_date": "2026-03-01",
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "document_type": "GDP annual report",
+            "score": 0.032266,
+            "term_coverage": 1.0,
+            "semantic_similarity": 0.658426,
+            "retrieval_mode": "hybrid",
+            "citation_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf#page=3"
+          },
+          {
+            "chunk_id": 6,
+            "page": 4,
+            "section": "4",
+            "text": "decreased by 16%; imports of goods & services decreased by 9%. On the other hand, the gross capital formation increased by 10%. 4. GDP Deflator Based on 2024=100, the implied GDP deflator increased by 7 % from 100 in 2024 to 107 in 2025.",
+            "document_id": 1,
+            "title": "GDP National Accounts 2025",
+            "organization": "NISR",
+            "publication_date": "2026-03-01",
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf",
+            "document_type": "GDP annual report",
+            "score": 0.032266,
+            "term_coverage": 0.6666666666666666,
+            "semantic_similarity": 0.670081,
+            "retrieval_mode": "hybrid",
+            "citation_url": "https://statistics.gov.rw/sites/default/files/documents/2026-03/GDP%202025.pdf#page=4"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 536,
+          "completion_tokens": 72
+        },
+        "estimated_cost_usd": 0.0,
+        "support_assessment": "Exact quote and source identity verified; relevance and completeness require human review",
+        "claims": [
+          {
+            "chunk_id": 6,
+            "quote": "GDP Deflator Based on 2024=100, the implied GDP deflator increased by 7 % from 100 in 2024 to 107 in 2025."
+          }
+        ],
+        "provider": "local",
+        "generation_performed": true,
+        "latency_ms": 85783.21
+      }
+    },
+    {
+      "question": "What was urban CPI annual increase in October 2026?",
+      "expected_anchor": "19.5 percent",
+      "anchor_found": false,
+      "result": {
+        "mode": "llm",
+        "abstained": true,
+        "answer": "Insufficient evidence in the retrieved documents to answer this question.",
+        "evidence": [
+          {
+            "chunk_id": 79,
+            "page": 4,
+            "section": "\u00a9National Institute of Statistics of Rwanda /CPI October 2026- N\u00b0 10",
+            "text": "\u00a9National Institute of Statistics of Rwanda /CPI October 2026- N\u00b0 10 4 1 Summary This is the monthly publication of the Consumer Price Index (CPI) for the month of October 2026. Urban CPI will be the focus of this publication as it is the headline index for monetary policy purposes. 1.1. Urban Index Urban CPI increased by 19.5 percent on annual basis (October 2026 compared to October 2025) and it increased by 3.3 percent on monthly basis (October 2026 compared to September 2026). The annual average inflation rate between October 2026 and October 2025 was 12.5 percent. 1.2. Rural Index Rural CPI increased by 31.3 percent on annual basis and it increased by 8.6 percent on monthly basis. 1.3. Overall Rwanda Index Rwanda CPI increased by 26.5 percent on annual basis and it increased by 6.5 percent on monthly basis. TABLE 1: Consumer Price Index, Urban and Rural percentage change on the same period 12 months earlier: 2025 2026 Oct.",
+            "document_id": 3,
+            "title": "Consumer Price Index (CPI) - October 2026",
+            "organization": "NISR",
+            "publication_date": "2026-11-10",
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-11/CONSUMER%20PRICE%20INDEX%20%28CPI%29%20-%20%20OCTOBER%202026.pdf",
+            "document_type": "CPI monthly report",
+            "score": 0.032266,
+            "term_coverage": 0.8333333333333334,
+            "semantic_similarity": 0.63492,
+            "retrieval_mode": "hybrid",
+            "citation_url": "https://statistics.gov.rw/sites/default/files/documents/2026-11/CONSUMER%20PRICE%20INDEX%20%28CPI%29%20-%20%20OCTOBER%202026.pdf#page=4"
+          },
+          {
+            "chunk_id": 82,
+            "page": 5,
+            "section": "\u00a9National Institute of Statistics of Rwanda /CPI October 2026- N\u00b0 10",
+            "text": "5.9% 04 Housing water, electricity, gas and other fuels 21% 0.5% 14.2% 05 Furnishings household equipment and routine household maintenance 4% 0.6% 7.5% 06 Health 1% 0.1% 1.2% 07 Transport 12% -0.1% 22.4% 08 Communication 3% 0.0% 6.1% 09 Recreation and culture 3% -0.2% 4.5% 10 Education 3% 0.0% 8.6% 11 Restaurants and hotels 9% 2.7% 20.6% 12 Miscellaneous goods and services 6% 0.1% 18.0% Source: NISR Urban CPI increased by 19.5 percent in October 2026 compared to the same month of 2025. \u2018Food and non-alcoholic beverages\u2019 increased by 28.9 percent, \u2018Housing water, electricity, gas and other fuels\u2019 increased by 9.9 percent, Transport increased by 22.4 percent and \u2018Restaurants and Hotels\u2019 increased by 20.6 percent. The CPI for October 2026 increased by 3.3 percent compared to September 2026; the main contributor to this inflation was \u2018Food and non-alcoholic beverages\u2019 which increased by 7.8 percent. The underlying inflation rate (excluding fresh food and energy) increased by 11.5 percent when compared to",
+            "document_id": 3,
+            "title": "Consumer Price Index (CPI) - October 2026",
+            "organization": "NISR",
+            "publication_date": "2026-11-10",
+            "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-11/CONSUMER%20PRICE%20INDEX%20%28CPI%29%20-%20%20OCTOBER%202026.pdf",
+            "document_type": "CPI monthly report",
+            "score": 0.032266,
+            "term_coverage": 0.6666666666666666,
+            "semantic_similarity": 0.73109,
+            "retrieval_mode": "hybrid",
+            "citation_url": "https://statistics.gov.rw/sites/default/files/documents/2026-11/CONSUMER%20PRICE%20INDEX%20%28CPI%29%20-%20%20OCTOBER%202026.pdf#page=5"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 246,
+          "completion_tokens": 13
+        },
+        "estimated_cost_usd": 0.0,
+        "support_assessment": "Exact quote and source identity verified; relevance and completeness require human review",
+        "claims": [],
+        "provider": "local",
+        "generation_performed": true,
+        "latency_ms": 6444.42
+      }
+    }
+  ],
+  "passed": false
+}

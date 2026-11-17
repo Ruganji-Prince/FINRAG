@@ -1,0 +1,233 @@
+{
+  "checked_at": "2026-11-17T07:27:57.065575+00:00",
+  "publisher": "NISR",
+  "terms_url": "https://statistics.gov.rw/terms-use",
+  "terms_sha256": "e2ff078066cc857d9a94679068eda9ac7c563203bdb9b028b0ea1f24a44843db",
+  "review": [
+    {
+      "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-01/CPI%20Report%20English_December%202025.pdf",
+      "title": "Consumer Price Index (CPI) - December 2025",
+      "status": "indexed",
+      "license_basis": "https://statistics.gov.rw/terms-use",
+      "date_basis": "official PDF LAST UPDATED metadata; proxy",
+      "content_hash": "07b7f9878f30fcee6eae8826b4ad6eac5c005b3b15fcf29b9acf3ab431b03d38",
+      "quality": {
+        "pages": 11,
+        "empty_pages": 1,
+        "missing_metadata": 0,
+        "replacement_characters": 0,
+        "ocr_required": false
+      }
+    },
+    {
+      "source_url": "https://statistics.gov.rw/sites/default/files/documents/2025-12/CPI%20Publication%20_English_November_2025.pdf",
+      "title": "Consumer Price Index (CPI) - November 2025",
+      "status": "indexed",
+      "license_basis": "https://statistics.gov.rw/terms-use",
+      "date_basis": "official PDF LAST UPDATED metadata; proxy",
+      "content_hash": "28501274c8c5944008a14b023abe8ce82fb8e207cca1aa264444206083ecf4cf",
+      "quality": {
+        "pages": 11,
+        "empty_pages": 1,
+        "missing_metadata": 0,
+        "replacement_characters": 0,
+        "ocr_required": false
+      }
+    },
+    {
+      "source_url": "https://statistics.gov.rw/sites/default/files/documents/2025-11/CPI%20Publication%20_English_october_2025.pdf",
+      "title": "Consumer Price Index (CPI) - October 2025",
+      "status": "indexed",
+      "license_basis": "https://statistics.gov.rw/terms-use",
+      "date_basis": "official PDF LAST UPDATED metadata; proxy",
+      "content_hash": "6ff7ad5af5cb2ecadada8a953cba2722742640b14999492c5a3d0258697f7d07",
+      "quality": {
+        "pages": 10,
+        "empty_pages": 0,
+        "missing_metadata": 0,
+        "replacement_characters": 0,
+        "ocr_required": false
+      }
+    },
+    {
+      "source_url": "https://statistics.gov.rw/sites/default/files/documents/2025-10/CPI%20Publication%20_English_September_2025.pdf",
+      "title": "Consumer Price Index (CPI) - September 2025",
+      "status": "indexed",
+      "license_basis": "https://statistics.gov.rw/terms-use",
+      "date_basis": "official PDF LAST UPDATED metadata; proxy",
+      "content_hash": "bcbb6ea172dcc689b7a830abb293d51908543242e30d88d09e98710f1db73c96",
+      "quality": {
+        "pages": 10,
+        "empty_pages": 0,
+        "missing_metadata": 0,
+        "replacement_characters": 0,
+        "ocr_required": false
+      }
+    },
+    {
+      "source_url": "https://statistics.gov.rw/sites/default/files/documents/2025-09/CPI%20Publication%20_English_August_2025.pdf",
+      "title": "Consumer Price Index (CPI) - August 2025",
+      "status": "indexed",
+      "license_basis": "https://statistics.gov.rw/terms-use",
+      "date_basis": "official PDF LAST UPDATED metadata; proxy",
+      "content_hash": "64d2357481fb0ede9771e864d4d7dd4182fc78f9044c053746f6d97fec4cca7a",
+      "quality": {
+        "pages": 10,
+        "empty_pages": 0,
+        "missing_metadata": 0,
+        "replacement_characters": 0,
+        "ocr_required": false
+      }
+    },
+    {
+      "source_url": "https://statistics.gov.rw/sites/default/files/documents/2025-08/CPI%20Publication%20_English_July_2025.pdf",
+      "title": "Consumer Price Index (CPI) - July 2025",
+      "status": "indexed",
+      "license_basis": "https://statistics.gov.rw/terms-use",
+      "date_basis": "official PDF LAST UPDATED metadata; proxy",
+      "content_hash": "7f9928d6fbbd2c11436ef455319a38bd21ee3e25b70be0752d00ecec540b5017",
+      "quality": {
+        "pages": 10,
+        "empty_pages": 0,
+        "missing_metadata": 0,
+        "replacement_characters": 0,
+        "ocr_required": false
+      }
+    },
+    {
+      "source_url": "https://statistics.gov.rw/sites/default/files/documents/2025-07/CPI%20Publication%20_English_June_2025.pdf",
+      "title": "Consumer Price Index (CPI) - June 2025",
+      "status": "indexed",
+      "license_basis": "https://statistics.gov.rw/terms-use",
+      "date_basis": "official PDF LAST UPDATED metadata; proxy",
+      "content_hash": "0e075936eb5d98fca322282ffbdf605233bfc28094cfd099321faad9d2323903",
+      "quality": {
+        "pages": 10,
+        "empty_pages": 0,
+        "missing_metadata": 0,
+        "replacement_characters": 0,
+        "ocr_required": false
+      }
+    },
+    {
+      "source_url": "https://statistics.gov.rw/sites/default/files/documents/2025-06/CPI%20Publication%20_English_May_2025_2.pdf",
+      "title": "Consumer Price Index (CPI) - May 2025",
+      "status": "indexed",
+      "license_basis": "https://statistics.gov.rw/terms-use",
+      "date_basis": "official PDF LAST UPDATED metadata; proxy",
+      "content_hash": "dcabeec65913a6b5a553364f4a92b55db0d1e77d680486f686166fd0ce62699f",
+      "quality": {
+        "pages": 10,
+        "empty_pages": 0,
+        "missing_metadata": 0,
+        "replacement_characters": 0,
+        "ocr_required": false
+      }
+    },
+    {
+      "source_url": "https://statistics.gov.rw/sites/default/files/documents/2025-05/CPI%20Publication%20_English_April_2025.pdf",
+      "title": "Consumer Price Index (CPI) - April 2025",
+      "status": "indexed",
+      "license_basis": "https://statistics.gov.rw/terms-use",
+      "date_basis": "official PDF LAST UPDATED metadata; proxy",
+      "content_hash": "8b7d72dcdf856a312cdcf2b14f273ed2487d2d61bfe04ae0ec758df1202b4cb8",
+      "quality": {
+        "pages": 10,
+        "empty_pages": 0,
+        "missing_metadata": 0,
+        "replacement_characters": 0,
+        "ocr_required": false
+      }
+    },
+    {
+      "source_url": "https://statistics.gov.rw/sites/default/files/documents/2025-04/CPI%20Publication%20_English_March%202025.pdf",
+      "title": "Consumer Price Index (CPI) - March 2025",
+      "status": "indexed",
+      "license_basis": "https://statistics.gov.rw/terms-use",
+      "date_basis": "official PDF LAST UPDATED metadata; proxy",
+      "content_hash": "1ac84c708a23c000ebf360cb61da688ded99422f0846163fbd1bd55e61051bd8",
+      "quality": {
+        "pages": 10,
+        "empty_pages": 0,
+        "missing_metadata": 0,
+        "replacement_characters": 0,
+        "ocr_required": false
+      }
+    },
+    {
+      "source_url": "https://statistics.gov.rw/sites/default/files/documents/2025-03/CPI%20Publication%20_English_February%202025.pdf",
+      "title": "Consumer Price Index (CPI) - February 2025",
+      "status": "indexed",
+      "license_basis": "https://statistics.gov.rw/terms-use",
+      "date_basis": "official PDF LAST UPDATED metadata; proxy",
+      "content_hash": "7a3b89185f859fe4201c27a8c33d41e575952f6ac6d44fb439e321cb8f73d02a",
+      "quality": {
+        "pages": 10,
+        "empty_pages": 0,
+        "missing_metadata": 0,
+        "replacement_characters": 0,
+        "ocr_required": false
+      }
+    },
+    {
+      "source_url": "https://statistics.gov.rw/sites/default/files/documents/2025-02/CPI%20Publication%20_English_January%202025.pdf",
+      "title": "Consumer Price Index (CPI) - January 2025",
+      "status": "indexed",
+      "license_basis": "https://statistics.gov.rw/terms-use",
+      "date_basis": "official PDF LAST UPDATED metadata; proxy",
+      "content_hash": "37dfc95288c34723d26df5b0ae65e9374d46f15d162359b348e613409bb50817",
+      "quality": {
+        "pages": 10,
+        "empty_pages": 0,
+        "missing_metadata": 0,
+        "replacement_characters": 0,
+        "ocr_required": false
+      }
+    },
+    {
+      "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-09/GDP-National%20Accounts%28Fiscal%20Year%202025_26%29.pdf",
+      "title": "GDP - National Accounts (Fiscal Year 2025/26)",
+      "status": "indexed",
+      "license_basis": "https://statistics.gov.rw/terms-use",
+      "date_basis": "official PDF LAST UPDATED metadata; proxy",
+      "content_hash": "01139b2e1d5068424f936b7674c898bb276d7fd6074fd79a5967fceae5a26144",
+      "quality": {
+        "pages": 15,
+        "empty_pages": 1,
+        "missing_metadata": 0,
+        "replacement_characters": 0,
+        "ocr_required": false
+      }
+    },
+    {
+      "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-11/IIP%20FOR%20September%20%2C%20%202026.pdf",
+      "title": "Index of Industrial Production - September 2026",
+      "status": "indexed",
+      "license_basis": "https://statistics.gov.rw/terms-use",
+      "date_basis": "official PDF LAST UPDATED metadata; proxy",
+      "content_hash": "8492f5741060c055f357843e7f7023c894881762a348a69234914b0f55665817",
+      "quality": {
+        "pages": 10,
+        "empty_pages": 0,
+        "missing_metadata": 0,
+        "replacement_characters": 0,
+        "ocr_required": false
+      }
+    },
+    {
+      "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-10/English_PPI_September%202026.pdf",
+      "title": "Producer Price Index (PPI) - September 2026",
+      "status": "indexed",
+      "license_basis": "https://statistics.gov.rw/terms-use",
+      "date_basis": "official PDF LAST UPDATED metadata; proxy",
+      "content_hash": "78329bb17776a70f9a223dde8781100e03eb43e8e426d6ca7d5723e5c9ab4a6e",
+      "quality": {
+        "pages": 10,
+        "empty_pages": 0,
+        "missing_metadata": 0,
+        "replacement_characters": 0,
+        "ocr_required": false
+      }
+    }
+  ]
+}

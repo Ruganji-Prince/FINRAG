@@ -1,0 +1,23 @@
+{
+  "checked_at": "2026-11-16T21:13:25.679572+00:00",
+  "publisher": "NISR",
+  "terms_url": "https://statistics.gov.rw/terms-use",
+  "terms_sha256": "dfd879c8ddeb54623f634bf5ae1eadf1c522bfc8cc1abe8251ca74ca0859ed31",
+  "review": [
+    {
+      "source_url": "https://statistics.gov.rw/sites/default/files/documents/2026-06/GDP%20Q1%202026%20with%20tables.pdf",
+      "title": "GDP National Accounts (Q1, 2026)",
+      "status": "indexed",
+      "license_basis": "https://statistics.gov.rw/terms-use",
+      "date_basis": "official PDF LAST UPDATED metadata; proxy",
+      "content_hash": "43c5a0bd59b0ac4c731597105997e79b81fd9094ccadf7448261afcb9379a366",
+      "quality": {
+        "pages": 15,
+        "empty_pages": 1,
+        "missing_metadata": 0,
+        "replacement_characters": 0,
+        "ocr_required": false
+      }
+    }
+  ]
+}

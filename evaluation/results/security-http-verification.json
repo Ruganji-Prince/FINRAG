@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "transport": "actual separate HTTP process",
+  "anonymous_statuses": {
+    "/documents": 401,
+    "/docs": 401,
+    "/openapi.json": 401,
+    "/governance": 401
+  },
+  "authenticated_documents": 30,
+  "oversized_chunked_body_status": 413,
+  "token_logged": false,
+  "limitations": "Shared API token only; no enterprise SSO or per-user authorization. Loopback test, not a public penetration test."
+}

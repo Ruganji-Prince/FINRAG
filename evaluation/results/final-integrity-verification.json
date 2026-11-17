@@ -1,0 +1,22 @@
+{
+  "search_http_modes": {
+    "keyword": {
+      "status": 200,
+      "passages": 5,
+      "citation_page_links": true
+    },
+    "vector": {
+      "status": 200,
+      "passages": 5,
+      "citation_page_links": true
+    },
+    "hybrid": {
+      "status": 200,
+      "passages": 5,
+      "citation_page_links": true
+    }
+  },
+  "frozen_backend_unchanged": true,
+  "development_evaluation_preserved": true,
+  "holdout_completed": true
+}
