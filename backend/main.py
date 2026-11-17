@@ -31,13 +31,17 @@ async def lifespan(app):
         )
     if settings.auto_migrate:
         initialize()
-    else:
+    elif settings.startup_database_check:
         rows("SELECT 1 AS ready")
     if settings.preload_models:
         if settings.embedding_backend == "sentence-transformers":
             from backend.embeddings import model
 
             model()
+        if settings.embedding_backend == "onnx":
+            from backend.onnx_embeddings import model as onnx_model
+
+            onnx_model()
         if settings.llm_provider == "local":
             from backend.providers import local_model
 
@@ -60,7 +64,9 @@ async def limits(request: Request, call_next):
         return JSONResponse(
             {"detail": "Public service is not configured"}, status_code=503
         )
-    if settings.api_access_token and request.url.path != "/health":
+    if settings.api_access_token and (
+        request.url.path != "/health" or settings.health_requires_auth
+    ):
         supplied = request.headers.get("authorization", "")
         if not secrets.compare_digest(
             supplied.encode(), ("Bearer " + settings.api_access_token).encode()

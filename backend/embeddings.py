@@ -71,12 +71,16 @@ def model():
 def identity():
     return (
         (settings.embedding_model + "@" + settings.embedding_revision)
-        if settings.embedding_backend == "sentence-transformers"
+        if settings.embedding_backend in {"sentence-transformers", "onnx"}
         else "lexical-hash-v1-384"
     )
 
 
 def embed(texts):
+    if settings.embedding_backend == "onnx":
+        from backend.onnx_embeddings import encode
+
+        return encode(texts)
     if settings.embedding_backend == "sentence-transformers":
         vectors = model().encode(
             texts,

@@ -1,0 +1,37 @@
+{
+  "status": "local verification passed; public deployment pending provider setup",
+  "python_tests": {
+    "passed": 92,
+    "failed": 0,
+    "skipped": 0,
+    "artifact": "evaluation/results/deployment-tests.xml",
+    "integrations": "native PostgreSQL and actual semantic model"
+  },
+  "frontend": {
+    "security_tests_passed": 11,
+    "typecheck": "passed",
+    "production_build": "passed",
+    "browser_pages": 6,
+    "mobile_overflow": "none at 390px",
+    "workflow_evidence": "evaluation/results/next-workflow-verification.json",
+    "unsupported_smoke": "evaluation/results/next-abstention-verification.json"
+  },
+  "providers": {
+    "vercel": "CLI account authenticated; no FinRAG cloud project created",
+    "neon": "account/credentials unconfirmed",
+    "gemini": "account/credentials unconfirmed",
+    "upstash": "not required"
+  },
+  "original_holdout_expected_statistic_coverage": 0.4166666666666667,
+  "new_independent_accuracy_evaluation": false,
+  "public_url": null,
+  "paid_resources_created": false,
+  "architecture": "Vercel Next.js + candidate Vercel FastAPI/ONNX + Neon pgvector/atomic quotas + Gemini",
+  "limitations": [
+    "Windows compact runtime probe is not deployed Vercel validation",
+    "Hosted database and model calls untested",
+    "Shared invitation is not per-user institutional identity",
+    "Local current corpus1594; preserved published snapshot839",
+    "No independent human review or BNR permission claimed"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "model": "sentence-transformers/all-MiniLM-L6-v2@1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+  "onnx_model_is_unquantized": true,
+  "samples": 6,
+  "minimum_sentence_transformers_cosine": 0.9999999999997105,
+  "maximum_absolute_difference": 1.30385160446167e-07,
+  "first_batch_latency_ms": 904.0895000798628,
+  "dimensions": 384,
+  "scope": "Same pinned model, mean pooling, 256-token truncation and normalization. Sampled compatibility, not a new answer-accuracy evaluation."
+}

@@ -22,3 +22,11 @@ data/nisr-*.html
 
 release/
 *.json.tmp
+
+# Next.js local/build files
+web/node_modules/
+web/.next/
+web/.vercel/
+web/.env*
+!web/.env.example
+web/*.tsbuildinfo

@@ -7,6 +7,8 @@ ROOT = Path(__file__).resolve().parents[1]
 
 class Settings(BaseSettings):
     model_config = SettingsConfigDict(env_file=ROOT / ".env", extra="ignore")
+    health_requires_auth: bool = False
+    startup_database_check: bool = True
     public_mode: bool = False
     api_access_token: str = ""
     max_request_bytes: int = 32768
@@ -17,6 +19,7 @@ class Settings(BaseSettings):
     auto_migrate: bool = True
     database_url: str = "sqlite:///data/finrag.db"
     query_database_url: str = ""
+    onnx_model_dir: str = ""
     embedding_backend: str = "hash"
     embedding_model: str = "sentence-transformers/all-MiniLM-L6-v2"
     embedding_revision: str = "1110a243fdf4706b3f48f1d95db1a4f5529b4d41"

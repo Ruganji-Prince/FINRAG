@@ -1,0 +1,8 @@
+{
+  "status": "passed",
+  "question": "What will Rwanda GDP growth be in 2035?",
+  "abstained": true,
+  "answer": "Insufficient evidence in the indexed corpus. Try a specific report and period.",
+  "latency_seconds": 0.22,
+  "scope": "One unsupported future-statistic smoke case; not an independent evaluation."
+}

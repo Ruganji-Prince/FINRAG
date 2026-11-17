@@ -2,6 +2,7 @@
 
 import hashlib
 import json
+import os
 import re
 import zipfile
 from pathlib import Path
@@ -11,6 +12,8 @@ from dotenv import dotenv_values
 
 ROOT = Path(__file__).resolve().parents[1]
 DIRECTORIES = [
+    "web",
+    "deploy",
     "backend",
     "app",
     "pipelines",
@@ -32,6 +35,10 @@ DATA = {
     "corpus-expansion-review.json",
 }
 EXTENSIONS = {
+    ".ts",
+    ".tsx",
+    ".css",
+    ".mjs",
     ".py",
     ".sql",
     ".json",
@@ -49,12 +56,32 @@ EXTENSIONS = {
 
 
 def candidates():
-    paths = [
-        p
-        for name in DIRECTORIES
-        for p in (ROOT / name).rglob("*")
-        if p.is_file() and "__pycache__" not in p.parts and p.suffix in EXTENSIONS
-    ]
+    paths = []
+    for name in DIRECTORIES:
+        for parent, directories, files in os.walk(ROOT / name):
+            directories[:] = [
+                d
+                for d in directories
+                if d
+                not in {
+                    "node_modules",
+                    ".next",
+                    ".vercel",
+                    "__pycache__",
+                    ".git",
+                    ".venv",
+                    "models",
+                }
+            ]
+            for filename in files:
+                p = Path(parent) / filename
+                if filename.startswith(".env") and filename != ".env.example":
+                    continue
+                if p.suffix in EXTENSIONS or filename in {
+                    ".env.example",
+                    ".vercelignore",
+                }:
+                    paths.append(p)
     paths += [
         p
         for p in ROOT.iterdir()
@@ -99,6 +126,15 @@ def build():
             v
             for v in json.loads(secret_path.read_text()).values()
             if isinstance(v, str) and len(v) >= 12
+        )
+    private = ROOT / ".runtime/web-demo-private.json"
+    if private.exists():
+        secrets.update(
+            v
+            for k, v in json.loads(private.read_text()).items()
+            if k in {"backend_token", "session_secret", "invitation"}
+            and isinstance(v, str)
+            and len(v) >= 12
         )
     findings = []
     manifest = []

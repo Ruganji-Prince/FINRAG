@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "installed_dependencies_and_stage_bytes": 278805646,
+  "actual_vercel_bundle_verified": false,
+  "runtime_import_and_onnx_inference": true,
+  "unauthenticated_health_and_ask_status": 401,
+  "texts": 32,
+  "embedding_batch_size": 8,
+  "max_tokens": 256,
+  "dimensions": 384,
+  "first_batch_ms": 5051.408299943432,
+  "peak_working_set_bytes": 347967488,
+  "torch_loaded": false,
+  "platform": "win32",
+  "scope": "Isolated minimal runtime; hosted database/LLM requests were not made."
+}

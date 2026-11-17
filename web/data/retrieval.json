@@ -1,0 +1,27 @@
+{
+  "metrics": {
+    "keyword": {
+      "page_recall_at_5": 1.0,
+      "mrr_at_5": 0.8645833333333334,
+      "mean_latency_ms": 152.76266666666666,
+      "n_questions": 30,
+      "n_positive_questions": 24
+    },
+    "vector": {
+      "page_recall_at_5": 0.6458333333333334,
+      "mrr_at_5": 0.24305555555555555,
+      "mean_latency_ms": 701.7496666666667,
+      "n_questions": 30,
+      "n_positive_questions": 24
+    },
+    "hybrid": {
+      "page_recall_at_5": 0.75,
+      "mrr_at_5": 0.3611111111111111,
+      "mean_latency_ms": 261.42566666666664,
+      "n_questions": 30,
+      "n_positive_questions": 24
+    }
+  },
+  "source_sha256": "8ac2882834ad9ea09aeca6dca2a1a4b57654026118101367d18bc86c2a2a6d30",
+  "source_artifact": "evaluation/results/holdout-retrieval.json"
+}

@@ -1,0 +1,19 @@
+{
+  "status": "passed",
+  "runtime_import_and_onnx_inference": true,
+  "unauthenticated_health_and_ask_status": 401,
+  "texts": 32,
+  "embedding_batch_size": 8,
+  "max_tokens": 256,
+  "dimensions": 384,
+  "first_batch_ms": 3642.556600039825,
+  "peak_working_set_bytes": 348532736,
+  "torch_loaded": false,
+  "platform": "win32",
+  "scope": "Isolated minimal runtime; hosted database/LLM requests were not made.",
+  "installed_dependencies_bytes": 187505203,
+  "source_assets_bytes": 91299606,
+  "total_measured_bytes": 278804809,
+  "standard_vercel_python_limit_bytes": 500000000,
+  "actual_vercel_bundle": "not yet built on Vercel"
+}

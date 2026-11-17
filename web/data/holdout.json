@@ -1,0 +1,25 @@
+{
+  "status": "completed",
+  "run_at": "2026-11-17T07:40:40.193729+00:00",
+  "n": 30,
+  "planned": 30,
+  "metrics": {
+    "page_recall_at_5": 0.75,
+    "mrr_at_5": 0.3611111111111111,
+    "citation_quote_integrity": 1,
+    "extractive_claim_support": 1,
+    "unsupported_abstention_rate": 1,
+    "positive_question_abstention_rate": 0.25,
+    "mean_expected_anchor_coverage": 0.4166666666666667,
+    "mean_latency_ms": 17764.064666666665,
+    "mean_client_round_trip_ms": 18202.761666666665,
+    "prompt_tokens": 8496,
+    "completion_tokens": 1686,
+    "estimated_api_cost_usd": 0.0,
+    "human_verified_accuracy": null,
+    "semantic_entailment_judge": null
+  },
+  "methodology": "Real provider inference. Quote/citation correctness and extractive faithfulness are exact-source checks, not independently human-scored semantic relevance. Anchor coverage is a heuristic diagnostic; it does not prove answer correctness. Small local LLM uses evidence-constrained decoding. No free-form unsupported model prose is published.",
+  "source_sha256": "8ac6f4e7c35f58a4439c7abe96092c3ed59440239474a88d7e4260a0fd322fea",
+  "source_artifact": "evaluation/results/holdout-rag.json"
+}

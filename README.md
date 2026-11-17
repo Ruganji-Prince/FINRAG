@@ -144,3 +144,14 @@ See [holdout results](evaluation/results/holdout-rag.json), [retrieval compariso
 `prepare_release.py` writes a publication allowlist, configured-secret/pattern scan and ZIP under ignored `release/`. It excludes secrets, raw/review PDFs, databases, logs, caches, models, runtime binaries and backups. Review the manifest before publication. The owner authorized publication to `Ruganji-Prince/FINRAG`. Source, screenshots, tests and evaluation evidence are included, while private runtime data is excluded. A GitHub repository is not a deployed application. Hosting feasibility and paid-service prerequisites are documented in [hosting assessment](docs/hosting-assessment.md).
 
 No source-code license has been selected by the owner; publishing visibility alone does not grant a permissive source-code license. Dataset reuse follows the separate attribution/rights notes above. DAMA-inspired governance is demonstrated through stored metadata, quality, lineage, ownership and version records; no DAMA or banking certification is claimed.
+
+
+## Vercel recruiter demonstration (in preparation)
+
+A separate Next.js frontend preserves the six existing features and local Streamlit fallback. Invitation sessions and PostgreSQL-backed request budgets require no Upstash account. The compact ONNX/FastAPI profile is a Vercel candidate; hosted Neon/Gemini and the full public workflow remain unverified. No paid services have been enabled. The original **41.7%** holdout expected-statistic coverage remains unchanged.
+
+See [account setup, environment variables, costs and acceptance checks](docs/VERCEL_SETUP.md). Source: [web](web), [API deployment template](deploy/vercel-api), [ONNX compatibility evidence](evaluation/results/onnx-compatibility.json), [local resource probe](evaluation/results/serverless-runtime-verification.json).
+
+![Actual local Next.js research workflow](docs/screenshots/next/research.png)
+
+[Local browser verification evidence](evaluation/results/next-workflow-verification.json) covers six pages and a real cited local-LLM response. It is not a hosted Gemini acceptance test.

@@ -1,0 +1,48 @@
+{
+  "environment": "loopback Next.js + native PostgreSQL + ONNX + actual local Qwen; NOT hosted Gemini",
+  "checks": {
+    "session_and_origin": true,
+    "actual_local_llm_cited_gdp_answer": true,
+    "overview_browser": true,
+    "research_browser": true,
+    "actual_comparison_browser": true,
+    "compare_browser": true,
+    "documents_browser": true,
+    "quality_browser": true,
+    "evaluation_browser": true,
+    "mobile_no_horizontal_overflow": true
+  },
+  "rag": {
+    "latency_seconds": 27.74,
+    "answer": "\"Growth rate by kind of activity In 2025, GDP grew by 9.4%.\" [1219]",
+    "citations": [
+      {
+        "chunk_id": 1219,
+        "page": 3,
+        "title": "GDP National Accounts 2025"
+      },
+      {
+        "chunk_id": 3,
+        "page": 3,
+        "title": "GDP National Accounts 2025"
+      },
+      {
+        "chunk_id": 1216,
+        "page": 3,
+        "title": "GDP National Accounts 2025"
+      },
+      {
+        "chunk_id": 5,
+        "page": 4,
+        "title": "GDP National Accounts 2025"
+      },
+      {
+        "chunk_id": 1231,
+        "page": 4,
+        "title": "GDP National Accounts 2025"
+      }
+    ],
+    "mode": "llm"
+  },
+  "status": "passed"
+}
